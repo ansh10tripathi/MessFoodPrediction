@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Generated model artifacts
+models/**/*.joblib
+
+# Keep user supplied real data out of version control
+data/real/*
+!data/real/.gitkeep
