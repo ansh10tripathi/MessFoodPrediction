@@ -1,0 +1,122 @@
+{
+  "result_label": "synthetic-data model results; not real-world accuracy",
+  "target_variable": "consumed_kg",
+  "target_type": "continuous regression",
+  "feature_list": [
+    "expected_students",
+    "day_of_week",
+    "month",
+    "temperature_c",
+    "rainfall_mm",
+    "exam_day",
+    "holiday",
+    "special_event",
+    "meal_period",
+    "menu_category"
+  ],
+  "raw_prediction_inputs": [
+    "date",
+    "expected_students",
+    "meal_period",
+    "menu_category",
+    "exam_day",
+    "holiday",
+    "special_event",
+    "temperature_c",
+    "rainfall_mm"
+  ],
+  "supported_input_ranges": {
+    "expected_students": {
+      "min": 57,
+      "max": 730
+    }
+  },
+  "forbidden_features": [
+    "actual_students",
+    "consumed_kg",
+    "discarded_waste_kg",
+    "edible_leftover_kg",
+    "prepared_kg"
+  ],
+  "dataset_source": "data\\synthetic\\mess_food_synthetic.csv",
+  "dataset_status": "synthetic",
+  "random_seed": 395,
+  "split_proportions_by_distinct_date": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "split_boundaries": {
+    "train": {
+      "start": "2025-01-01",
+      "end": "2025-09-12",
+      "dates": 255,
+      "rows": 1020
+    },
+    "validation": {
+      "start": "2025-09-13",
+      "end": "2025-11-06",
+      "dates": 55,
+      "rows": 220
+    },
+    "test": {
+      "start": "2025-11-07",
+      "end": "2025-12-31",
+      "dates": 55,
+      "rows": 220
+    }
+  },
+  "selection_metric": "validation MAE (lower is better)",
+  "validation_model_comparison": [
+    {
+      "model": "RandomForestRegressor",
+      "mae": 12.935043720588498,
+      "rmse": 17.487841252046465,
+      "r2": 0.9696523450446153
+    },
+    {
+      "model": "HistGradientBoostingRegressor",
+      "mae": 13.204696694664205,
+      "rmse": 17.866639629470047,
+      "r2": 0.9683234052454337
+    },
+    {
+      "model": "LinearRegression",
+      "mae": 13.247406904712204,
+      "rmse": 17.560007159309613,
+      "r2": 0.9694013609670226
+    },
+    {
+      "model": "DecisionTreeRegressor",
+      "mae": 15.032503868127701,
+      "rmse": 20.315612304386836,
+      "r2": 0.9590444685598039
+    },
+    {
+      "model": "DummyRegressor",
+      "mae": 92.69901245951871,
+      "rmse": 100.38694243547128,
+      "r2": -1.6548004837746433e-05
+    }
+  ],
+  "selected_model": "RandomForestRegressor",
+  "selected_model_refit": "train + validation dates only; test dates excluded",
+  "test_evaluation_started_after_selection": "2025-11-07",
+  "final_test_metrics": {
+    "mae": 12.968958066235105,
+    "rmse": 17.509289047196393,
+    "r2": 0.9677990579986525
+  },
+  "metrics_note": "MAE and RMSE are kg; R2 is unitless. All values describe synthetic data only.",
+  "limitations": [
+    "The dataset is generated from assumptions and does not establish real-world predictive accuracy.",
+    "Actual attendance is a major latent driver in the generator and is intentionally excluded as unavailable before the meal.",
+    "Weather inputs must be replaced by genuine forecast values available at prediction time for a real deployment.",
+    "One synthetic year is too limited to establish season-to-season robustness."
+  ],
+  "artifacts": {
+    "selected_pipeline": "models\\synthetic\\selected_model.joblib",
+    "comparison_csv": "outputs\\synthetic\\validation_model_comparison.csv",
+    "test_predictions_csv": "outputs\\synthetic\\selected_test_predictions.csv"
+  }
+}

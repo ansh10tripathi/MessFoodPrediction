@@ -1,0 +1,1461 @@
+date,meal_period,menu_category,expected_students,actual_students,exam_day,holiday,special_event,temperature_c,rainfall_mm,prepared_kg,consumed_kg,edible_leftover_kg,discarded_waste_kg,dataset_type
+2025-01-01,Breakfast,Indian,357,394,true,false,false,34.9,0.0,156.409236,140.797305,7.595306,8.016625,synthetic
+2025-01-01,Lunch,Rice-based,576,527,true,false,false,34.9,0.0,302.112870,257.537592,22.519543,22.055735,synthetic
+2025-01-01,Snacks,Savory,258,267,true,false,false,34.9,0.0,73.089861,63.312551,7.172364,2.604946,synthetic
+2025-01-01,Dinner,Rice-based,499,475,true,false,false,34.9,0.0,246.692666,208.942257,22.589242,15.161167,synthetic
+2025-01-02,Breakfast,Light,418,385,false,false,false,35.4,19.9,128.646905,117.591596,8.023354,3.031955,synthetic
+2025-01-02,Lunch,South Indian,652,669,false,false,false,35.4,19.9,388.433928,335.025546,38.532525,14.875857,synthetic
+2025-01-02,Snacks,Savory,294,323,false,false,false,35.4,19.9,83.797071,71.394856,8.764436,3.637779,synthetic
+2025-01-02,Dinner,South Indian,559,552,false,false,false,35.4,19.9,302.752326,262.662858,25.019855,15.069613,synthetic
+2025-01-03,Breakfast,Indian,423,382,false,false,false,33.7,0.0,145.209687,122.634323,13.191294,9.384070,synthetic
+2025-01-03,Lunch,North Indian,650,643,false,false,false,33.7,0.0,315.041044,282.874719,16.114900,16.051425,synthetic
+2025-01-03,Snacks,Beverage and snack,295,290,false,false,false,33.7,0.0,75.920943,66.954634,4.975748,3.990561,synthetic
+2025-01-03,Dinner,Rice-based,572,558,false,false,false,33.7,0.0,289.461273,267.949565,14.899533,6.612175,synthetic
+2025-01-04,Breakfast,Continental,316,324,true,false,false,32.2,23.8,119.617221,109.970560,7.077394,2.569267,synthetic
+2025-01-04,Lunch,North Indian,506,512,true,false,false,32.2,23.8,263.764138,243.802879,10.047271,9.913988,synthetic
+2025-01-04,Snacks,Fried,226,210,true,false,false,32.2,23.8,47.080484,44.011051,1.904083,1.165350,synthetic
+2025-01-04,Dinner,Mixed,443,415,true,false,false,32.2,23.8,242.590742,211.983227,18.912444,11.695071,synthetic
+2025-01-05,Breakfast,Indian,379,364,false,false,false,27.8,3.7,146.600448,124.113580,12.991149,9.495719,synthetic
+2025-01-05,Lunch,Mixed,574,588,false,false,false,27.8,3.7,342.183101,316.195839,14.305001,11.682261,synthetic
+2025-01-05,Snacks,Beverage and snack,270,269,false,false,false,27.8,3.7,64.423856,54.271500,4.606091,5.546265,synthetic
+2025-01-05,Dinner,South Indian,509,467,false,false,false,27.8,3.7,249.639827,212.269340,22.625376,14.745111,synthetic
+2025-01-06,Breakfast,Continental,426,421,false,false,false,30.8,0.0,160.367497,149.804648,5.084413,5.478436,synthetic
+2025-01-06,Lunch,North Indian,642,659,false,false,false,30.8,0.0,368.801707,307.674462,41.024925,20.102320,synthetic
+2025-01-06,Snacks,Beverage and snack,306,275,false,false,false,30.8,0.0,71.615075,64.913577,4.678088,2.023410,synthetic
+2025-01-06,Dinner,Mixed,559,583,false,false,false,30.8,0.0,282.900358,258.603843,11.325014,12.971501,synthetic
+2025-01-07,Breakfast,Light,410,411,false,false,false,24.8,8.6,149.372675,137.224946,7.191163,4.956566,synthetic
+2025-01-07,Lunch,Rice-based,659,643,false,false,false,24.8,8.6,358.493883,322.118859,23.303469,13.071555,synthetic
+2025-01-07,Snacks,Savory,299,313,false,false,false,24.8,8.6,86.831911,76.193220,5.201034,5.437657,synthetic
+2025-01-07,Dinner,South Indian,565,547,false,false,false,24.8,8.6,251.638267,233.666328,11.512220,6.459719,synthetic
+2025-01-08,Breakfast,Indian,408,407,false,false,false,22.7,4.7,161.096740,141.287956,11.888463,7.920321,synthetic
+2025-01-08,Lunch,Rice-based,648,651,false,false,false,22.7,4.7,316.459395,288.987578,15.131818,12.339999,synthetic
+2025-01-08,Snacks,Fried,292,285,false,false,false,22.7,4.7,78.154988,69.842307,5.840551,2.472130,synthetic
+2025-01-08,Dinner,South Indian,574,533,false,false,false,22.7,4.7,265.986956,245.628890,13.453595,6.904471,synthetic
+2025-01-09,Breakfast,Light,423,406,false,false,false,25.1,0.0,137.112519,114.507649,13.374738,9.230132,synthetic
+2025-01-09,Lunch,North Indian,648,630,false,false,false,25.1,0.0,356.238790,325.470170,22.344450,8.424170,synthetic
+2025-01-09,Snacks,Savory,293,289,false,false,false,25.1,0.0,70.708914,61.390661,4.916391,4.401862,synthetic
+2025-01-09,Dinner,Mixed,566,538,false,false,false,25.1,0.0,284.544469,252.426335,23.161382,8.956752,synthetic
+2025-01-10,Breakfast,Indian,360,372,true,false,false,31.7,0.0,128.082399,118.300822,6.494187,3.287390,synthetic
+2025-01-10,Lunch,South Indian,560,557,true,false,false,31.7,0.0,341.720553,295.766093,24.187135,21.767325,synthetic
+2025-01-10,Snacks,Fried,262,250,true,false,false,31.7,0.0,67.141689,57.917181,6.671838,2.552670,synthetic
+2025-01-10,Dinner,South Indian,494,453,true,false,false,31.7,0.0,204.269603,181.305594,15.528643,7.435366,synthetic
+2025-01-11,Breakfast,Light,328,299,true,false,false,19.4,0.0,119.319650,106.433515,7.456330,5.429805,synthetic
+2025-01-11,Lunch,Mixed,501,503,true,false,false,19.4,0.0,256.877318,228.401387,13.782793,14.693138,synthetic
+2025-01-11,Snacks,Savory,231,218,true,false,false,19.4,0.0,59.323370,51.255635,3.701087,4.366648,synthetic
+2025-01-11,Dinner,Mixed,427,449,true,false,false,19.4,0.0,231.720682,213.531212,13.334440,4.855030,synthetic
+2025-01-12,Breakfast,Continental,380,360,false,false,false,24.0,0.0,138.761807,125.466036,7.728308,5.567463,synthetic
+2025-01-12,Lunch,North Indian,575,574,false,false,false,24.0,0.0,293.736127,262.128737,14.329609,17.277781,synthetic
+2025-01-12,Snacks,Savory,260,258,false,false,false,24.0,0.0,69.937750,59.198995,4.877542,5.861213,synthetic
+2025-01-12,Dinner,South Indian,512,495,false,false,false,24.0,0.0,241.005703,206.742687,23.172173,11.090843,synthetic
+2025-01-13,Breakfast,Continental,425,406,false,false,false,28.7,0.0,138.283671,125.776094,8.145242,4.362335,synthetic
+2025-01-13,Lunch,North Indian,644,670,false,false,false,28.7,0.0,409.509048,358.669406,36.926706,13.912936,synthetic
+2025-01-13,Snacks,Savory,291,284,false,false,false,28.7,0.0,69.301018,59.996470,5.597161,3.707387,synthetic
+2025-01-13,Dinner,Mixed,585,612,false,false,false,28.7,0.0,341.430325,298.547610,26.077427,16.805288,synthetic
+2025-01-14,Breakfast,Light,410,422,false,false,false,32.8,0.0,158.209125,146.318096,8.913308,2.977721,synthetic
+2025-01-14,Lunch,North Indian,643,609,false,false,false,32.8,0.0,365.229868,310.996620,25.996925,28.236323,synthetic
+2025-01-14,Snacks,Fried,299,278,false,false,false,32.8,0.0,71.783572,62.287807,4.460330,5.035435,synthetic
+2025-01-14,Dinner,North Indian,587,608,false,false,false,32.8,0.0,286.826792,264.406880,15.823181,6.596731,synthetic
+2025-01-15,Breakfast,Light,369,385,true,false,false,35.6,0.0,137.871917,128.324112,6.792397,2.755408,synthetic
+2025-01-15,Lunch,Rice-based,555,544,true,false,false,35.6,0.0,320.040474,269.198642,29.754287,21.087545,synthetic
+2025-01-15,Snacks,Savory,257,259,true,false,false,35.6,0.0,66.312407,61.113060,2.753184,2.446163,synthetic
+2025-01-15,Dinner,South Indian,504,496,true,false,false,35.6,0.0,267.028521,226.290485,29.594615,11.143421,synthetic
+2025-01-16,Breakfast,Continental,423,437,false,false,false,20.3,3.3,150.884442,126.043363,14.751968,10.089111,synthetic
+2025-01-16,Lunch,Mixed,656,700,false,false,false,20.3,3.3,407.423551,361.506033,25.414635,20.502883,synthetic
+2025-01-16,Snacks,Fried,295,275,false,false,false,20.3,3.3,77.073356,65.222902,7.453932,4.396522,synthetic
+2025-01-16,Dinner,Rice-based,582,556,false,false,false,20.3,3.3,279.285005,244.743023,18.724591,15.817391,synthetic
+2025-01-17,Breakfast,Indian,424,406,false,false,false,26.4,0.0,172.841294,145.379749,15.669121,11.792424,synthetic
+2025-01-17,Lunch,Rice-based,641,609,false,false,false,26.4,0.0,379.945277,316.832470,40.653944,22.458863,synthetic
+2025-01-17,Snacks,Fried,293,308,false,false,false,26.4,0.0,69.562871,64.069018,2.809788,2.684065,synthetic
+2025-01-17,Dinner,North Indian,577,524,false,false,false,26.4,0.0,275.637414,258.228777,10.719167,6.689470,synthetic
+2025-01-18,Breakfast,Indian,318,305,true,false,false,30.0,0.0,95.195856,87.008518,4.114053,4.073285,synthetic
+2025-01-18,Lunch,Mixed,505,535,true,false,false,30.0,0.0,274.640082,255.746587,12.072062,6.821433,synthetic
+2025-01-18,Snacks,Beverage and snack,225,248,true,false,false,30.0,0.0,55.511403,51.609686,2.494434,1.407283,synthetic
+2025-01-18,Dinner,South Indian,436,465,true,false,false,30.0,0.0,194.235056,181.574343,9.732409,2.928304,synthetic
+2025-01-19,Breakfast,Light,369,387,false,false,false,28.9,4.1,144.127202,130.370957,8.300419,5.455826,synthetic
+2025-01-19,Lunch,South Indian,569,565,false,false,false,28.9,4.1,306.706995,287.262653,9.256223,10.188119,synthetic
+2025-01-19,Snacks,Fried,257,272,false,false,false,28.9,4.1,73.183089,66.949979,2.868271,3.364839,synthetic
+2025-01-19,Dinner,South Indian,489,492,false,false,false,28.9,4.1,261.301103,225.570418,23.154867,12.575818,synthetic
+2025-01-20,Breakfast,Indian,414,403,false,false,false,21.7,0.0,145.440623,123.591490,11.149119,10.700014,synthetic
+2025-01-20,Lunch,Mixed,658,647,false,false,false,21.7,0.0,346.017775,313.845939,24.476167,7.695669,synthetic
+2025-01-20,Snacks,Beverage and snack,294,283,false,false,false,21.7,0.0,80.105318,66.766817,10.395462,2.943039,synthetic
+2025-01-20,Dinner,Rice-based,572,561,false,false,false,21.7,0.0,302.584662,256.745413,34.383564,11.455685,synthetic
+2025-01-21,Breakfast,Continental,426,402,false,false,false,30.1,23.3,139.600556,128.802913,5.497504,5.300139,synthetic
+2025-01-21,Lunch,Rice-based,662,648,false,false,false,30.1,23.3,380.609155,336.602464,25.772564,18.234127,synthetic
+2025-01-21,Snacks,Fried,304,281,false,false,false,30.1,23.3,74.375254,67.924286,3.880369,2.570599,synthetic
+2025-01-21,Dinner,South Indian,559,586,false,false,false,30.1,23.3,315.702366,277.943512,21.188397,16.570457,synthetic
+2025-01-22,Breakfast,Light,413,400,false,false,false,25.8,0.0,140.951255,128.423928,7.658990,4.868337,synthetic
+2025-01-22,Lunch,South Indian,661,619,false,false,false,25.8,0.0,324.171067,289.308768,18.752397,16.109902,synthetic
+2025-01-22,Snacks,Savory,294,323,false,false,false,25.8,0.0,81.281743,68.037191,9.488117,3.756435,synthetic
+2025-01-22,Dinner,North Indian,579,584,false,false,false,25.8,0.0,279.092090,241.306067,17.016475,20.769548,synthetic
+2025-01-23,Breakfast,Continental,414,406,false,false,false,23.1,0.0,144.329290,126.350952,11.792585,6.185753,synthetic
+2025-01-23,Lunch,Mixed,663,612,false,false,false,23.1,0.0,341.023325,293.728966,26.910270,20.384089,synthetic
+2025-01-23,Snacks,Savory,294,314,false,false,false,23.1,0.0,77.073301,65.264537,5.370432,6.438332,synthetic
+2025-01-23,Dinner,North Indian,576,561,false,false,false,23.1,0.0,302.257137,261.958781,18.379683,21.918673,synthetic
+2025-01-24,Breakfast,Continental,416,422,false,false,false,33.2,0.0,146.405335,135.325814,7.203308,3.876213,synthetic
+2025-01-24,Lunch,North Indian,658,623,false,false,false,33.2,0.0,401.818000,347.157486,27.900473,26.760041,synthetic
+2025-01-24,Snacks,Fried,293,290,false,false,false,33.2,0.0,66.410833,61.636076,2.153537,2.621220,synthetic
+2025-01-24,Dinner,North Indian,574,567,false,false,false,33.2,0.0,273.941723,247.429425,19.289452,7.222846,synthetic
+2025-01-25,Breakfast,Continental,376,369,false,false,false,33.3,0.0,151.984369,127.435176,11.061008,13.488185,synthetic
+2025-01-25,Lunch,South Indian,558,525,false,false,false,33.3,0.0,307.320664,261.389612,21.196563,24.734489,synthetic
+2025-01-25,Snacks,Fried,268,260,false,false,false,33.3,0.0,74.865760,63.484813,5.265738,6.115209,synthetic
+2025-01-25,Dinner,South Indian,488,512,false,false,false,33.3,0.0,248.902152,220.758232,15.326261,12.817659,synthetic
+2025-01-26,Breakfast,Indian,375,350,false,false,false,34.5,0.0,133.258797,121.312867,7.926393,4.019537,synthetic
+2025-01-26,Lunch,North Indian,578,541,false,false,false,34.5,0.0,309.337970,273.808813,21.462429,14.066728,synthetic
+2025-01-26,Snacks,Fried,266,251,false,false,false,34.5,0.0,74.873696,62.985521,5.747430,6.140745,synthetic
+2025-01-26,Dinner,Mixed,503,487,false,false,false,34.5,0.0,232.132583,212.773652,11.582627,7.776304,synthetic
+2025-01-27,Breakfast,Indian,455,494,false,false,true,31.7,0.0,173.163503,156.765130,10.158451,6.239922,synthetic
+2025-01-27,Lunch,North Indian,694,658,false,false,true,31.7,0.0,391.834920,342.396003,29.539852,19.899065,synthetic
+2025-01-27,Snacks,Fried,325,327,false,false,true,31.7,0.0,82.376908,75.848379,4.765382,1.763147,synthetic
+2025-01-27,Dinner,Rice-based,625,644,false,false,true,31.7,0.0,306.859652,287.564215,14.971828,4.323609,synthetic
+2025-01-28,Breakfast,Indian,420,427,false,false,false,19.5,0.0,158.040192,132.768661,18.399525,6.872006,synthetic
+2025-01-28,Lunch,South Indian,633,596,false,false,false,19.5,0.0,309.654021,289.508196,12.642841,7.502984,synthetic
+2025-01-28,Snacks,Beverage and snack,300,290,false,false,false,19.5,0.0,69.803649,62.130241,4.955919,2.717489,synthetic
+2025-01-28,Dinner,Mixed,560,520,false,false,false,19.5,0.0,235.348616,216.965610,11.567083,6.815923,synthetic
+2025-01-29,Breakfast,Continental,410,399,false,false,false,30.8,22.4,161.639538,139.885058,11.301108,10.453372,synthetic
+2025-01-29,Lunch,South Indian,636,674,false,false,false,30.8,22.4,374.951208,344.479544,15.434958,15.036706,synthetic
+2025-01-29,Snacks,Beverage and snack,297,287,false,false,false,30.8,22.4,64.240120,59.484154,2.911010,1.844956,synthetic
+2025-01-29,Dinner,Mixed,573,521,false,false,false,30.8,22.4,260.752606,228.433673,22.314940,10.003993,synthetic
+2025-01-30,Breakfast,Indian,410,438,false,false,false,18.9,0.0,155.513816,143.758947,6.981992,4.772877,synthetic
+2025-01-30,Lunch,Mixed,640,684,false,false,false,18.9,0.0,403.902008,371.664117,15.444912,16.792979,synthetic
+2025-01-30,Snacks,Beverage and snack,308,275,false,false,false,18.9,0.0,76.066908,63.764814,8.870032,3.432062,synthetic
+2025-01-30,Dinner,Rice-based,555,537,false,false,false,18.9,0.0,248.736395,212.572549,19.823721,16.340125,synthetic
+2025-01-31,Breakfast,Light,425,402,false,false,false,33.6,22.0,137.829278,125.207423,8.002548,4.619307,synthetic
+2025-01-31,Lunch,South Indian,632,685,false,false,false,33.6,22.0,343.158973,320.873049,16.478401,5.807523,synthetic
+2025-01-31,Snacks,Fried,306,294,false,false,false,33.6,22.0,84.358983,71.909403,6.753388,5.696192,synthetic
+2025-01-31,Dinner,Mixed,568,535,false,false,false,33.6,22.0,271.550410,247.892766,14.297337,9.360307,synthetic
+2025-02-01,Breakfast,Light,406,407,false,false,true,17.9,0.0,154.448909,143.521148,8.372329,2.555432,synthetic
+2025-02-01,Lunch,Mixed,632,627,false,false,true,17.9,0.0,389.620425,326.802110,36.456874,26.361441,synthetic
+2025-02-01,Snacks,Savory,296,280,false,false,true,17.9,0.0,68.465206,63.424042,3.161075,1.880089,synthetic
+2025-02-01,Dinner,Rice-based,550,514,false,false,true,17.9,0.0,288.734729,246.078713,30.236799,12.419217,synthetic
+2025-02-02,Breakfast,Continental,379,370,false,false,false,30.1,0.0,128.025613,111.458953,12.493863,4.072797,synthetic
+2025-02-02,Lunch,Mixed,572,540,false,false,false,30.1,0.0,262.026974,242.411427,11.828859,7.786688,synthetic
+2025-02-02,Snacks,Savory,259,274,false,false,false,30.1,0.0,57.781360,53.910307,2.314688,1.556365,synthetic
+2025-02-02,Dinner,North Indian,504,524,false,false,false,30.1,0.0,231.374851,217.389826,10.859954,3.125071,synthetic
+2025-02-03,Breakfast,Light,424,436,false,false,false,30.1,3.2,159.267083,150.233014,5.664853,3.369216,synthetic
+2025-02-03,Lunch,Mixed,655,628,false,false,false,30.1,3.2,307.688041,278.982665,13.718624,14.986752,synthetic
+2025-02-03,Snacks,Beverage and snack,297,306,false,false,false,30.1,3.2,69.167191,60.249556,6.704388,2.213247,synthetic
+2025-02-03,Dinner,Rice-based,583,552,false,false,false,30.1,3.2,271.384407,247.400364,18.652158,5.331885,synthetic
+2025-02-04,Breakfast,Indian,418,436,false,false,false,29.5,19.7,141.473120,132.800056,3.947261,4.725803,synthetic
+2025-02-04,Lunch,South Indian,636,619,false,false,false,29.5,19.7,387.659778,330.366027,43.328108,13.965643,synthetic
+2025-02-04,Snacks,Savory,300,309,false,false,false,29.5,19.7,72.539696,63.387249,5.202590,3.949857,synthetic
+2025-02-04,Dinner,North Indian,571,605,false,false,false,29.5,19.7,269.455852,253.437628,11.943641,4.074583,synthetic
+2025-02-05,Breakfast,Indian,427,404,false,false,false,24.3,0.0,148.546265,128.779824,14.680205,5.086236,synthetic
+2025-02-05,Lunch,South Indian,640,638,false,false,false,24.3,0.0,362.743821,328.021572,16.931049,17.791200,synthetic
+2025-02-05,Snacks,Savory,300,274,false,false,false,24.3,0.0,73.256005,64.260901,5.969719,3.025385,synthetic
+2025-02-05,Dinner,South Indian,555,557,false,false,false,24.3,0.0,304.687351,269.611592,16.913537,18.162222,synthetic
+2025-02-06,Breakfast,Light,418,442,false,false,false,32.3,0.0,152.355383,127.496407,15.374302,9.484674,synthetic
+2025-02-06,Lunch,South Indian,668,601,false,false,false,32.3,0.0,314.661395,283.800390,21.960564,8.900441,synthetic
+2025-02-06,Snacks,Beverage and snack,297,304,false,false,false,32.3,0.0,74.501214,67.647884,3.711982,3.141348,synthetic
+2025-02-06,Dinner,Rice-based,564,542,false,false,false,32.3,0.0,285.206276,257.035634,13.041477,15.129165,synthetic
+2025-02-07,Breakfast,Continental,468,491,false,false,true,25.8,5.4,164.443158,144.422011,15.107169,4.913978,synthetic
+2025-02-07,Lunch,North Indian,730,739,false,false,true,25.8,5.4,426.701851,389.975562,20.690959,16.035330,synthetic
+2025-02-07,Snacks,Savory,321,327,false,false,true,25.8,5.4,76.804522,65.728784,8.393890,2.681848,synthetic
+2025-02-07,Dinner,Mixed,631,667,false,false,true,25.8,5.4,341.631439,309.572047,18.228957,13.830435,synthetic
+2025-02-08,Breakfast,Continental,365,379,false,false,false,17.6,12.2,143.472178,127.207356,10.576020,5.688802,synthetic
+2025-02-08,Lunch,Mixed,570,599,false,false,false,17.6,12.2,301.465407,273.919746,16.593228,10.952433,synthetic
+2025-02-08,Snacks,Beverage and snack,267,269,false,false,false,17.6,12.2,73.485325,64.707372,5.327797,3.450156,synthetic
+2025-02-08,Dinner,Rice-based,509,462,false,false,false,17.6,12.2,204.561517,192.962250,6.006024,5.593243,synthetic
+2025-02-09,Breakfast,Continental,399,430,false,false,true,33.7,19.7,134.479258,122.196364,7.749105,4.533789,synthetic
+2025-02-09,Lunch,Rice-based,611,675,false,false,true,33.7,19.7,333.885539,305.191256,17.541763,11.152520,synthetic
+2025-02-09,Snacks,Fried,294,268,false,false,true,33.7,19.7,63.304933,58.012608,2.698907,2.593418,synthetic
+2025-02-09,Dinner,Mixed,557,575,false,false,true,33.7,19.7,254.003604,238.128721,9.922988,5.951895,synthetic
+2025-02-10,Breakfast,Continental,414,445,false,false,false,29.9,0.0,146.480158,127.638378,13.598243,5.243537,synthetic
+2025-02-10,Lunch,Mixed,656,691,false,false,false,29.9,0.0,413.727844,354.888879,36.426244,22.412721,synthetic
+2025-02-10,Snacks,Fried,298,317,false,false,false,29.9,0.0,86.658427,78.555714,5.895130,2.207583,synthetic
+2025-02-10,Dinner,Rice-based,555,575,false,false,false,29.9,0.0,320.843901,269.084552,33.182647,18.576702,synthetic
+2025-02-11,Breakfast,Indian,424,408,false,false,false,27.5,0.0,136.313826,119.949072,7.693602,8.671152,synthetic
+2025-02-11,Lunch,North Indian,666,634,false,false,false,27.5,0.0,341.842522,293.849368,25.954688,22.038466,synthetic
+2025-02-11,Snacks,Beverage and snack,300,288,false,false,false,27.5,0.0,72.072609,63.109705,5.064699,3.898205,synthetic
+2025-02-11,Dinner,Rice-based,564,544,false,false,false,27.5,0.0,286.850837,242.695745,31.450144,12.704948,synthetic
+2025-02-12,Breakfast,Indian,421,392,false,false,false,33.9,0.0,144.341516,128.961488,8.871568,6.508460,synthetic
+2025-02-12,Lunch,South Indian,661,657,false,false,false,33.9,0.0,381.249376,328.833191,39.680047,12.736138,synthetic
+2025-02-12,Snacks,Savory,302,278,false,false,false,33.9,0.0,68.982033,60.141129,4.904030,3.936874,synthetic
+2025-02-12,Dinner,South Indian,555,586,false,false,false,33.9,0.0,270.637533,244.118620,18.379681,8.139232,synthetic
+2025-02-13,Breakfast,Continental,427,406,false,false,false,22.9,0.0,149.628595,133.956811,7.737058,7.934726,synthetic
+2025-02-13,Lunch,South Indian,650,637,false,false,false,22.9,0.0,331.221616,309.996745,14.967103,6.257768,synthetic
+2025-02-13,Snacks,Fried,302,320,false,false,false,22.9,0.0,85.396605,78.045717,4.944313,2.406575,synthetic
+2025-02-13,Dinner,Mixed,568,569,false,false,false,22.9,0.0,305.485479,276.272795,17.268797,11.943887,synthetic
+2025-02-14,Breakfast,Light,431,407,false,false,false,20.0,18.5,155.124132,139.462674,9.033123,6.628335,synthetic
+2025-02-14,Lunch,North Indian,656,612,false,false,false,20.0,18.5,363.311959,338.342322,14.614571,10.355066,synthetic
+2025-02-14,Snacks,Beverage and snack,305,282,false,false,false,20.0,18.5,75.165502,64.450478,7.089884,3.625140,synthetic
+2025-02-14,Dinner,Mixed,574,548,false,false,false,20.0,18.5,253.504795,227.938195,16.611488,8.955112,synthetic
+2025-02-15,Breakfast,Continental,372,375,false,false,false,28.0,0.0,121.331912,111.673425,6.426891,3.231596,synthetic
+2025-02-15,Lunch,South Indian,572,554,false,false,false,28.0,0.0,276.157976,248.148465,16.417523,11.591988,synthetic
+2025-02-15,Snacks,Beverage and snack,260,272,false,false,false,28.0,0.0,63.551974,59.336577,3.006738,1.208659,synthetic
+2025-02-15,Dinner,Rice-based,512,504,false,false,false,28.0,0.0,255.234890,239.435527,10.620977,5.178386,synthetic
+2025-02-16,Breakfast,Continental,364,349,false,false,false,17.9,1.5,118.583248,104.888908,10.037135,3.657205,synthetic
+2025-02-16,Lunch,Mixed,587,611,false,false,false,17.9,1.5,368.373825,325.844841,28.691227,13.837757,synthetic
+2025-02-16,Snacks,Fried,268,282,false,false,false,17.9,1.5,74.667455,68.099409,4.658830,1.909216,synthetic
+2025-02-16,Dinner,Rice-based,511,506,false,false,false,17.9,1.5,268.134900,230.089923,26.262884,11.782093,synthetic
+2025-02-17,Breakfast,Light,411,424,false,false,false,27.0,20.0,149.981123,137.841257,8.369306,3.770560,synthetic
+2025-02-17,Lunch,South Indian,662,615,false,false,false,27.0,20.0,369.231293,328.229062,20.760456,20.241775,synthetic
+2025-02-17,Snacks,Beverage and snack,292,308,false,false,false,27.0,20.0,70.095821,65.249102,3.189315,1.657404,synthetic
+2025-02-17,Dinner,North Indian,578,526,false,false,false,27.0,20.0,315.621925,267.946436,35.920104,11.755385,synthetic
+2025-02-18,Breakfast,Indian,415,392,false,false,false,26.9,11.0,124.086559,112.111586,6.670545,5.304428,synthetic
+2025-02-18,Lunch,Rice-based,640,695,false,false,false,26.9,11.0,350.952322,300.730865,26.416689,23.804768,synthetic
+2025-02-18,Snacks,Fried,301,308,false,false,false,26.9,11.0,68.654843,63.834577,2.345193,2.475073,synthetic
+2025-02-18,Dinner,South Indian,564,614,false,false,false,26.9,11.0,291.386899,255.402934,27.027488,8.956477,synthetic
+2025-02-19,Breakfast,Continental,415,413,false,false,false,29.9,0.0,152.060655,131.851774,11.528016,8.680865,synthetic
+2025-02-19,Lunch,North Indian,643,624,false,false,false,29.9,0.0,319.321024,281.007452,20.700884,17.612688,synthetic
+2025-02-19,Snacks,Beverage and snack,296,318,false,false,false,29.9,0.0,78.243791,71.330454,5.120915,1.792422,synthetic
+2025-02-19,Dinner,North Indian,587,614,false,false,false,29.9,0.0,349.208834,297.157148,29.348127,22.703559,synthetic
+2025-02-20,Breakfast,Light,428,419,false,false,false,32.4,0.0,144.385935,132.983745,5.336526,6.065664,synthetic
+2025-02-20,Lunch,Mixed,638,664,false,false,false,32.4,0.0,442.555267,368.948394,54.579347,19.027526,synthetic
+2025-02-20,Snacks,Savory,306,311,false,false,false,32.4,0.0,82.826076,74.947502,3.585947,4.292627,synthetic
+2025-02-20,Dinner,Rice-based,561,578,false,false,false,32.4,0.0,332.723285,279.951393,25.784800,26.987092,synthetic
+2025-02-21,Breakfast,Light,420,393,false,false,false,26.5,23.6,123.780293,112.931724,7.712919,3.135650,synthetic
+2025-02-21,Lunch,South Indian,650,665,false,false,false,26.5,23.6,340.507555,295.286379,32.339045,12.882131,synthetic
+2025-02-21,Snacks,Beverage and snack,299,277,false,false,false,26.5,23.6,70.421692,59.021554,8.194376,3.205762,synthetic
+2025-02-21,Dinner,North Indian,570,584,false,false,false,26.5,23.6,291.470247,271.068033,12.451000,7.951214,synthetic
+2025-02-22,Breakfast,Light,359,394,false,false,false,23.2,0.0,149.936436,135.744555,8.908631,5.283250,synthetic
+2025-02-22,Lunch,North Indian,574,547,false,false,false,23.2,0.0,275.747221,257.322330,9.608001,8.816890,synthetic
+2025-02-22,Snacks,Beverage and snack,258,269,false,false,false,23.2,0.0,61.900951,58.039867,1.928685,1.932399,synthetic
+2025-02-22,Dinner,South Indian,498,485,false,false,false,23.2,0.0,252.289146,211.885986,23.476290,16.926870,synthetic
+2025-02-23,Breakfast,Continental,359,386,false,false,false,28.4,0.0,157.227444,135.583682,15.767200,5.876562,synthetic
+2025-02-23,Lunch,Mixed,582,602,false,false,false,28.4,0.0,345.715384,289.107625,39.454745,17.153014,synthetic
+2025-02-23,Snacks,Fried,270,245,false,false,false,28.4,0.0,54.054742,49.457205,2.995750,1.601787,synthetic
+2025-02-23,Dinner,North Indian,510,522,false,false,false,28.4,0.0,260.680312,241.092156,9.263034,10.325122,synthetic
+2025-02-24,Breakfast,Indian,419,432,false,false,false,26.4,7.1,141.082761,129.191331,7.920691,3.970739,synthetic
+2025-02-24,Lunch,North Indian,651,647,false,false,false,26.4,7.1,361.254040,319.070560,30.778992,11.404488,synthetic
+2025-02-24,Snacks,Fried,295,321,false,false,false,26.4,7.1,89.456986,77.048165,6.528192,5.880629,synthetic
+2025-02-24,Dinner,South Indian,575,543,false,false,false,26.4,7.1,231.195617,215.965437,11.219200,4.010980,synthetic
+2025-02-25,Breakfast,Indian,432,413,false,false,false,19.8,0.0,156.910773,143.445356,6.475898,6.989519,synthetic
+2025-02-25,Lunch,North Indian,661,651,false,false,false,19.8,0.0,426.440156,356.997936,40.630421,28.811799,synthetic
+2025-02-25,Snacks,Fried,294,287,false,false,false,19.8,0.0,63.267378,58.303122,3.393617,1.570639,synthetic
+2025-02-25,Dinner,Rice-based,568,557,false,false,false,19.8,0.0,265.382853,231.043447,20.357326,13.982080,synthetic
+2025-02-26,Breakfast,Indian,414,388,false,false,false,24.7,0.7,146.286609,131.915537,9.754651,4.616421,synthetic
+2025-02-26,Lunch,Rice-based,640,680,false,false,false,24.7,0.7,346.849074,316.428912,23.644683,6.775479,synthetic
+2025-02-26,Snacks,Fried,294,280,false,false,false,24.7,0.7,71.561951,66.517670,2.641732,2.402549,synthetic
+2025-02-26,Dinner,South Indian,570,588,false,false,false,24.7,0.7,286.731259,268.971367,10.579928,7.179964,synthetic
+2025-02-27,Breakfast,Indian,413,428,false,false,false,17.2,0.0,143.353667,124.671409,13.320803,5.361455,synthetic
+2025-02-27,Lunch,Rice-based,658,702,false,false,false,17.2,0.0,386.601149,323.041590,35.776784,27.782775,synthetic
+2025-02-27,Snacks,Savory,308,283,false,false,false,17.2,0.0,67.295984,61.309283,3.018620,2.968081,synthetic
+2025-02-27,Dinner,Mixed,556,536,false,false,false,17.2,0.0,270.836494,228.877933,30.089939,11.868622,synthetic
+2025-02-28,Breakfast,Indian,424,452,false,false,false,25.4,0.0,150.594308,133.413117,11.622036,5.559155,synthetic
+2025-02-28,Lunch,North Indian,643,638,false,false,false,25.4,0.0,341.559380,312.343968,13.552652,15.662760,synthetic
+2025-02-28,Snacks,Savory,305,278,false,false,false,25.4,0.0,70.336322,65.131193,3.252740,1.952389,synthetic
+2025-02-28,Dinner,Mixed,572,615,false,false,false,25.4,0.0,320.702287,268.223203,37.802363,14.676721,synthetic
+2025-03-01,Breakfast,Light,359,393,false,false,false,24.4,6.0,145.158498,129.464011,11.240236,4.454251,synthetic
+2025-03-01,Lunch,South Indian,563,550,false,false,false,24.4,6.0,253.403185,234.952655,11.903025,6.547505,synthetic
+2025-03-01,Snacks,Fried,263,270,false,false,false,24.4,6.0,73.919100,65.640271,5.059423,3.219406,synthetic
+2025-03-01,Dinner,Rice-based,513,502,false,false,false,24.4,6.0,267.888468,244.145901,13.197429,10.545138,synthetic
+2025-03-02,Breakfast,Indian,83,88,false,true,false,19.0,6.7,31.917368,29.668527,1.549549,0.699292,synthetic
+2025-03-02,Lunch,Mixed,128,120,false,true,false,19.0,6.7,75.941611,64.097616,6.463075,5.380920,synthetic
+2025-03-02,Snacks,Fried,57,56,false,true,false,19.0,6.7,13.834351,12.083036,0.916896,0.834419,synthetic
+2025-03-02,Dinner,Mixed,112,103,false,true,false,19.0,6.7,49.322046,43.580138,3.955171,1.786737,synthetic
+2025-03-03,Breakfast,Light,429,448,false,false,false,21.3,0.0,175.340697,151.296216,16.578948,7.465533,synthetic
+2025-03-03,Lunch,South Indian,631,618,false,false,false,21.3,0.0,296.709941,266.765569,21.919681,8.024691,synthetic
+2025-03-03,Snacks,Savory,302,292,false,false,false,21.3,0.0,76.942199,69.782101,3.233773,3.926325,synthetic
+2025-03-03,Dinner,Rice-based,565,607,false,false,false,21.3,0.0,300.498616,267.749139,19.551946,13.197531,synthetic
+2025-03-04,Breakfast,Light,90,95,false,true,false,22.2,0.0,30.107356,27.343016,2.037632,0.726708,synthetic
+2025-03-04,Lunch,Rice-based,144,140,false,true,false,22.2,0.0,75.675576,65.023387,6.021329,4.630860,synthetic
+2025-03-04,Snacks,Savory,66,61,false,true,false,22.2,0.0,16.391465,14.429357,1.364869,0.597239,synthetic
+2025-03-04,Dinner,South Indian,125,125,false,true,false,22.2,0.0,54.348216,51.053545,2.318667,0.976004,synthetic
+2025-03-05,Breakfast,Indian,365,385,true,false,false,18.7,0.0,145.155595,125.090644,9.658451,10.406500,synthetic
+2025-03-05,Lunch,Mixed,571,546,true,false,false,18.7,0.0,300.987391,250.857290,35.521805,14.608296,synthetic
+2025-03-05,Snacks,Savory,255,254,true,false,false,18.7,0.0,61.142420,54.093999,5.346047,1.702374,synthetic
+2025-03-05,Dinner,North Indian,502,467,true,false,false,18.7,0.0,248.600696,231.726051,8.804643,8.070002,synthetic
+2025-03-06,Breakfast,Continental,416,415,false,false,false,22.5,0.0,152.245357,130.749211,14.172605,7.323541,synthetic
+2025-03-06,Lunch,South Indian,665,663,false,false,false,22.5,0.0,380.153391,346.880467,19.902807,13.370117,synthetic
+2025-03-06,Snacks,Fried,294,297,false,false,false,22.5,0.0,66.877165,61.502199,2.508157,2.866809,synthetic
+2025-03-06,Dinner,North Indian,566,591,false,false,false,22.5,0.0,315.444678,271.573555,29.663768,14.207355,synthetic
+2025-03-07,Breakfast,Light,425,426,false,false,false,29.5,20.7,146.676087,136.993035,4.935196,4.747856,synthetic
+2025-03-07,Lunch,Mixed,650,621,false,false,false,29.5,20.7,337.483956,289.543012,32.924413,15.016531,synthetic
+2025-03-07,Snacks,Beverage and snack,307,318,false,false,false,29.5,20.7,78.070599,67.829739,5.742927,4.497933,synthetic
+2025-03-07,Dinner,South Indian,562,550,false,false,false,29.5,20.7,255.229486,240.186445,10.849762,4.193279,synthetic
+2025-03-08,Breakfast,Indian,370,351,false,false,false,35.3,0.0,114.938976,104.142326,4.928273,5.868377,synthetic
+2025-03-08,Lunch,South Indian,572,533,false,false,false,35.3,0.0,304.735199,276.757710,20.937305,7.040184,synthetic
+2025-03-08,Snacks,Fried,271,280,false,false,false,35.3,0.0,73.074159,61.575711,5.175579,6.322869,synthetic
+2025-03-08,Dinner,Mixed,511,483,false,false,false,35.3,0.0,238.503160,205.151952,24.189883,9.161325,synthetic
+2025-03-09,Breakfast,Light,377,395,false,false,false,26.4,0.0,129.738227,117.634891,7.158525,4.944811,synthetic
+2025-03-09,Lunch,Rice-based,570,537,false,false,false,26.4,0.0,307.987269,266.293703,27.756838,13.936728,synthetic
+2025-03-09,Snacks,Fried,259,266,false,false,false,26.4,0.0,68.217373,58.891588,7.213293,2.112492,synthetic
+2025-03-09,Dinner,Mixed,509,477,false,false,false,26.4,0.0,237.190625,215.426937,11.233173,10.530515,synthetic
+2025-03-10,Breakfast,Continental,422,397,false,false,false,18.9,0.0,144.089174,131.516097,9.073274,3.499803,synthetic
+2025-03-10,Lunch,North Indian,650,679,false,false,false,18.9,0.0,361.871970,317.029591,22.929085,21.913294,synthetic
+2025-03-10,Snacks,Fried,294,285,false,false,false,18.9,0.0,70.555368,63.041787,5.047912,2.465669,synthetic
+2025-03-10,Dinner,North Indian,575,520,false,false,false,18.9,0.0,276.107047,259.416830,8.069259,8.620958,synthetic
+2025-03-11,Breakfast,Continental,424,419,false,false,false,18.7,0.0,156.420124,132.662794,15.953677,7.803653,synthetic
+2025-03-11,Lunch,Mixed,647,638,false,false,false,18.7,0.0,344.158777,322.751454,13.810271,7.597052,synthetic
+2025-03-11,Snacks,Beverage and snack,296,307,false,false,false,18.7,0.0,79.319115,66.913420,6.559641,5.846054,synthetic
+2025-03-11,Dinner,Rice-based,573,613,false,false,false,18.7,0.0,337.885397,285.441233,38.212977,14.231187,synthetic
+2025-03-12,Breakfast,Light,422,389,false,false,false,25.5,0.0,143.860081,123.943637,9.694322,10.222122,synthetic
+2025-03-12,Lunch,North Indian,664,670,false,false,false,25.5,0.0,395.465830,348.637379,34.450632,12.377819,synthetic
+2025-03-12,Snacks,Savory,307,324,false,false,false,25.5,0.0,90.766510,78.852276,8.227526,3.686708,synthetic
+2025-03-12,Dinner,South Indian,554,564,false,false,false,25.5,0.0,296.838441,264.472277,17.335666,15.030498,synthetic
+2025-03-13,Breakfast,Continental,413,417,false,false,false,27.3,0.0,160.381132,136.800670,14.290505,9.289957,synthetic
+2025-03-13,Lunch,Rice-based,656,624,false,false,false,27.3,0.0,305.857210,270.347828,25.693615,9.815767,synthetic
+2025-03-13,Snacks,Fried,300,286,false,false,false,27.3,0.0,74.275539,65.412414,6.623146,2.239979,synthetic
+2025-03-13,Dinner,Rice-based,587,528,false,false,false,27.3,0.0,260.658359,238.901940,14.359533,7.396886,synthetic
+2025-03-14,Breakfast,Continental,412,405,false,false,false,27.3,0.0,171.894734,144.048692,14.830041,13.016001,synthetic
+2025-03-14,Lunch,Rice-based,639,645,false,false,false,27.3,0.0,349.683870,320.716176,21.461875,7.505819,synthetic
+2025-03-14,Snacks,Savory,303,279,false,false,false,27.3,0.0,73.922644,63.701575,7.585432,2.635637,synthetic
+2025-03-14,Dinner,Rice-based,578,594,false,false,false,27.3,0.0,278.533044,251.019840,15.648479,11.864725,synthetic
+2025-03-15,Breakfast,Continental,360,378,false,false,false,24.8,0.0,146.823762,131.489365,8.217260,7.117137,synthetic
+2025-03-15,Lunch,Rice-based,568,523,false,false,false,24.8,0.0,263.197059,241.961088,10.532694,10.703277,synthetic
+2025-03-15,Snacks,Fried,257,282,false,false,false,24.8,0.0,72.067147,60.184862,7.723708,4.158577,synthetic
+2025-03-15,Dinner,North Indian,505,486,false,false,false,24.8,0.0,253.558764,222.057449,15.173941,16.327374,synthetic
+2025-03-16,Breakfast,Light,369,342,false,false,false,19.7,10.4,114.177116,100.179318,8.171572,5.826226,synthetic
+2025-03-16,Lunch,Mixed,564,559,false,false,false,19.7,10.4,303.277654,274.970603,15.209960,13.097091,synthetic
+2025-03-16,Snacks,Fried,261,260,false,false,false,19.7,10.4,62.346974,54.213986,3.799154,4.333834,synthetic
+2025-03-16,Dinner,Mixed,494,463,false,false,false,19.7,10.4,228.235216,208.396764,13.490103,6.348349,synthetic
+2025-03-17,Breakfast,Light,421,443,false,false,false,35.4,0.0,151.754718,128.807539,12.157807,10.789372,synthetic
+2025-03-17,Lunch,North Indian,641,624,false,false,false,35.4,0.0,350.609032,302.495174,34.642790,13.471068,synthetic
+2025-03-17,Snacks,Savory,305,280,false,false,false,35.4,0.0,66.192001,59.867249,3.100190,3.224562,synthetic
+2025-03-17,Dinner,Rice-based,577,535,false,false,false,35.4,0.0,278.513905,246.404886,19.741987,12.367032,synthetic
+2025-03-18,Breakfast,Indian,431,444,false,false,false,30.0,0.0,161.843325,152.092873,6.634068,3.116384,synthetic
+2025-03-18,Lunch,North Indian,650,599,false,false,false,30.0,0.0,315.786407,278.186366,29.020882,8.579159,synthetic
+2025-03-18,Snacks,Savory,303,310,false,false,false,30.0,0.0,80.208926,74.724443,2.855267,2.629216,synthetic
+2025-03-18,Dinner,South Indian,558,545,false,false,false,30.0,0.0,244.540464,215.699229,18.424355,10.416880,synthetic
+2025-03-19,Breakfast,Light,94,97,false,true,false,25.9,0.0,39.014333,32.934997,3.481457,2.597879,synthetic
+2025-03-19,Lunch,Mixed,143,149,false,true,false,25.9,0.0,88.142536,76.137944,6.755156,5.249436,synthetic
+2025-03-19,Snacks,Beverage and snack,65,68,false,true,false,25.9,0.0,15.540192,13.906536,0.816182,0.817474,synthetic
+2025-03-19,Dinner,North Indian,128,124,false,true,false,25.9,0.0,63.550545,59.474703,2.934866,1.140976,synthetic
+2025-03-20,Breakfast,Indian,413,446,false,false,false,27.0,0.0,157.553373,132.133270,18.950269,6.469834,synthetic
+2025-03-20,Lunch,Mixed,641,670,false,false,false,27.0,0.0,352.444436,314.891178,20.438309,17.114949,synthetic
+2025-03-20,Snacks,Fried,293,305,false,false,false,27.0,0.0,70.283861,64.784661,4.202738,1.296462,synthetic
+2025-03-20,Dinner,Mixed,586,598,false,false,false,27.0,0.0,337.786898,289.671077,35.249414,12.866407,synthetic
+2025-03-21,Breakfast,Indian,432,403,false,false,false,35.0,9.5,150.063217,135.276554,9.701756,5.084907,synthetic
+2025-03-21,Lunch,Rice-based,640,652,false,false,false,35.0,9.5,404.850290,342.189458,44.872095,17.788737,synthetic
+2025-03-21,Snacks,Fried,293,279,false,false,false,35.0,9.5,72.844509,63.931500,4.969364,3.943645,synthetic
+2025-03-21,Dinner,South Indian,572,528,false,false,false,35.0,9.5,286.609919,243.678180,32.146306,10.785433,synthetic
+2025-03-22,Breakfast,Indian,370,380,false,false,false,29.8,0.0,126.978802,117.755804,7.128630,2.094368,synthetic
+2025-03-22,Lunch,North Indian,569,589,false,false,false,29.8,0.0,356.708616,325.989008,16.544922,14.174686,synthetic
+2025-03-22,Snacks,Savory,258,254,false,false,false,29.8,0.0,73.299598,62.183946,5.622639,5.493013,synthetic
+2025-03-22,Dinner,Mixed,487,537,false,false,false,29.8,0.0,251.901764,221.266093,20.328788,10.306883,synthetic
+2025-03-23,Breakfast,Continental,377,353,false,false,false,25.6,6.1,139.672278,117.508219,14.584367,7.579692,synthetic
+2025-03-23,Lunch,Rice-based,560,524,false,false,false,25.6,6.1,298.437015,271.327846,14.221945,12.887224,synthetic
+2025-03-23,Snacks,Beverage and snack,260,248,false,false,false,25.6,6.1,66.454939,57.683300,4.538177,4.233462,synthetic
+2025-03-23,Dinner,Mixed,494,462,false,false,false,25.6,6.1,261.310574,221.071736,18.234797,22.004041,synthetic
+2025-03-24,Breakfast,Light,368,385,true,false,false,23.2,0.0,124.299783,110.949221,6.439524,6.911038,synthetic
+2025-03-24,Lunch,Rice-based,574,526,true,false,false,23.2,0.0,301.140326,257.476577,19.789267,23.874482,synthetic
+2025-03-24,Snacks,Savory,265,251,true,false,false,23.2,0.0,60.882953,51.692086,5.873034,3.317833,synthetic
+2025-03-24,Dinner,North Indian,506,489,true,false,false,23.2,0.0,264.292577,224.033796,30.082908,10.175873,synthetic
+2025-03-25,Breakfast,Light,413,405,false,false,false,24.3,9.3,148.291536,129.788797,9.865040,8.637699,synthetic
+2025-03-25,Lunch,South Indian,655,668,false,false,false,24.3,9.3,373.932546,351.749129,13.755782,8.427635,synthetic
+2025-03-25,Snacks,Savory,296,275,false,false,false,24.3,9.3,66.057367,60.289262,3.932908,1.835197,synthetic
+2025-03-25,Dinner,North Indian,565,581,false,false,false,24.3,9.3,278.622752,254.365511,11.256239,13.001002,synthetic
+2025-03-26,Breakfast,Continental,426,414,false,false,false,24.0,0.0,142.228102,125.887806,9.219525,7.120771,synthetic
+2025-03-26,Lunch,Rice-based,643,698,false,false,false,24.0,0.0,368.429737,344.740620,16.439396,7.249721,synthetic
+2025-03-26,Snacks,Savory,296,282,false,false,false,24.0,0.0,73.127838,62.591549,5.143686,5.392603,synthetic
+2025-03-26,Dinner,North Indian,577,541,false,false,false,24.0,0.0,254.995963,234.515710,15.789664,4.690589,synthetic
+2025-03-27,Breakfast,Indian,429,440,false,false,false,22.9,0.0,153.112207,128.825114,16.211767,8.075326,synthetic
+2025-03-27,Lunch,Rice-based,668,699,false,false,false,22.9,0.0,387.205503,334.592734,32.702218,19.910551,synthetic
+2025-03-27,Snacks,Savory,304,321,false,false,false,22.9,0.0,85.551941,71.959313,7.979831,5.612797,synthetic
+2025-03-27,Dinner,North Indian,583,586,false,false,false,22.9,0.0,329.022330,298.891769,17.540055,12.590506,synthetic
+2025-03-28,Breakfast,Light,419,397,false,false,false,32.3,0.0,147.756819,130.371332,10.381353,7.004134,synthetic
+2025-03-28,Lunch,South Indian,633,638,false,false,false,32.3,0.0,365.558407,336.426092,17.283129,11.849186,synthetic
+2025-03-28,Snacks,Savory,298,309,false,false,false,32.3,0.0,70.597306,64.482398,3.861736,2.253172,synthetic
+2025-03-28,Dinner,Rice-based,578,601,false,false,false,32.3,0.0,322.905236,269.610383,38.977541,14.317312,synthetic
+2025-03-29,Breakfast,Continental,84,84,false,true,false,30.1,0.0,27.810642,25.924143,0.959699,0.926800,synthetic
+2025-03-29,Lunch,South Indian,128,130,false,true,false,30.1,0.0,67.379668,59.855743,4.381803,3.142122,synthetic
+2025-03-29,Snacks,Fried,60,54,false,true,false,30.1,0.0,14.973121,12.913436,1.140240,0.919445,synthetic
+2025-03-29,Dinner,Mixed,112,114,false,true,false,30.1,0.0,60.804404,56.273833,2.589080,1.941491,synthetic
+2025-03-30,Breakfast,Continental,369,341,false,false,false,26.8,0.0,113.085380,99.267156,10.352498,3.465726,synthetic
+2025-03-30,Lunch,North Indian,566,575,false,false,false,26.8,0.0,298.259001,272.912033,12.597099,12.749869,synthetic
+2025-03-30,Snacks,Beverage and snack,259,273,false,false,false,26.8,0.0,66.736531,56.075025,7.935540,2.725966,synthetic
+2025-03-30,Dinner,North Indian,499,535,false,false,false,26.8,0.0,277.057061,247.351334,16.384929,13.320798,synthetic
+2025-03-31,Breakfast,Indian,412,400,false,false,false,25.5,11.9,131.549766,123.682718,4.241937,3.625111,synthetic
+2025-03-31,Lunch,South Indian,667,687,false,false,false,25.5,11.9,393.517828,353.472481,26.211409,13.833938,synthetic
+2025-03-31,Snacks,Fried,307,286,false,false,false,25.5,11.9,72.137889,63.834238,5.402346,2.901305,synthetic
+2025-03-31,Dinner,South Indian,562,543,false,false,false,25.5,11.9,238.958249,218.084503,11.741711,9.132035,synthetic
+2025-04-01,Breakfast,Light,418,385,false,false,false,32.2,0.0,131.757413,114.549528,9.926991,7.280894,synthetic
+2025-04-01,Lunch,North Indian,663,649,false,false,false,32.2,0.0,334.706507,312.595207,14.215209,7.896091,synthetic
+2025-04-01,Snacks,Savory,300,312,false,false,false,32.2,0.0,83.311433,73.502820,6.933301,2.875312,synthetic
+2025-04-01,Dinner,Mixed,575,587,false,false,false,32.2,0.0,321.863818,286.159935,20.877350,14.826533,synthetic
+2025-04-02,Breakfast,Light,419,419,false,false,false,35.8,0.0,143.495469,127.018019,10.765331,5.712119,synthetic
+2025-04-02,Lunch,North Indian,666,682,false,false,false,35.8,0.0,338.943407,308.507416,16.888147,13.547844,synthetic
+2025-04-02,Snacks,Beverage and snack,302,299,false,false,false,35.8,0.0,69.483481,61.383796,4.378530,3.721155,synthetic
+2025-04-02,Dinner,Rice-based,558,536,false,false,false,35.8,0.0,293.575894,249.835929,27.609663,16.130302,synthetic
+2025-04-03,Breakfast,Indian,426,420,false,false,false,24.1,0.0,140.280389,124.274808,8.384978,7.620603,synthetic
+2025-04-03,Lunch,North Indian,666,614,false,false,false,24.1,0.0,313.402993,294.129173,10.258656,9.015164,synthetic
+2025-04-03,Snacks,Fried,303,288,false,false,false,24.1,0.0,65.350253,58.245651,4.368836,2.735766,synthetic
+2025-04-03,Dinner,North Indian,568,544,false,false,false,24.1,0.0,255.753546,233.180421,11.339893,11.233232,synthetic
+2025-04-04,Breakfast,Light,421,451,false,false,false,20.6,16.8,154.788479,145.400888,6.820034,2.567557,synthetic
+2025-04-04,Lunch,North Indian,640,609,false,false,false,20.6,16.8,373.976908,313.903738,41.532879,18.540291,synthetic
+2025-04-04,Snacks,Beverage and snack,298,273,false,false,false,20.6,16.8,71.209356,62.508184,6.259385,2.441787,synthetic
+2025-04-04,Dinner,Mixed,566,603,false,false,false,20.6,16.8,272.680552,248.809684,12.516811,11.354057,synthetic
+2025-04-05,Breakfast,Indian,375,339,false,false,false,22.0,19.9,133.200763,113.929719,11.207667,8.063377,synthetic
+2025-04-05,Lunch,Rice-based,579,521,false,false,false,22.0,19.9,272.933282,230.130766,23.650122,19.152394,synthetic
+2025-04-05,Snacks,Fried,260,241,false,false,false,22.0,19.9,58.922443,55.419018,1.722760,1.780665,synthetic
+2025-04-05,Dinner,Rice-based,499,536,false,false,false,22.0,19.9,243.423594,224.842350,8.668145,9.913099,synthetic
+2025-04-06,Breakfast,Continental,376,339,false,false,false,24.8,0.0,113.108789,105.684426,5.492808,1.931555,synthetic
+2025-04-06,Lunch,Rice-based,557,602,false,false,false,24.8,0.0,308.692530,279.852023,19.842565,8.997942,synthetic
+2025-04-06,Snacks,Fried,265,276,false,false,false,24.8,0.0,78.206975,66.089488,8.494546,3.622941,synthetic
+2025-04-06,Dinner,Mixed,511,473,false,false,false,24.8,0.0,219.965285,200.265384,13.653328,6.046573,synthetic
+2025-04-07,Breakfast,Light,366,382,true,false,false,24.2,0.0,135.927484,117.547416,13.350553,5.029515,synthetic
+2025-04-07,Lunch,South Indian,579,554,true,false,false,24.2,0.0,340.452346,291.155955,32.012757,17.283634,synthetic
+2025-04-07,Snacks,Fried,264,250,true,false,false,24.2,0.0,69.109299,61.680992,4.989599,2.438708,synthetic
+2025-04-07,Dinner,Rice-based,483,472,true,false,false,24.2,0.0,253.577497,228.387050,12.480171,12.710276,synthetic
+2025-04-08,Breakfast,Light,424,417,false,false,false,30.2,16.7,133.740366,126.113835,5.906261,1.720270,synthetic
+2025-04-08,Lunch,South Indian,664,692,false,false,false,30.2,16.7,361.616438,306.107704,33.242665,22.266069,synthetic
+2025-04-08,Snacks,Beverage and snack,308,317,false,false,false,30.2,16.7,66.783516,61.798440,2.810667,2.174409,synthetic
+2025-04-08,Dinner,Mixed,553,529,false,false,false,30.2,16.7,316.768259,266.593089,28.166867,22.008303,synthetic
+2025-04-09,Breakfast,Light,414,431,false,false,false,29.1,0.0,164.229243,148.828172,11.541733,3.859338,synthetic
+2025-04-09,Lunch,North Indian,660,620,false,false,false,29.1,0.0,376.769674,333.368504,31.926983,11.474187,synthetic
+2025-04-09,Snacks,Fried,300,311,false,false,false,29.1,0.0,87.058112,75.189528,7.016483,4.852101,synthetic
+2025-04-09,Dinner,Mixed,562,612,false,false,false,29.1,0.0,330.155260,284.269724,33.926714,11.958822,synthetic
+2025-04-10,Breakfast,Indian,94,85,false,true,false,17.6,0.0,28.497268,26.823580,0.907544,0.766144,synthetic
+2025-04-10,Lunch,North Indian,147,153,false,true,false,17.6,0.0,93.888938,85.014321,4.567769,4.306848,synthetic
+2025-04-10,Snacks,Fried,64,63,false,true,false,17.6,0.0,15.781523,13.292712,1.820355,0.668456,synthetic
+2025-04-10,Dinner,Rice-based,129,115,false,true,false,17.6,0.0,65.555254,54.948021,6.882380,3.724853,synthetic
+2025-04-11,Breakfast,Continental,425,421,false,false,false,26.3,0.0,171.740977,149.034805,12.705840,10.000332,synthetic
+2025-04-11,Lunch,Mixed,655,676,false,false,false,26.3,0.0,370.436902,347.520461,11.565522,11.350919,synthetic
+2025-04-11,Snacks,Beverage and snack,306,279,false,false,false,26.3,0.0,72.029002,66.842279,3.307718,1.879005,synthetic
+2025-04-11,Dinner,North Indian,587,602,false,false,false,26.3,0.0,322.251462,303.083251,14.685313,4.482898,synthetic
+2025-04-12,Breakfast,Continental,380,375,false,false,false,18.7,3.5,158.695458,132.514523,19.667048,6.513887,synthetic
+2025-04-12,Lunch,South Indian,567,604,false,false,false,18.7,3.5,308.873956,258.506571,25.499694,24.867691,synthetic
+2025-04-12,Snacks,Beverage and snack,265,248,false,false,false,18.7,3.5,60.215960,55.593298,2.509834,2.112828,synthetic
+2025-04-12,Dinner,Rice-based,487,511,false,false,false,18.7,3.5,231.515549,217.421364,10.694081,3.400104,synthetic
+2025-04-13,Breakfast,Continental,362,347,false,false,false,29.2,17.2,128.531827,121.194675,4.701825,2.635327,synthetic
+2025-04-13,Lunch,Mixed,557,541,false,false,false,29.2,17.2,313.989439,279.526908,17.338173,17.124358,synthetic
+2025-04-13,Snacks,Fried,263,267,false,false,false,29.2,17.2,71.833025,63.232595,6.558085,2.042345,synthetic
+2025-04-13,Dinner,South Indian,515,518,false,false,false,29.2,17.2,281.275697,237.302194,24.305523,19.667980,synthetic
+2025-04-14,Breakfast,Continental,409,412,false,false,false,20.7,1.0,140.548668,124.564539,10.987998,4.996131,synthetic
+2025-04-14,Lunch,Mixed,668,620,false,false,false,20.7,1.0,322.257932,284.781372,23.722300,13.754260,synthetic
+2025-04-14,Snacks,Beverage and snack,292,301,false,false,false,20.7,1.0,77.786112,72.226642,3.616795,1.942675,synthetic
+2025-04-14,Dinner,South Indian,563,590,false,false,false,20.7,1.0,278.069934,235.882044,20.983447,21.204443,synthetic
+2025-04-15,Breakfast,Light,409,435,false,false,false,19.1,1.7,137.395771,124.209996,7.102728,6.083047,synthetic
+2025-04-15,Lunch,Mixed,639,632,false,false,false,19.1,1.7,335.133848,282.523282,37.523723,15.086843,synthetic
+2025-04-15,Snacks,Savory,297,286,false,false,false,19.1,1.7,75.639943,67.237937,4.503276,3.898730,synthetic
+2025-04-15,Dinner,South Indian,556,520,false,false,false,19.1,1.7,247.989276,214.312068,24.951166,8.726042,synthetic
+2025-04-16,Breakfast,Indian,425,404,false,false,false,24.9,0.0,137.704864,118.828703,13.190007,5.686154,synthetic
+2025-04-16,Lunch,Mixed,642,607,false,false,false,24.9,0.0,359.134998,316.060742,25.368818,17.705438,synthetic
+2025-04-16,Snacks,Beverage and snack,305,315,false,false,false,24.9,0.0,78.666011,68.179544,7.088498,3.397969,synthetic
+2025-04-16,Dinner,Rice-based,572,533,false,false,false,24.9,0.0,306.695845,255.790265,29.773212,21.132368,synthetic
+2025-04-17,Breakfast,Indian,423,414,false,false,false,19.1,0.0,138.493799,126.655152,5.400215,6.438432,synthetic
+2025-04-17,Lunch,North Indian,642,605,false,false,false,19.1,0.0,304.416290,271.020573,23.075107,10.320610,synthetic
+2025-04-17,Snacks,Beverage and snack,297,291,false,false,false,19.1,0.0,71.496402,61.201334,7.710424,2.584644,synthetic
+2025-04-17,Dinner,South Indian,570,525,false,false,false,19.1,0.0,266.816249,234.887004,22.795853,9.133392,synthetic
+2025-04-18,Breakfast,Light,409,445,false,false,false,30.1,0.0,177.721956,148.333867,19.496683,9.891406,synthetic
+2025-04-18,Lunch,North Indian,647,625,false,false,false,30.1,0.0,360.535436,328.812312,16.777015,14.946109,synthetic
+2025-04-18,Snacks,Savory,303,300,false,false,false,30.1,0.0,68.860372,59.285178,6.042903,3.532291,synthetic
+2025-04-18,Dinner,South Indian,563,615,false,false,false,30.1,0.0,294.332146,274.925197,13.968488,5.438461,synthetic
+2025-04-19,Breakfast,Light,365,368,false,false,false,22.3,0.0,142.909687,120.258342,15.428082,7.223263,synthetic
+2025-04-19,Lunch,Rice-based,576,531,false,false,false,22.3,0.0,292.364106,251.774080,25.087085,15.502941,synthetic
+2025-04-19,Snacks,Savory,270,271,false,false,false,22.3,0.0,69.853084,58.375349,7.460912,4.016823,synthetic
+2025-04-19,Dinner,South Indian,502,505,false,false,false,22.3,0.0,264.456391,226.565250,25.688100,12.203041,synthetic
+2025-04-20,Breakfast,Light,372,337,false,false,false,21.6,0.0,120.385831,108.838708,7.653551,3.893572,synthetic
+2025-04-20,Lunch,Rice-based,570,608,false,false,false,21.6,0.0,311.421199,268.277161,25.914282,17.229756,synthetic
+2025-04-20,Snacks,Savory,264,283,false,false,false,21.6,0.0,73.736664,64.771609,5.849207,3.115848,synthetic
+2025-04-20,Dinner,Rice-based,508,505,false,false,false,21.6,0.0,246.314312,231.003873,10.254937,5.055502,synthetic
+2025-04-21,Breakfast,Light,414,401,false,false,false,20.5,0.0,139.974854,119.756371,13.561510,6.656973,synthetic
+2025-04-21,Lunch,Mixed,652,656,false,false,false,20.5,0.0,328.375269,290.218306,20.824894,17.332069,synthetic
+2025-04-21,Snacks,Beverage and snack,305,274,false,false,false,20.5,0.0,75.164474,64.040927,6.265929,4.857618,synthetic
+2025-04-21,Dinner,Mixed,580,525,false,false,false,20.5,0.0,253.427285,216.253514,25.604902,11.568869,synthetic
+2025-04-22,Breakfast,Indian,411,426,false,false,false,33.9,0.0,131.432191,122.874202,4.131076,4.426913,synthetic
+2025-04-22,Lunch,North Indian,637,611,false,false,false,33.9,0.0,348.721818,324.596018,18.562204,5.563596,synthetic
+2025-04-22,Snacks,Savory,303,283,false,false,false,33.9,0.0,73.559807,67.792537,3.933106,1.834164,synthetic
+2025-04-22,Dinner,South Indian,579,530,false,false,false,33.9,0.0,261.621566,222.636870,23.939150,15.045546,synthetic
+2025-04-23,Breakfast,Continental,428,422,false,false,false,22.2,0.0,141.819484,121.627822,14.891911,5.299751,synthetic
+2025-04-23,Lunch,Mixed,656,669,false,false,false,22.2,0.0,434.863175,365.341662,40.158231,29.363282,synthetic
+2025-04-23,Snacks,Beverage and snack,305,282,false,false,false,22.2,0.0,76.869189,67.282553,6.651837,2.934799,synthetic
+2025-04-23,Dinner,South Indian,569,597,false,false,false,22.2,0.0,275.781830,258.622523,9.605461,7.553846,synthetic
+2025-04-24,Breakfast,Light,424,440,false,false,false,27.6,14.7,157.420959,139.838203,11.131259,6.451497,synthetic
+2025-04-24,Lunch,North Indian,633,646,false,false,false,27.6,14.7,317.333707,291.277787,15.266382,10.789538,synthetic
+2025-04-24,Snacks,Fried,296,285,false,false,false,27.6,14.7,79.230646,72.551680,3.542770,3.136196,synthetic
+2025-04-24,Dinner,Mixed,554,556,false,false,false,27.6,14.7,290.668414,246.415919,25.105633,19.146862,synthetic
+2025-04-25,Breakfast,Continental,432,427,false,false,false,31.8,0.0,151.356705,141.767714,5.700224,3.888767,synthetic
+2025-04-25,Lunch,North Indian,649,674,false,false,false,31.8,0.0,362.479267,332.737961,16.658247,13.083059,synthetic
+2025-04-25,Snacks,Fried,304,304,false,false,false,31.8,0.0,78.815130,70.710658,6.054832,2.049640,synthetic
+2025-04-25,Dinner,Mixed,580,565,false,false,false,31.8,0.0,277.951399,232.248452,29.302681,16.400266,synthetic
+2025-04-26,Breakfast,Light,365,382,false,false,false,20.7,0.0,160.787040,135.518377,16.953917,8.314746,synthetic
+2025-04-26,Lunch,Rice-based,568,531,false,false,false,20.7,0.0,273.664788,229.327122,27.659771,16.677895,synthetic
+2025-04-26,Snacks,Fried,261,243,false,false,false,20.7,0.0,71.352692,61.076932,5.436067,4.839693,synthetic
+2025-04-26,Dinner,Mixed,490,502,false,false,false,20.7,0.0,244.222713,221.494799,12.763040,9.964874,synthetic
+2025-04-27,Breakfast,Indian,361,338,false,false,false,17.5,0.0,126.306867,114.339137,5.599645,6.368085,synthetic
+2025-04-27,Lunch,North Indian,576,540,false,false,false,17.5,0.0,331.316391,277.646138,33.972416,19.697837,synthetic
+2025-04-27,Snacks,Savory,268,270,false,false,false,17.5,0.0,65.173128,59.005380,2.798449,3.369299,synthetic
+2025-04-27,Dinner,North Indian,488,498,false,false,false,17.5,0.0,272.568138,243.678467,20.755914,8.133757,synthetic
+2025-04-28,Breakfast,Light,418,441,false,false,false,27.6,0.0,145.306048,124.956670,9.376654,10.972724,synthetic
+2025-04-28,Lunch,Rice-based,647,666,false,false,false,27.6,0.0,326.769175,287.376967,28.247744,11.144464,synthetic
+2025-04-28,Snacks,Fried,306,317,false,false,false,27.6,0.0,85.840134,72.077740,8.538398,5.223996,synthetic
+2025-04-28,Dinner,Mixed,570,556,false,false,false,27.6,0.0,301.955591,269.367564,15.140524,17.447503,synthetic
+2025-04-29,Breakfast,Indian,414,395,false,false,false,31.3,3.7,163.370126,137.277494,19.509878,6.582754,synthetic
+2025-04-29,Lunch,North Indian,633,609,false,false,false,31.3,3.7,371.125346,316.397990,29.829022,24.898334,synthetic
+2025-04-29,Snacks,Fried,294,279,false,false,false,31.3,3.7,70.086705,65.109086,3.372158,1.605461,synthetic
+2025-04-29,Dinner,North Indian,573,522,false,false,false,31.3,3.7,258.746741,230.203141,17.042976,11.500624,synthetic
+2025-04-30,Breakfast,Indian,410,388,false,false,false,17.4,0.0,138.400727,119.727677,8.514610,10.158440,synthetic
+2025-04-30,Lunch,North Indian,639,659,false,false,false,17.4,0.0,349.882266,305.323689,20.856997,23.701580,synthetic
+2025-04-30,Snacks,Savory,292,324,false,false,false,17.4,0.0,89.904134,78.608868,8.633357,2.661909,synthetic
+2025-04-30,Dinner,Mixed,563,596,false,false,false,17.4,0.0,348.584968,301.032214,21.701485,25.851269,synthetic
+2025-05-01,Breakfast,Indian,409,388,false,false,false,25.0,0.0,133.833728,118.216156,10.684452,4.933120,synthetic
+2025-05-01,Lunch,Mixed,641,607,false,false,false,25.0,0.0,346.051655,296.443150,32.491967,17.116538,synthetic
+2025-05-01,Snacks,Fried,309,280,false,false,false,25.0,0.0,65.233139,58.907985,4.587480,1.737674,synthetic
+2025-05-01,Dinner,Rice-based,564,615,false,false,false,25.0,0.0,308.487539,275.699873,18.499793,14.287873,synthetic
+2025-05-02,Breakfast,Light,369,352,true,false,false,35.0,9.6,139.401512,118.672561,11.440980,9.287971,synthetic
+2025-05-02,Lunch,North Indian,555,577,true,false,false,35.0,9.6,305.150158,256.281906,35.794684,13.073568,synthetic
+2025-05-02,Snacks,Fried,260,239,true,false,false,35.0,9.6,58.400658,54.841934,2.544247,1.014477,synthetic
+2025-05-02,Dinner,South Indian,489,468,true,false,false,35.0,9.6,237.851843,218.046902,9.997177,9.807764,synthetic
+2025-05-03,Breakfast,Light,377,377,false,false,false,23.9,0.0,127.664089,107.307497,9.283214,11.073378,synthetic
+2025-05-03,Lunch,North Indian,563,556,false,false,false,23.9,0.0,310.308911,258.591803,34.201541,17.515567,synthetic
+2025-05-03,Snacks,Savory,270,284,false,false,false,23.9,0.0,74.213428,69.387348,2.988230,1.837850,synthetic
+2025-05-03,Dinner,North Indian,508,462,false,false,false,23.9,0.0,248.572499,230.442514,11.893025,6.236960,synthetic
+2025-05-04,Breakfast,Indian,368,396,false,false,false,34.8,20.9,141.027756,130.177569,5.706153,5.144034,synthetic
+2025-05-04,Lunch,Rice-based,560,583,false,false,false,34.8,20.9,350.622447,295.160963,30.854730,24.606754,synthetic
+2025-05-04,Snacks,Savory,266,263,false,false,false,34.8,20.9,61.002734,51.513050,5.749373,3.740311,synthetic
+2025-05-04,Dinner,North Indian,492,532,false,false,false,34.8,20.9,245.983337,226.631463,11.201795,8.150079,synthetic
+2025-05-05,Breakfast,Light,422,442,false,false,false,30.2,0.0,181.131881,152.527457,20.815383,7.789041,synthetic
+2025-05-05,Lunch,Mixed,650,685,false,false,false,30.2,0.0,398.257669,362.789814,24.137145,11.330710,synthetic
+2025-05-05,Snacks,Fried,305,273,false,false,false,30.2,0.0,60.381008,56.237773,2.825466,1.317769,synthetic
+2025-05-05,Dinner,Rice-based,563,553,false,false,false,30.2,0.0,249.886945,226.808788,11.985850,11.092307,synthetic
+2025-05-06,Breakfast,Indian,422,427,false,false,false,33.4,18.7,135.300200,122.398236,7.549478,5.352486,synthetic
+2025-05-06,Lunch,Mixed,633,602,false,false,false,33.4,18.7,358.374211,309.366865,23.791160,25.216186,synthetic
+2025-05-06,Snacks,Fried,294,295,false,false,false,33.4,18.7,73.039390,64.366597,6.060196,2.612597,synthetic
+2025-05-06,Dinner,Mixed,570,577,false,false,false,33.4,18.7,288.132670,247.613704,31.516322,9.002644,synthetic
+2025-05-07,Breakfast,Indian,411,440,false,false,false,24.5,0.0,155.837090,141.259561,10.921068,3.656461,synthetic
+2025-05-07,Lunch,North Indian,662,624,false,false,false,24.5,0.0,367.582934,327.803230,21.221740,18.557964,synthetic
+2025-05-07,Snacks,Beverage and snack,291,288,false,false,false,24.5,0.0,77.069016,67.910894,6.842833,2.315289,synthetic
+2025-05-07,Dinner,Mixed,581,551,false,false,false,24.5,0.0,280.830138,255.373836,14.814019,10.642283,synthetic
+2025-05-08,Breakfast,Light,417,394,false,false,false,33.0,0.0,138.994264,128.045070,5.417764,5.531430,synthetic
+2025-05-08,Lunch,North Indian,643,651,false,false,false,33.0,0.0,425.383990,357.771326,35.423883,32.188781,synthetic
+2025-05-08,Snacks,Beverage and snack,306,285,false,false,false,33.0,0.0,75.740365,63.310984,7.698066,4.731315,synthetic
+2025-05-08,Dinner,North Indian,557,607,false,false,false,33.0,0.0,280.235420,257.412089,10.821813,12.001518,synthetic
+2025-05-09,Breakfast,Light,410,440,false,false,false,35.4,0.0,170.735930,146.504985,13.569600,10.661345,synthetic
+2025-05-09,Lunch,South Indian,631,698,false,false,false,35.4,0.0,371.211208,341.442868,14.347492,15.420848,synthetic
+2025-05-09,Snacks,Savory,306,320,false,false,false,35.4,0.0,81.011412,71.276784,4.552728,5.181900,synthetic
+2025-05-09,Dinner,Rice-based,575,568,false,false,false,35.4,0.0,286.391801,246.874484,29.346626,10.170691,synthetic
+2025-05-10,Breakfast,Indian,381,372,false,false,false,24.1,13.3,130.929024,113.353350,9.814251,7.761423,synthetic
+2025-05-10,Lunch,Rice-based,555,552,false,false,false,24.1,13.3,323.335640,272.746485,39.277041,11.312114,synthetic
+2025-05-10,Snacks,Fried,267,279,false,false,false,24.1,13.3,83.991422,70.651180,6.574705,6.765537,synthetic
+2025-05-10,Dinner,North Indian,496,522,false,false,false,24.1,13.3,251.513838,211.871492,20.184979,19.457367,synthetic
+2025-05-11,Breakfast,Indian,379,395,false,false,false,20.0,16.3,129.320487,111.738696,9.263267,8.318524,synthetic
+2025-05-11,Lunch,South Indian,587,525,false,false,false,20.0,16.3,288.155134,271.722143,8.385839,8.047152,synthetic
+2025-05-11,Snacks,Beverage and snack,267,269,false,false,false,20.0,16.3,59.407354,54.894957,2.613592,1.898805,synthetic
+2025-05-11,Dinner,Rice-based,504,469,false,false,false,20.0,16.3,233.263486,214.950216,10.727244,7.586026,synthetic
+2025-05-12,Breakfast,Indian,426,443,false,false,false,26.1,0.0,155.306984,141.273621,6.373220,7.660143,synthetic
+2025-05-12,Lunch,Mixed,658,679,false,false,false,26.1,0.0,450.945586,377.751010,52.035789,21.158787,synthetic
+2025-05-12,Snacks,Savory,309,299,false,false,false,26.1,0.0,80.013331,73.485001,4.300113,2.228217,synthetic
+2025-05-12,Dinner,Mixed,556,612,false,false,false,26.1,0.0,284.440646,259.712129,11.619062,13.109455,synthetic
+2025-05-13,Breakfast,Indian,413,416,false,false,false,30.2,0.0,149.598976,125.714048,12.944838,10.940090,synthetic
+2025-05-13,Lunch,Mixed,638,637,false,false,false,30.2,0.0,376.331289,315.750315,42.716791,17.864183,synthetic
+2025-05-13,Snacks,Savory,297,301,false,false,false,30.2,0.0,73.343373,67.571049,3.061993,2.710331,synthetic
+2025-05-13,Dinner,Mixed,576,543,false,false,false,30.2,0.0,282.165872,260.234383,14.156463,7.775026,synthetic
+2025-05-14,Breakfast,Indian,422,406,false,false,false,19.7,0.0,157.845569,131.828325,13.704158,12.313086,synthetic
+2025-05-14,Lunch,North Indian,647,633,false,false,false,19.7,0.0,314.648534,283.383658,21.772540,9.492336,synthetic
+2025-05-14,Snacks,Savory,293,302,false,false,false,19.7,0.0,73.646786,61.648143,5.491998,6.506645,synthetic
+2025-05-14,Dinner,North Indian,578,566,false,false,false,19.7,0.0,303.385309,256.262448,32.938190,14.184671,synthetic
+2025-05-15,Breakfast,Light,417,445,false,false,false,30.8,0.0,155.985583,146.319615,7.194924,2.471044,synthetic
+2025-05-15,Lunch,Rice-based,660,625,false,false,false,30.8,0.0,385.114107,333.456875,25.870946,25.786286,synthetic
+2025-05-15,Snacks,Beverage and snack,295,294,false,false,false,30.8,0.0,78.730390,69.767584,4.105317,4.857489,synthetic
+2025-05-15,Dinner,Mixed,570,598,false,false,false,30.8,0.0,285.345715,252.936977,19.789632,12.619106,synthetic
+2025-05-16,Breakfast,Indian,417,427,false,false,false,33.0,0.0,172.411521,146.646695,16.539017,9.225809,synthetic
+2025-05-16,Lunch,South Indian,633,622,false,false,false,33.0,0.0,327.553147,296.496699,16.239413,14.817035,synthetic
+2025-05-16,Snacks,Savory,294,320,false,false,false,33.0,0.0,78.446220,68.139678,6.281990,4.024552,synthetic
+2025-05-16,Dinner,North Indian,567,585,false,false,false,33.0,0.0,320.681442,284.480733,19.434323,16.766386,synthetic
+2025-05-17,Breakfast,Light,81,82,false,true,false,26.5,0.0,29.429773,24.723566,3.175573,1.530634,synthetic
+2025-05-17,Lunch,Rice-based,128,121,false,true,false,26.5,0.0,74.413103,64.344919,5.655604,4.412580,synthetic
+2025-05-17,Snacks,Fried,57,62,false,true,false,26.5,0.0,16.356638,14.122648,1.327249,0.906741,synthetic
+2025-05-17,Dinner,Mixed,108,101,false,true,false,26.5,0.0,49.164843,44.005389,2.585246,2.574208,synthetic
+2025-05-18,Breakfast,Continental,80,83,false,true,false,29.4,0.0,27.371416,25.721275,1.206446,0.443695,synthetic
+2025-05-18,Lunch,South Indian,128,118,false,true,false,29.4,0.0,64.471699,55.917002,4.045439,4.509258,synthetic
+2025-05-18,Snacks,Beverage and snack,59,58,false,true,false,29.4,0.0,15.242173,13.314026,1.494768,0.433379,synthetic
+2025-05-18,Dinner,Rice-based,110,117,false,true,false,29.4,0.0,56.669150,50.164843,5.051125,1.453182,synthetic
+2025-05-19,Breakfast,Indian,408,408,false,false,false,32.8,0.0,151.190919,139.665812,5.433953,6.091154,synthetic
+2025-05-19,Lunch,North Indian,652,695,false,false,false,32.8,0.0,398.691413,338.961564,41.573320,18.156529,synthetic
+2025-05-19,Snacks,Savory,300,313,false,false,false,32.8,0.0,79.537608,73.456708,3.220276,2.860624,synthetic
+2025-05-19,Dinner,North Indian,556,532,false,false,false,32.8,0.0,247.085208,221.686392,12.354037,13.044779,synthetic
+2025-05-20,Breakfast,Light,429,387,false,false,false,27.8,0.0,150.048387,129.889171,13.191513,6.967703,synthetic
+2025-05-20,Lunch,North Indian,636,631,false,false,false,27.8,0.0,306.166384,287.866278,9.453073,8.847033,synthetic
+2025-05-20,Snacks,Beverage and snack,305,320,false,false,false,27.8,0.0,74.874062,67.421898,4.983899,2.468265,synthetic
+2025-05-20,Dinner,North Indian,560,573,false,false,false,27.8,0.0,256.839919,237.629357,14.453520,4.757042,synthetic
+2025-05-21,Breakfast,Light,431,445,false,false,false,25.5,0.0,167.104860,146.367768,14.618431,6.118661,synthetic
+2025-05-21,Lunch,Rice-based,655,645,false,false,false,25.5,0.0,344.901973,314.329756,18.902861,11.669356,synthetic
+2025-05-21,Snacks,Fried,308,294,false,false,false,25.5,0.0,77.587278,64.979056,8.520320,4.087902,synthetic
+2025-05-21,Dinner,Mixed,578,576,false,false,false,25.5,0.0,323.267927,289.802793,16.464160,17.000974,synthetic
+2025-05-22,Breakfast,Indian,431,403,false,false,false,32.9,0.0,135.365960,114.005308,14.624647,6.736005,synthetic
+2025-05-22,Lunch,Rice-based,644,634,false,false,false,32.9,0.0,326.794646,272.932720,34.520190,19.341736,synthetic
+2025-05-22,Snacks,Fried,300,292,false,false,false,32.9,0.0,71.248662,60.897359,5.514865,4.836438,synthetic
+2025-05-22,Dinner,Rice-based,560,589,false,false,false,32.9,0.0,272.662564,230.740589,29.481382,12.440593,synthetic
+2025-05-23,Breakfast,Continental,424,441,false,false,false,28.0,0.0,145.651092,129.747682,8.735447,7.167963,synthetic
+2025-05-23,Lunch,South Indian,668,619,false,false,false,28.0,0.0,344.776805,317.026831,18.005576,9.744398,synthetic
+2025-05-23,Snacks,Beverage and snack,295,289,false,false,false,28.0,0.0,61.437945,56.336989,3.664829,1.436127,synthetic
+2025-05-23,Dinner,Rice-based,580,540,false,false,false,28.0,0.0,290.260711,245.290860,23.876450,21.093401,synthetic
+2025-05-24,Breakfast,Indian,376,344,false,false,false,33.9,14.0,134.920829,115.361340,13.751747,5.807742,synthetic
+2025-05-24,Lunch,Mixed,577,606,false,false,false,33.9,14.0,380.647714,318.133979,29.598303,32.915432,synthetic
+2025-05-24,Snacks,Savory,267,263,false,false,false,33.9,14.0,62.972837,58.218660,2.598380,2.155797,synthetic
+2025-05-24,Dinner,South Indian,511,471,false,false,false,33.9,14.0,229.976196,197.578701,20.884594,11.512901,synthetic
+2025-05-25,Breakfast,Continental,327,327,true,false,false,30.9,4.1,121.079215,105.384146,10.007819,5.687250,synthetic
+2025-05-25,Lunch,Rice-based,495,528,true,false,false,30.9,4.1,248.445384,223.681917,15.310106,9.453361,synthetic
+2025-05-25,Snacks,Beverage and snack,229,218,true,false,false,30.9,4.1,47.564816,43.596681,2.371844,1.596291,synthetic
+2025-05-25,Dinner,Rice-based,448,471,true,false,false,30.9,4.1,248.908173,215.459393,19.172326,14.276454,synthetic
+2025-05-26,Breakfast,Indian,410,448,false,false,false,31.3,20.0,150.764222,129.502461,9.910677,11.351084,synthetic
+2025-05-26,Lunch,North Indian,650,677,false,false,false,31.3,20.0,383.435085,356.710154,18.850918,7.874013,synthetic
+2025-05-26,Snacks,Beverage and snack,296,284,false,false,false,31.3,20.0,58.947614,55.238394,2.565440,1.143780,synthetic
+2025-05-26,Dinner,Mixed,576,556,false,false,false,31.3,20.0,268.047426,233.079160,16.979724,17.988542,synthetic
+2025-05-27,Breakfast,Indian,428,449,false,false,false,23.2,0.0,186.566903,157.493014,14.056839,15.017050,synthetic
+2025-05-27,Lunch,Rice-based,668,605,false,false,false,23.2,0.0,330.334814,285.846283,31.308532,13.179999,synthetic
+2025-05-27,Snacks,Fried,299,318,false,false,false,23.2,0.0,71.495374,67.099453,2.645559,1.750362,synthetic
+2025-05-27,Dinner,South Indian,576,549,false,false,false,23.2,0.0,289.928946,255.753748,22.059407,12.115791,synthetic
+2025-05-28,Breakfast,Light,416,422,false,false,false,29.5,0.0,143.617185,123.355791,12.832642,7.428752,synthetic
+2025-05-28,Lunch,South Indian,649,594,false,false,false,29.5,0.0,332.769287,281.770032,28.793424,22.205831,synthetic
+2025-05-28,Snacks,Savory,306,299,false,false,false,29.5,0.0,73.282450,61.124777,5.892647,6.265026,synthetic
+2025-05-28,Dinner,South Indian,580,596,false,false,false,29.5,0.0,275.997109,257.655000,9.179739,9.162370,synthetic
+2025-05-29,Breakfast,Continental,425,383,false,false,false,19.5,0.0,139.672769,123.396404,8.349831,7.926534,synthetic
+2025-05-29,Lunch,Mixed,636,612,false,false,false,19.5,0.0,382.961833,329.227298,25.353058,28.381477,synthetic
+2025-05-29,Snacks,Fried,307,317,false,false,false,19.5,0.0,80.777361,71.281117,4.445858,5.050386,synthetic
+2025-05-29,Dinner,South Indian,567,527,false,false,false,19.5,0.0,264.571322,235.213420,19.159045,10.198857,synthetic
+2025-05-30,Breakfast,Light,417,399,false,false,false,30.9,0.0,142.453082,133.068390,6.611099,2.773593,synthetic
+2025-05-30,Lunch,South Indian,650,682,false,false,false,30.9,0.0,410.635483,355.920959,29.976019,24.738505,synthetic
+2025-05-30,Snacks,Beverage and snack,303,307,false,false,false,30.9,0.0,67.361545,61.781071,3.693493,1.886981,synthetic
+2025-05-30,Dinner,North Indian,580,575,false,false,false,30.9,0.0,330.944046,287.289755,31.133797,12.520494,synthetic
+2025-05-31,Breakfast,Indian,373,397,false,false,false,20.6,0.0,154.712976,130.009830,14.578301,10.124845,synthetic
+2025-05-31,Lunch,South Indian,585,579,false,false,false,20.6,0.0,310.063717,276.579658,23.058730,10.425329,synthetic
+2025-05-31,Snacks,Fried,267,240,false,false,false,20.6,0.0,54.655671,49.895078,3.536842,1.223751,synthetic
+2025-05-31,Dinner,North Indian,494,477,false,false,false,20.6,0.0,238.713761,202.854997,25.980820,9.877944,synthetic
+2025-06-01,Breakfast,Light,375,393,false,false,false,27.5,0.0,139.616806,120.926544,11.895417,6.794845,synthetic
+2025-06-01,Lunch,Rice-based,587,591,false,false,false,27.5,0.0,344.187870,298.651490,26.902288,18.634092,synthetic
+2025-06-01,Snacks,Beverage and snack,261,273,false,false,false,27.5,0.0,68.021206,58.699976,5.625616,3.695614,synthetic
+2025-06-01,Dinner,North Indian,497,474,false,false,false,27.5,0.0,276.149190,241.406754,19.495225,15.247211,synthetic
+2025-06-02,Breakfast,Light,431,394,false,false,false,22.2,22.1,149.783186,137.053846,8.631488,4.097852,synthetic
+2025-06-02,Lunch,Rice-based,667,682,false,false,false,22.2,22.1,378.068353,321.063319,41.209640,15.795394,synthetic
+2025-06-02,Snacks,Fried,294,288,false,false,false,22.2,22.1,83.561641,71.267611,8.162382,4.131648,synthetic
+2025-06-02,Dinner,Mixed,565,582,false,false,false,22.2,22.1,288.009452,243.259905,23.267251,21.482296,synthetic
+2025-06-03,Breakfast,Continental,420,435,false,false,false,18.4,0.0,138.418176,123.062111,10.748880,4.607185,synthetic
+2025-06-03,Lunch,Rice-based,654,691,false,false,false,18.4,0.0,347.165866,310.426294,18.122103,18.617469,synthetic
+2025-06-03,Snacks,Savory,302,322,false,false,false,18.4,0.0,83.438267,75.678118,6.036931,1.723218,synthetic
+2025-06-03,Dinner,Rice-based,562,548,false,false,false,18.4,0.0,241.083896,213.511559,15.924961,11.647376,synthetic
+2025-06-04,Breakfast,Indian,414,441,false,false,false,21.0,0.0,172.058067,149.201189,13.359209,9.497669,synthetic
+2025-06-04,Lunch,Mixed,640,623,false,false,false,21.0,0.0,348.037869,292.975061,26.479392,28.583416,synthetic
+2025-06-04,Snacks,Savory,308,314,false,false,false,21.0,0.0,81.715077,71.353327,6.502935,3.858815,synthetic
+2025-06-04,Dinner,Mixed,587,559,false,false,false,21.0,0.0,299.462076,270.128251,19.915374,9.418451,synthetic
+2025-06-05,Breakfast,Indian,430,428,false,false,false,29.1,0.0,146.646554,135.452035,7.203026,3.991493,synthetic
+2025-06-05,Lunch,North Indian,638,594,false,false,false,29.1,0.0,347.443889,318.715489,20.075424,8.652976,synthetic
+2025-06-05,Snacks,Fried,295,286,false,false,false,29.1,0.0,83.256952,72.256367,6.387565,4.613020,synthetic
+2025-06-05,Dinner,South Indian,564,532,false,false,false,29.1,0.0,226.189868,213.382548,6.870827,5.936493,synthetic
+2025-06-06,Breakfast,Light,412,428,false,false,false,34.4,0.0,137.831942,125.339117,7.356673,5.136152,synthetic
+2025-06-06,Lunch,North Indian,638,690,false,false,false,34.4,0.0,339.183754,308.428597,20.236971,10.518186,synthetic
+2025-06-06,Snacks,Beverage and snack,292,307,false,false,false,34.4,0.0,82.625802,73.991250,5.761966,2.872586,synthetic
+2025-06-06,Dinner,North Indian,581,590,false,false,false,34.4,0.0,273.495266,249.888644,17.451357,6.155265,synthetic
+2025-06-07,Breakfast,Indian,360,372,false,false,false,34.1,0.0,138.068114,120.063344,9.269148,8.735622,synthetic
+2025-06-07,Lunch,Rice-based,560,575,false,false,false,34.1,0.0,314.863585,277.617645,26.528129,10.717811,synthetic
+2025-06-07,Snacks,Fried,262,252,false,false,false,34.1,0.0,61.291062,53.629063,5.565907,2.096092,synthetic
+2025-06-07,Dinner,Mixed,487,521,false,false,false,34.1,0.0,288.914002,266.538639,13.001325,9.374038,synthetic
+2025-06-08,Breakfast,Light,314,333,true,false,false,19.1,0.0,117.971127,110.939247,5.000546,2.031334,synthetic
+2025-06-08,Lunch,South Indian,485,509,true,false,false,19.1,0.0,280.636747,253.448906,21.130801,6.057040,synthetic
+2025-06-08,Snacks,Beverage and snack,224,225,true,false,false,19.1,0.0,53.734531,47.822670,3.307092,2.604769,synthetic
+2025-06-08,Dinner,Rice-based,442,425,true,false,false,19.1,0.0,205.941144,184.258034,16.540046,5.143064,synthetic
+2025-06-09,Breakfast,Light,421,445,false,false,false,31.4,15.8,146.619939,130.636939,9.963544,6.019456,synthetic
+2025-06-09,Lunch,Rice-based,643,681,false,false,false,31.4,15.8,323.124759,303.914204,12.012760,7.197795,synthetic
+2025-06-09,Snacks,Savory,305,320,false,false,false,31.4,15.8,84.797984,73.605129,8.464565,2.728290,synthetic
+2025-06-09,Dinner,Rice-based,586,545,false,false,false,31.4,15.8,262.684025,224.810073,26.627713,11.246239,synthetic
+2025-06-10,Breakfast,Continental,374,385,true,false,false,34.4,3.9,151.572725,133.632469,10.723695,7.216561,synthetic
+2025-06-10,Lunch,Mixed,567,572,true,false,false,34.4,3.9,366.353120,313.555205,29.799014,22.998901,synthetic
+2025-06-10,Snacks,Savory,254,244,true,false,false,34.4,3.9,53.610093,49.181401,2.605899,1.822793,synthetic
+2025-06-10,Dinner,Mixed,493,496,true,false,false,34.4,3.9,258.683724,243.013901,11.091353,4.578470,synthetic
+2025-06-11,Breakfast,Continental,418,445,false,false,false,27.7,0.0,183.072441,157.266383,19.130069,6.675989,synthetic
+2025-06-11,Lunch,South Indian,658,701,false,false,false,27.7,0.0,410.060228,359.325302,37.376159,13.358767,synthetic
+2025-06-11,Snacks,Beverage and snack,292,294,false,false,false,27.7,0.0,75.267440,64.374606,8.333683,2.559151,synthetic
+2025-06-11,Dinner,Rice-based,581,546,false,false,false,27.7,0.0,276.698435,260.323565,7.702621,8.672249,synthetic
+2025-06-12,Breakfast,Continental,430,444,false,false,false,27.3,0.0,175.722205,147.767909,19.232791,8.721505,synthetic
+2025-06-12,Lunch,South Indian,660,596,false,false,false,27.3,0.0,327.924051,298.460042,20.093843,9.370166,synthetic
+2025-06-12,Snacks,Beverage and snack,304,304,false,false,false,27.3,0.0,89.305754,74.760985,7.435713,7.109056,synthetic
+2025-06-12,Dinner,South Indian,565,586,false,false,false,27.3,0.0,253.866257,230.694022,14.675275,8.496960,synthetic
+2025-06-13,Breakfast,Continental,420,422,false,false,false,20.6,0.0,159.574612,139.121114,12.521624,7.931874,synthetic
+2025-06-13,Lunch,Rice-based,658,684,false,false,false,20.6,0.0,380.580838,353.735026,20.070928,6.774884,synthetic
+2025-06-13,Snacks,Savory,296,281,false,false,false,20.6,0.0,61.409618,56.426477,3.576122,1.407019,synthetic
+2025-06-13,Dinner,South Indian,583,590,false,false,false,20.6,0.0,302.164892,273.158257,21.353374,7.653261,synthetic
+2025-06-14,Breakfast,Indian,378,398,false,false,false,23.0,0.0,130.460204,114.404256,7.842296,8.213652,synthetic
+2025-06-14,Lunch,Rice-based,569,582,false,false,false,23.0,0.0,321.131400,280.213268,28.787600,12.130532,synthetic
+2025-06-14,Snacks,Fried,264,275,false,false,false,23.0,0.0,80.856631,68.242386,8.194404,4.419841,synthetic
+2025-06-14,Dinner,South Indian,496,534,false,false,false,23.0,0.0,234.590389,212.666428,12.517748,9.406213,synthetic
+2025-06-15,Breakfast,Light,365,373,false,false,false,27.8,0.0,145.359873,133.057823,9.557283,2.744767,synthetic
+2025-06-15,Lunch,Rice-based,567,545,false,false,false,27.8,0.0,320.088934,285.177138,27.171844,7.739952,synthetic
+2025-06-15,Snacks,Fried,257,245,false,false,false,27.8,0.0,58.212552,50.815937,4.086609,3.310006,synthetic
+2025-06-15,Dinner,North Indian,487,498,false,false,false,27.8,0.0,273.237396,233.271451,23.655028,16.310917,synthetic
+2025-06-16,Breakfast,Indian,94,100,false,true,false,18.2,0.0,34.192225,30.975761,2.185492,1.030972,synthetic
+2025-06-16,Lunch,North Indian,143,140,false,true,false,18.2,0.0,76.458046,68.537340,5.237414,2.683292,synthetic
+2025-06-16,Snacks,Fried,67,63,false,true,false,18.2,0.0,17.517643,15.714632,1.055502,0.747509,synthetic
+2025-06-16,Dinner,North Indian,122,119,false,true,false,18.2,0.0,68.149990,59.553776,4.820280,3.775934,synthetic
+2025-06-17,Breakfast,Light,428,429,false,false,false,25.8,0.0,172.909492,151.689749,12.911160,8.308583,synthetic
+2025-06-17,Lunch,Mixed,651,672,false,false,false,25.8,0.0,348.798440,304.889803,24.942198,18.966439,synthetic
+2025-06-17,Snacks,Fried,291,308,false,false,false,25.8,0.0,78.535391,65.473156,9.950405,3.111830,synthetic
+2025-06-17,Dinner,North Indian,580,598,false,false,false,25.8,0.0,308.155267,278.442416,22.255768,7.457083,synthetic
+2025-06-18,Breakfast,Continental,430,417,false,false,false,28.1,15.4,144.901653,131.388144,7.252757,6.260752,synthetic
+2025-06-18,Lunch,Mixed,656,627,false,false,false,28.1,15.4,323.739024,294.705025,19.402353,9.631646,synthetic
+2025-06-18,Snacks,Savory,297,294,false,false,false,28.1,15.4,75.297899,68.569039,4.096245,2.632615,synthetic
+2025-06-18,Dinner,Rice-based,570,602,false,false,false,28.1,15.4,313.330408,266.040546,21.932534,25.357328,synthetic
+2025-06-19,Breakfast,Continental,408,383,false,false,false,18.0,4.0,162.242284,137.222691,14.900920,10.118673,synthetic
+2025-06-19,Lunch,South Indian,665,642,false,false,false,18.0,4.0,374.371459,334.047654,27.572949,12.750856,synthetic
+2025-06-19,Snacks,Beverage and snack,302,324,false,false,false,18.0,4.0,74.999972,65.344590,5.092699,4.562683,synthetic
+2025-06-19,Dinner,Rice-based,583,602,false,false,false,18.0,4.0,278.047679,234.239047,25.926039,17.882593,synthetic
+2025-06-20,Breakfast,Light,426,453,false,false,false,24.8,0.0,145.902358,135.047544,6.804437,4.050377,synthetic
+2025-06-20,Lunch,Mixed,631,667,false,false,false,24.8,0.0,390.688013,327.365746,49.012212,14.310055,synthetic
+2025-06-20,Snacks,Fried,306,274,false,false,false,24.8,0.0,62.991440,59.049576,2.939983,1.001881,synthetic
+2025-06-20,Dinner,South Indian,564,575,false,false,false,24.8,0.0,260.184982,226.840857,25.858310,7.485815,synthetic
+2025-06-21,Breakfast,Indian,368,361,false,false,false,21.1,0.0,136.062363,126.197763,6.084367,3.780233,synthetic
+2025-06-21,Lunch,Rice-based,588,553,false,false,false,21.1,0.0,273.395152,252.624357,11.688670,9.082125,synthetic
+2025-06-21,Snacks,Beverage and snack,258,245,false,false,false,21.1,0.0,58.018875,51.048312,4.448113,2.522450,synthetic
+2025-06-21,Dinner,Rice-based,503,538,false,false,false,21.1,0.0,286.733845,255.139065,23.165573,8.429207,synthetic
+2025-06-22,Breakfast,Continental,371,372,false,false,false,28.2,0.0,146.577026,126.230863,9.525524,10.820639,synthetic
+2025-06-22,Lunch,Rice-based,585,558,false,false,false,28.2,0.0,320.690440,281.920629,18.653010,20.116801,synthetic
+2025-06-22,Snacks,Savory,260,242,false,false,false,28.2,0.0,58.627872,52.265451,3.351197,3.011224,synthetic
+2025-06-22,Dinner,South Indian,496,529,false,false,false,28.2,0.0,269.466330,228.182210,22.115493,19.168627,synthetic
+2025-06-23,Breakfast,Light,426,425,false,false,false,33.3,0.0,173.742726,148.385695,18.089226,7.267805,synthetic
+2025-06-23,Lunch,Mixed,633,700,false,false,false,33.3,0.0,391.880838,339.582943,25.184335,27.113560,synthetic
+2025-06-23,Snacks,Beverage and snack,296,277,false,false,false,33.3,0.0,71.930088,61.696155,6.035409,4.198524,synthetic
+2025-06-23,Dinner,Rice-based,555,530,false,false,false,33.3,0.0,250.616525,216.667505,25.730567,8.218453,synthetic
+2025-06-24,Breakfast,Light,417,444,false,false,false,28.9,0.0,152.118624,141.729543,5.744706,4.644375,synthetic
+2025-06-24,Lunch,Rice-based,643,609,false,false,false,28.9,0.0,307.407360,285.772754,14.783270,6.851336,synthetic
+2025-06-24,Snacks,Savory,291,315,false,false,false,28.9,0.0,82.756566,73.625479,6.505036,2.626051,synthetic
+2025-06-24,Dinner,Mixed,572,568,false,false,false,28.9,0.0,331.219747,280.750713,38.309453,12.159581,synthetic
+2025-06-25,Breakfast,Indian,416,447,false,false,false,25.6,0.0,180.391043,154.462210,13.680299,12.248534,synthetic
+2025-06-25,Lunch,Rice-based,645,655,false,false,false,25.6,0.0,316.576563,283.854833,22.160078,10.561652,synthetic
+2025-06-25,Snacks,Fried,301,315,false,false,false,25.6,0.0,83.884545,74.425545,5.523508,3.935492,synthetic
+2025-06-25,Dinner,South Indian,574,592,false,false,false,25.6,0.0,288.361387,262.732302,18.174000,7.455085,synthetic
+2025-06-26,Breakfast,Continental,424,405,false,false,false,23.5,0.0,152.790793,129.538447,12.296449,10.955897,synthetic
+2025-06-26,Lunch,South Indian,653,686,false,false,false,23.5,0.0,344.305714,291.379125,38.992686,13.933903,synthetic
+2025-06-26,Snacks,Beverage and snack,303,281,false,false,false,23.5,0.0,62.527373,54.563205,5.122473,2.841695,synthetic
+2025-06-26,Dinner,South Indian,560,526,false,false,false,23.5,0.0,272.794479,256.448540,11.624496,4.721443,synthetic
+2025-06-27,Breakfast,Indian,420,385,false,false,false,27.5,0.0,162.285992,135.406695,12.558910,14.320387,synthetic
+2025-06-27,Lunch,Rice-based,649,664,false,false,false,27.5,0.0,382.293447,345.169450,22.058940,15.065057,synthetic
+2025-06-27,Snacks,Beverage and snack,303,299,false,false,false,27.5,0.0,80.170278,69.768946,6.494499,3.906833,synthetic
+2025-06-27,Dinner,South Indian,567,600,false,false,false,27.5,0.0,302.265235,279.137584,11.999730,11.127921,synthetic
+2025-06-28,Breakfast,Light,363,386,false,false,false,28.8,13.7,151.936662,138.308015,7.100777,6.527870,synthetic
+2025-06-28,Lunch,Rice-based,580,541,false,false,false,28.8,13.7,271.213881,231.007907,29.297313,10.908661,synthetic
+2025-06-28,Snacks,Fried,265,259,false,false,false,28.8,13.7,67.690092,59.122550,3.961786,4.605756,synthetic
+2025-06-28,Dinner,North Indian,496,529,false,false,false,28.8,13.7,277.660498,259.003360,8.664551,9.992587,synthetic
+2025-06-29,Breakfast,Indian,362,356,false,false,false,33.3,0.0,114.303203,100.715010,6.699078,6.889115,synthetic
+2025-06-29,Lunch,South Indian,585,571,false,false,false,33.3,0.0,283.682035,249.300699,21.106737,13.274599,synthetic
+2025-06-29,Snacks,Savory,270,248,false,false,false,33.3,0.0,62.091356,53.505361,4.443139,4.142856,synthetic
+2025-06-29,Dinner,Rice-based,507,493,false,false,false,33.3,0.0,211.659694,191.926926,12.401889,7.330879,synthetic
+2025-06-30,Breakfast,Light,414,418,false,false,false,35.7,0.0,140.385809,119.026335,13.381233,7.978241,synthetic
+2025-06-30,Lunch,Mixed,656,609,false,false,false,35.7,0.0,363.839867,303.369403,33.155183,27.315281,synthetic
+2025-06-30,Snacks,Beverage and snack,299,288,false,false,false,35.7,0.0,70.877651,60.723572,5.757677,4.396402,synthetic
+2025-06-30,Dinner,South Indian,574,608,false,false,false,35.7,0.0,273.411830,238.436217,23.892883,11.082730,synthetic
+2025-07-01,Breakfast,Continental,413,418,false,false,false,20.5,0.0,166.280273,142.990044,10.942528,12.347701,synthetic
+2025-07-01,Lunch,Rice-based,652,695,false,false,false,20.5,0.0,392.721807,341.865947,35.286299,15.569561,synthetic
+2025-07-01,Snacks,Beverage and snack,299,302,false,false,false,20.5,0.0,71.922873,63.668332,3.899192,4.355349,synthetic
+2025-07-01,Dinner,North Indian,576,565,false,false,false,20.5,0.0,280.997091,245.012464,20.030488,15.954139,synthetic
+2025-07-02,Breakfast,Light,426,397,false,false,false,20.8,2.0,140.337796,128.103410,9.533505,2.700881,synthetic
+2025-07-02,Lunch,Rice-based,648,600,false,false,false,20.8,2.0,313.539357,289.963739,13.453172,10.122446,synthetic
+2025-07-02,Snacks,Fried,296,308,false,false,false,20.8,2.0,74.844466,63.928706,6.402450,4.513310,synthetic
+2025-07-02,Dinner,North Indian,575,596,false,false,false,20.8,2.0,285.890600,256.341356,14.767022,14.782222,synthetic
+2025-07-03,Breakfast,Indian,409,442,false,false,false,30.2,0.0,145.317098,135.195791,7.476118,2.645189,synthetic
+2025-07-03,Lunch,Rice-based,631,698,false,false,false,30.2,0.0,398.138452,338.571421,33.993701,25.573330,synthetic
+2025-07-03,Snacks,Fried,301,321,false,false,false,30.2,0.0,88.295553,80.895646,4.093718,3.306189,synthetic
+2025-07-03,Dinner,Rice-based,559,588,false,false,false,30.2,0.0,267.843919,251.879121,8.678580,7.286218,synthetic
+2025-07-04,Breakfast,Continental,374,366,true,false,false,27.7,0.0,136.631885,120.972457,7.250885,8.408543,synthetic
+2025-07-04,Lunch,Rice-based,551,573,true,false,false,27.7,0.0,334.460146,287.982648,24.246939,22.230559,synthetic
+2025-07-04,Snacks,Savory,254,272,true,false,false,27.7,0.0,71.039384,59.980533,6.826731,4.232120,synthetic
+2025-07-04,Dinner,Rice-based,482,533,true,false,false,27.7,0.0,250.092665,220.129090,20.818289,9.145286,synthetic
+2025-07-05,Breakfast,Continental,380,394,false,false,false,22.6,0.0,151.024535,126.721463,18.874130,5.428942,synthetic
+2025-07-05,Lunch,North Indian,578,552,false,false,false,22.6,0.0,291.593342,269.286439,14.945363,7.361540,synthetic
+2025-07-05,Snacks,Beverage and snack,262,251,false,false,false,22.6,0.0,56.228732,50.101575,3.965944,2.161213,synthetic
+2025-07-05,Dinner,Mixed,515,483,false,false,false,22.6,0.0,248.784207,212.268471,18.632504,17.883232,synthetic
+2025-07-06,Breakfast,Light,380,392,false,false,false,31.4,0.0,138.241532,120.329224,8.968924,8.943384,synthetic
+2025-07-06,Lunch,Rice-based,569,527,false,false,false,31.4,0.0,264.587223,244.536770,10.966670,9.083783,synthetic
+2025-07-06,Snacks,Savory,256,264,false,false,false,31.4,0.0,65.727915,55.264218,6.296762,4.166935,synthetic
+2025-07-06,Dinner,South Indian,512,526,false,false,false,31.4,0.0,222.964355,206.935874,7.815747,8.212734,synthetic
+2025-07-07,Breakfast,Light,413,384,false,false,false,27.6,0.0,127.898520,118.007726,5.590730,4.300064,synthetic
+2025-07-07,Lunch,Mixed,644,640,false,false,false,27.6,0.0,323.208816,293.054944,19.002779,11.151093,synthetic
+2025-07-07,Snacks,Beverage and snack,307,307,false,false,false,27.6,0.0,74.121002,69.773915,3.281725,1.065362,synthetic
+2025-07-07,Dinner,Mixed,569,589,false,false,false,27.6,0.0,282.730676,252.171463,23.538477,7.020736,synthetic
+2025-07-08,Breakfast,Indian,417,423,false,false,false,33.2,0.0,148.430357,124.519618,11.971754,11.938985,synthetic
+2025-07-08,Lunch,Mixed,660,676,false,false,false,33.2,0.0,331.865114,307.796038,13.100157,10.968919,synthetic
+2025-07-08,Snacks,Beverage and snack,308,304,false,false,false,33.2,0.0,68.237755,60.339212,4.033706,3.864837,synthetic
+2025-07-08,Dinner,Mixed,566,551,false,false,false,33.2,0.0,297.936322,257.728090,26.587303,13.620929,synthetic
+2025-07-09,Breakfast,Indian,423,451,false,false,false,23.7,0.0,182.940118,161.354053,12.491501,9.094564,synthetic
+2025-07-09,Lunch,South Indian,658,645,false,false,false,23.7,0.0,349.947708,298.834128,36.503613,14.609967,synthetic
+2025-07-09,Snacks,Beverage and snack,303,289,false,false,false,23.7,0.0,65.880023,57.873149,4.281968,3.724906,synthetic
+2025-07-09,Dinner,North Indian,583,605,false,false,false,23.7,0.0,314.035007,276.487817,22.462128,15.085062,synthetic
+2025-07-10,Breakfast,Indian,417,400,false,false,false,28.4,21.2,126.402701,115.609434,5.140420,5.652847,synthetic
+2025-07-10,Lunch,South Indian,666,657,false,false,false,28.4,21.2,351.377286,300.100981,38.489244,12.787061,synthetic
+2025-07-10,Snacks,Fried,305,299,false,false,false,28.4,21.2,79.646479,71.361572,6.046655,2.238252,synthetic
+2025-07-10,Dinner,Rice-based,561,571,false,false,false,28.4,21.2,269.216119,237.695480,16.694667,14.825972,synthetic
+2025-07-11,Breakfast,Light,427,406,false,false,false,20.4,0.0,160.238506,139.491085,9.569498,11.177923,synthetic
+2025-07-11,Lunch,South Indian,669,689,false,false,false,20.4,0.0,352.845541,319.056413,24.518446,9.270682,synthetic
+2025-07-11,Snacks,Savory,298,277,false,false,false,20.4,0.0,70.895630,62.813719,4.800685,3.281226,synthetic
+2025-07-11,Dinner,Mixed,575,560,false,false,false,20.4,0.0,307.058425,260.965395,32.514919,13.578111,synthetic
+2025-07-12,Breakfast,Indian,375,364,false,false,false,17.7,14.4,154.574401,129.444228,17.653457,7.476716,synthetic
+2025-07-12,Lunch,North Indian,562,551,false,false,false,17.7,14.4,330.590181,280.256473,37.243104,13.090604,synthetic
+2025-07-12,Snacks,Beverage and snack,259,265,false,false,false,17.7,14.4,68.669241,63.309797,3.887729,1.471715,synthetic
+2025-07-12,Dinner,South Indian,498,533,false,false,false,17.7,14.4,226.875419,212.936772,8.043378,5.895269,synthetic
+2025-07-13,Breakfast,Light,372,394,false,false,false,30.9,0.0,157.600210,140.139454,9.054889,8.405867,synthetic
+2025-07-13,Lunch,South Indian,580,539,false,false,false,30.9,0.0,287.459968,253.989294,23.324664,10.146010,synthetic
+2025-07-13,Snacks,Savory,259,268,false,false,false,30.9,0.0,61.290367,52.010667,5.358808,3.920892,synthetic
+2025-07-13,Dinner,North Indian,509,533,false,false,false,30.9,0.0,272.884788,245.231400,19.707460,7.945928,synthetic
+2025-07-14,Breakfast,Continental,367,350,true,false,false,29.4,2.4,138.448144,123.014529,10.089242,5.344373,synthetic
+2025-07-14,Lunch,North Indian,556,524,true,false,false,29.4,2.4,269.858971,239.559821,15.966205,14.332945,synthetic
+2025-07-14,Snacks,Savory,269,263,true,false,false,29.4,2.4,73.573404,63.229538,7.585120,2.758746,synthetic
+2025-07-14,Dinner,North Indian,503,495,true,false,false,29.4,2.4,261.717401,227.902373,20.188835,13.626193,synthetic
+2025-07-15,Breakfast,Light,464,481,false,false,true,27.9,0.0,186.832934,164.795713,12.396319,9.640902,synthetic
+2025-07-15,Lunch,Mixed,705,764,false,false,true,27.9,0.0,475.514162,413.133961,44.216245,18.163956,synthetic
+2025-07-15,Snacks,Beverage and snack,334,335,false,false,true,27.9,0.0,87.673247,77.164996,7.186796,3.321455,synthetic
+2025-07-15,Dinner,Mixed,633,654,false,false,true,27.9,0.0,354.784459,325.898411,16.786451,12.099597,synthetic
+2025-07-16,Breakfast,Continental,421,388,false,false,false,20.1,15.9,153.129578,137.398155,8.351348,7.380075,synthetic
+2025-07-16,Lunch,North Indian,635,625,false,false,false,20.1,15.9,371.789695,337.847720,18.139048,15.802927,synthetic
+2025-07-16,Snacks,Fried,302,280,false,false,false,20.1,15.9,68.154602,61.712023,3.606151,2.836428,synthetic
+2025-07-16,Dinner,Rice-based,584,571,false,false,false,20.1,15.9,295.571807,255.804289,29.461364,10.306154,synthetic
+2025-07-17,Breakfast,Indian,420,423,false,false,false,22.2,10.4,153.676612,144.411437,6.203712,3.061463,synthetic
+2025-07-17,Lunch,Rice-based,657,629,false,false,false,22.2,10.4,368.824001,318.961408,30.698310,19.164283,synthetic
+2025-07-17,Snacks,Beverage and snack,296,322,false,false,false,22.2,10.4,74.528954,62.469249,8.613995,3.445710,synthetic
+2025-07-17,Dinner,South Indian,556,541,false,false,false,22.2,10.4,274.796937,233.387274,18.869404,22.540259,synthetic
+2025-07-18,Breakfast,Light,422,393,false,false,false,34.6,15.5,158.827482,133.792078,12.741640,12.293764,synthetic
+2025-07-18,Lunch,Rice-based,632,670,false,false,false,34.6,15.5,395.632550,343.824489,25.352615,26.455446,synthetic
+2025-07-18,Snacks,Beverage and snack,300,303,false,false,false,34.6,15.5,69.774545,61.009516,6.499312,2.265717,synthetic
+2025-07-18,Dinner,Mixed,580,598,false,false,false,34.6,15.5,347.850589,300.395670,29.567897,17.887022,synthetic
+2025-07-19,Breakfast,Indian,367,386,false,false,false,20.6,0.0,147.714883,129.977105,12.858590,4.879188,synthetic
+2025-07-19,Lunch,Rice-based,585,605,false,false,false,20.6,0.0,359.110423,323.451072,22.758981,12.900370,synthetic
+2025-07-19,Snacks,Beverage and snack,260,267,false,false,false,20.6,0.0,60.474622,53.855999,3.669027,2.949596,synthetic
+2025-07-19,Dinner,South Indian,496,510,false,false,false,20.6,0.0,276.037462,235.716329,19.432983,20.888150,synthetic
+2025-07-20,Breakfast,Indian,366,339,false,false,false,24.5,0.0,120.740076,112.309132,4.479221,3.951723,synthetic
+2025-07-20,Lunch,Mixed,565,594,false,false,false,24.5,0.0,301.614918,263.868765,20.095573,17.650580,synthetic
+2025-07-20,Snacks,Beverage and snack,265,260,false,false,false,24.5,0.0,74.379824,62.830177,8.712126,2.837521,synthetic
+2025-07-20,Dinner,North Indian,507,491,false,false,false,24.5,0.0,271.406873,233.985428,20.631469,16.789976,synthetic
+2025-07-21,Breakfast,Continental,432,416,false,false,false,17.3,0.0,150.181470,125.334414,19.262709,5.584347,synthetic
+2025-07-21,Lunch,North Indian,645,695,false,false,false,17.3,0.0,351.692657,331.649326,12.766507,7.276824,synthetic
+2025-07-21,Snacks,Fried,297,283,false,false,false,17.3,0.0,66.758782,61.973696,2.385249,2.399837,synthetic
+2025-07-21,Dinner,North Indian,576,547,false,false,false,17.3,0.0,266.664853,225.076164,24.202849,17.385840,synthetic
+2025-07-22,Breakfast,Light,425,401,false,false,false,35.4,0.0,153.782199,132.285027,12.499863,8.997309,synthetic
+2025-07-22,Lunch,North Indian,641,643,false,false,false,35.4,0.0,339.557755,296.807205,30.291284,12.459266,synthetic
+2025-07-22,Snacks,Savory,292,278,false,false,false,35.4,0.0,60.522979,54.602835,4.289941,1.630203,synthetic
+2025-07-22,Dinner,Rice-based,554,559,false,false,false,35.4,0.0,292.627510,272.503496,13.560462,6.563552,synthetic
+2025-07-23,Breakfast,Light,409,394,false,false,false,33.1,6.4,139.773927,120.351725,9.562089,9.860113,synthetic
+2025-07-23,Lunch,Mixed,661,593,false,false,false,33.1,6.4,311.931926,274.497059,22.346670,15.088197,synthetic
+2025-07-23,Snacks,Savory,298,298,false,false,false,33.1,6.4,77.960697,69.733706,4.098105,4.128886,synthetic
+2025-07-23,Dinner,Rice-based,553,582,false,false,false,33.1,6.4,315.504152,269.347772,28.050134,18.106246,synthetic
+2025-07-24,Breakfast,Light,425,433,false,false,false,24.1,0.0,158.543287,139.281044,9.637322,9.624921,synthetic
+2025-07-24,Lunch,North Indian,651,641,false,false,false,24.1,0.0,332.570341,313.476181,10.724252,8.369908,synthetic
+2025-07-24,Snacks,Beverage and snack,296,291,false,false,false,24.1,0.0,74.588150,67.282355,5.533499,1.772296,synthetic
+2025-07-24,Dinner,Rice-based,566,585,false,false,false,24.1,0.0,263.287426,246.426714,12.966535,3.894177,synthetic
+2025-07-25,Breakfast,Light,372,356,true,false,false,34.3,0.0,108.293399,101.038952,3.596506,3.657941,synthetic
+2025-07-25,Lunch,Mixed,550,565,true,false,false,34.3,0.0,331.011118,296.331339,20.724094,13.955685,synthetic
+2025-07-25,Snacks,Savory,264,257,true,false,false,34.3,0.0,69.207409,62.764947,3.238042,3.204420,synthetic
+2025-07-25,Dinner,North Indian,501,472,true,false,false,34.3,0.0,235.581786,197.654810,25.104977,12.821999,synthetic
+2025-07-26,Breakfast,Continental,361,347,false,false,false,17.8,0.0,121.097603,108.741882,8.154947,4.200774,synthetic
+2025-07-26,Lunch,North Indian,581,615,false,false,false,17.8,0.0,311.377377,287.567280,15.575868,8.234229,synthetic
+2025-07-26,Snacks,Fried,262,245,false,false,false,17.8,0.0,60.493687,52.424762,3.708145,4.360780,synthetic
+2025-07-26,Dinner,Mixed,506,485,false,false,false,17.8,0.0,231.343332,210.827842,10.492694,10.022796,synthetic
+2025-07-27,Breakfast,Continental,368,349,false,false,false,29.2,20.2,123.355017,110.580787,8.308922,4.465308,synthetic
+2025-07-27,Lunch,Mixed,571,521,false,false,false,29.2,20.2,312.266756,274.971628,25.526149,11.768979,synthetic
+2025-07-27,Snacks,Savory,257,260,false,false,false,29.2,20.2,62.460902,54.130873,5.915170,2.414859,synthetic
+2025-07-27,Dinner,South Indian,509,484,false,false,false,29.2,20.2,242.046642,211.578768,19.458960,11.008914,synthetic
+2025-07-28,Breakfast,Light,423,395,false,false,false,32.3,4.9,139.735942,123.853486,8.098430,7.784026,synthetic
+2025-07-28,Lunch,South Indian,635,605,false,false,false,32.3,4.9,288.012712,255.836493,15.605984,16.570235,synthetic
+2025-07-28,Snacks,Savory,303,303,false,false,false,32.3,4.9,70.878066,63.741431,3.814860,3.321775,synthetic
+2025-07-28,Dinner,South Indian,574,527,false,false,false,32.3,4.9,222.012643,207.390216,7.712263,6.910164,synthetic
+2025-07-29,Breakfast,Continental,414,424,false,false,false,19.3,12.8,172.415491,150.551149,14.347197,7.517145,synthetic
+2025-07-29,Lunch,Mixed,648,693,false,false,false,19.3,12.8,453.877537,386.115232,44.714530,23.047775,synthetic
+2025-07-29,Snacks,Beverage and snack,295,310,false,false,false,19.3,12.8,78.074813,66.170649,8.989096,2.915068,synthetic
+2025-07-29,Dinner,South Indian,581,561,false,false,false,19.3,12.8,298.238487,261.906370,17.673009,18.659108,synthetic
+2025-07-30,Breakfast,Indian,425,406,false,false,false,17.6,0.0,151.788093,138.243824,7.149346,6.394923,synthetic
+2025-07-30,Lunch,Rice-based,641,671,false,false,false,17.6,0.0,355.104576,308.578952,30.364612,16.161012,synthetic
+2025-07-30,Snacks,Beverage and snack,292,318,false,false,false,17.6,0.0,81.357880,68.419403,8.301390,4.637087,synthetic
+2025-07-30,Dinner,Mixed,558,542,false,false,false,17.6,0.0,264.063523,227.642575,27.549350,8.871598,synthetic
+2025-07-31,Breakfast,Indian,423,397,false,false,false,25.9,15.9,156.623714,136.357897,9.409775,10.856042,synthetic
+2025-07-31,Lunch,South Indian,660,644,false,false,false,25.9,15.9,388.759353,331.494201,40.175096,17.090056,synthetic
+2025-07-31,Snacks,Savory,298,300,false,false,false,25.9,15.9,69.104211,59.605655,4.592447,4.906109,synthetic
+2025-07-31,Dinner,Mixed,557,597,false,false,false,25.9,15.9,312.242586,285.661019,16.460185,10.121382,synthetic
+2025-08-01,Breakfast,Light,415,445,false,false,false,25.1,0.0,138.135826,129.592126,3.981702,4.561998,synthetic
+2025-08-01,Lunch,South Indian,669,610,false,false,false,25.1,0.0,339.948648,286.091106,41.500131,12.357411,synthetic
+2025-08-01,Snacks,Savory,293,321,false,false,false,25.1,0.0,78.486569,69.473490,5.202726,3.810353,synthetic
+2025-08-01,Dinner,South Indian,584,549,false,false,false,25.1,0.0,252.184034,226.937928,13.145884,12.100222,synthetic
+2025-08-02,Breakfast,Continental,371,371,false,false,false,17.8,0.0,122.716486,108.694808,8.560025,5.461653,synthetic
+2025-08-02,Lunch,North Indian,580,574,false,false,false,17.8,0.0,354.884166,303.360750,28.198148,23.325268,synthetic
+2025-08-02,Snacks,Beverage and snack,269,275,false,false,false,17.8,0.0,76.796007,65.202730,7.770167,3.823110,synthetic
+2025-08-02,Dinner,Rice-based,502,512,false,false,false,17.8,0.0,228.070911,200.708575,20.577383,6.784953,synthetic
+2025-08-03,Breakfast,Continental,324,297,true,false,false,32.1,0.0,118.732303,99.750350,11.803004,7.178949,synthetic
+2025-08-03,Lunch,North Indian,498,507,true,false,false,32.1,0.0,326.825312,276.111347,37.272399,13.441566,synthetic
+2025-08-03,Snacks,Fried,228,239,true,false,false,32.1,0.0,57.725314,53.840165,1.940645,1.944504,synthetic
+2025-08-03,Dinner,Mixed,442,416,true,false,false,32.1,0.0,198.450735,179.237854,8.845703,10.367178,synthetic
+2025-08-04,Breakfast,Indian,411,446,false,false,false,25.8,1.3,149.865624,136.856263,6.442321,6.567040,synthetic
+2025-08-04,Lunch,Mixed,655,597,false,false,false,25.8,1.3,316.551246,290.600137,19.311471,6.639638,synthetic
+2025-08-04,Snacks,Beverage and snack,302,305,false,false,false,25.8,1.3,77.709701,66.629876,6.583239,4.496586,synthetic
+2025-08-04,Dinner,Rice-based,581,565,false,false,false,25.8,1.3,329.239214,277.341831,33.032728,18.864655,synthetic
+2025-08-05,Breakfast,Light,419,425,false,false,false,19.5,18.5,162.939613,145.550721,11.181236,6.207656,synthetic
+2025-08-05,Lunch,South Indian,633,671,false,false,false,19.5,18.5,356.576562,307.819190,22.817566,25.939806,synthetic
+2025-08-05,Snacks,Fried,303,309,false,false,false,19.5,18.5,70.625908,64.402590,4.101630,2.121688,synthetic
+2025-08-05,Dinner,North Indian,555,607,false,false,false,19.5,18.5,340.758711,289.444116,25.550161,25.764434,synthetic
+2025-08-06,Breakfast,Continental,423,433,false,false,false,29.7,0.0,149.162961,125.709099,12.330384,11.123478,synthetic
+2025-08-06,Lunch,South Indian,637,666,false,false,false,29.7,0.0,331.559087,298.059932,16.827674,16.671481,synthetic
+2025-08-06,Snacks,Beverage and snack,296,322,false,false,false,29.7,0.0,72.213564,65.749016,4.683266,1.781282,synthetic
+2025-08-06,Dinner,South Indian,581,573,false,false,false,29.7,0.0,305.596746,258.114957,25.873155,21.608634,synthetic
+2025-08-07,Breakfast,Indian,413,433,false,false,false,21.8,0.0,144.959925,127.746058,12.067408,5.146459,synthetic
+2025-08-07,Lunch,North Indian,635,602,false,false,false,21.8,0.0,346.954453,304.613415,22.481966,19.859072,synthetic
+2025-08-07,Snacks,Beverage and snack,295,323,false,false,false,21.8,0.0,86.532769,74.065999,9.610816,2.855954,synthetic
+2025-08-07,Dinner,South Indian,573,555,false,false,false,21.8,0.0,300.165281,257.766347,31.767391,10.631543,synthetic
+2025-08-08,Breakfast,Indian,417,398,false,false,false,21.7,0.0,149.883959,140.497116,4.288901,5.097942,synthetic
+2025-08-08,Lunch,Rice-based,639,633,false,false,false,21.7,0.0,322.944125,271.070080,23.402248,28.471797,synthetic
+2025-08-08,Snacks,Beverage and snack,297,295,false,false,false,21.7,0.0,67.136334,62.235541,2.745687,2.155106,synthetic
+2025-08-08,Dinner,Mixed,586,545,false,false,false,21.7,0.0,298.653994,263.044474,17.225641,18.383879,synthetic
+2025-08-09,Breakfast,Continental,367,372,false,false,false,22.1,0.0,150.782500,132.991671,12.264745,5.526084,synthetic
+2025-08-09,Lunch,North Indian,576,537,false,false,false,22.1,0.0,311.183900,274.217231,24.815684,12.150985,synthetic
+2025-08-09,Snacks,Beverage and snack,260,284,false,false,false,22.1,0.0,70.118591,61.837422,5.218599,3.062570,synthetic
+2025-08-09,Dinner,North Indian,499,471,false,false,false,22.1,0.0,219.220120,194.541164,17.445777,7.233179,synthetic
+2025-08-10,Breakfast,Continental,375,386,false,false,false,20.0,6.1,141.316930,124.824389,8.289107,8.203434,synthetic
+2025-08-10,Lunch,South Indian,584,528,false,false,false,20.0,6.1,304.173659,273.782020,18.933134,11.458505,synthetic
+2025-08-10,Snacks,Savory,264,252,false,false,false,20.0,6.1,63.902889,54.385182,6.540253,2.977454,synthetic
+2025-08-10,Dinner,Mixed,506,527,false,false,false,20.0,6.1,248.792468,217.698039,23.083450,8.010979,synthetic
+2025-08-11,Breakfast,Continental,410,440,false,false,false,32.1,21.4,151.646967,131.943709,11.984359,7.718899,synthetic
+2025-08-11,Lunch,Mixed,635,640,false,false,false,32.1,21.4,374.481044,314.294087,43.952026,16.234931,synthetic
+2025-08-11,Snacks,Beverage and snack,299,303,false,false,false,32.1,21.4,65.480281,59.401883,3.542130,2.536268,synthetic
+2025-08-11,Dinner,South Indian,572,529,false,false,false,32.1,21.4,284.007114,245.934855,24.332955,13.739304,synthetic
+2025-08-12,Breakfast,Continental,90,90,false,true,false,34.3,0.0,36.756980,31.205941,3.985175,1.565864,synthetic
+2025-08-12,Lunch,North Indian,143,138,false,true,false,34.3,0.0,81.613324,68.201305,6.095939,7.316080,synthetic
+2025-08-12,Snacks,Savory,67,66,false,true,false,34.3,0.0,18.323437,16.164880,1.556541,0.602016,synthetic
+2025-08-12,Dinner,South Indian,125,120,false,true,false,34.3,0.0,63.268895,54.563099,5.033219,3.672577,synthetic
+2025-08-13,Breakfast,Continental,413,439,false,false,false,25.2,0.0,162.494949,137.847805,11.169431,13.477713,synthetic
+2025-08-13,Lunch,Mixed,642,688,false,false,false,25.2,0.0,410.777351,367.335922,29.806542,13.634887,synthetic
+2025-08-13,Snacks,Fried,300,301,false,false,false,25.2,0.0,85.842505,73.576895,9.337039,2.928571,synthetic
+2025-08-13,Dinner,North Indian,554,570,false,false,false,25.2,0.0,275.514127,252.657556,11.143293,11.713278,synthetic
+2025-08-14,Breakfast,Continental,91,92,false,true,false,30.4,3.7,30.912266,27.265070,1.664049,1.983147,synthetic
+2025-08-14,Lunch,Mixed,145,153,false,true,false,30.4,3.7,90.968424,83.829343,4.013909,3.125172,synthetic
+2025-08-14,Snacks,Savory,67,64,false,true,false,30.4,3.7,15.057249,13.461903,0.741812,0.853534,synthetic
+2025-08-14,Dinner,South Indian,129,133,false,true,false,30.4,3.7,66.115398,58.908695,3.336026,3.870677,synthetic
+2025-08-15,Breakfast,Continental,427,446,false,false,false,19.7,0.0,159.204316,137.375277,13.234449,8.594590,synthetic
+2025-08-15,Lunch,South Indian,633,699,false,false,false,19.7,0.0,387.763080,355.895837,20.100522,11.766721,synthetic
+2025-08-15,Snacks,Fried,306,309,false,false,false,19.7,0.0,78.575695,70.675471,5.366858,2.533366,synthetic
+2025-08-15,Dinner,South Indian,584,519,false,false,false,19.7,0.0,267.650343,232.111327,23.847855,11.691161,synthetic
+2025-08-16,Breakfast,Continental,366,376,false,false,false,20.1,0.0,141.030285,120.907400,12.715588,7.407297,synthetic
+2025-08-16,Lunch,Mixed,573,602,false,false,false,20.1,0.0,347.001855,323.618632,14.310055,9.073168,synthetic
+2025-08-16,Snacks,Beverage and snack,258,251,false,false,false,20.1,0.0,53.749778,48.759928,3.466301,1.523549,synthetic
+2025-08-16,Dinner,Rice-based,488,505,false,false,false,20.1,0.0,220.932375,196.166782,18.223244,6.542349,synthetic
+2025-08-17,Breakfast,Light,364,381,false,false,false,21.3,10.5,135.451858,127.285938,5.722417,2.443503,synthetic
+2025-08-17,Lunch,Rice-based,585,538,false,false,false,21.3,10.5,302.351867,256.088402,31.593565,14.669900,synthetic
+2025-08-17,Snacks,Beverage and snack,267,272,false,false,false,21.3,10.5,58.268594,54.650002,2.684642,0.933950,synthetic
+2025-08-17,Dinner,South Indian,515,510,false,false,false,21.3,10.5,294.170327,247.941989,30.283229,15.945109,synthetic
+2025-08-18,Breakfast,Continental,355,339,true,false,false,32.7,14.3,124.317311,104.272734,12.045724,7.998853,synthetic
+2025-08-18,Lunch,Rice-based,564,584,true,false,false,32.7,14.3,336.694392,281.736846,31.075900,23.881646,synthetic
+2025-08-18,Snacks,Fried,257,267,true,false,false,32.7,14.3,59.655927,56.084120,2.655871,0.915936,synthetic
+2025-08-18,Dinner,Rice-based,490,520,true,false,false,32.7,14.3,262.487244,219.803575,31.155740,11.527929,synthetic
+2025-08-19,Breakfast,Indian,417,429,false,false,false,19.4,0.0,159.106295,148.174589,5.540267,5.391439,synthetic
+2025-08-19,Lunch,South Indian,653,608,false,false,false,19.4,0.0,313.419645,291.833466,9.971793,11.614386,synthetic
+2025-08-19,Snacks,Savory,296,291,false,false,false,19.4,0.0,76.098848,66.568583,4.712882,4.817383,synthetic
+2025-08-19,Dinner,North Indian,579,525,false,false,false,19.4,0.0,273.229657,246.530754,18.697632,8.001271,synthetic
+2025-08-20,Breakfast,Light,366,393,true,false,false,30.3,0.0,119.119051,110.685352,4.119200,4.314499,synthetic
+2025-08-20,Lunch,Rice-based,565,547,true,false,false,30.3,0.0,256.570974,239.520033,8.123275,8.927666,synthetic
+2025-08-20,Snacks,Fried,262,244,true,false,false,30.3,0.0,67.205313,59.878406,3.589092,3.737815,synthetic
+2025-08-20,Dinner,Mixed,489,482,true,false,false,30.3,0.0,221.628190,194.890261,20.556311,6.181618,synthetic
+2025-08-21,Breakfast,Light,409,445,false,false,false,20.6,0.0,153.852216,140.882439,7.710471,5.259306,synthetic
+2025-08-21,Lunch,South Indian,666,670,false,false,false,20.6,0.0,346.062098,301.448331,21.991000,22.622767,synthetic
+2025-08-21,Snacks,Fried,294,317,false,false,false,20.6,0.0,87.446413,80.390211,4.258602,2.797600,synthetic
+2025-08-21,Dinner,Rice-based,558,527,false,false,false,20.6,0.0,266.523235,236.919987,22.243276,7.359972,synthetic
+2025-08-22,Breakfast,Continental,427,424,false,false,false,22.2,0.0,158.799848,147.378701,6.603288,4.817859,synthetic
+2025-08-22,Lunch,Mixed,653,660,false,false,false,22.2,0.0,433.730622,361.490467,32.639549,39.600606,synthetic
+2025-08-22,Snacks,Beverage and snack,303,323,false,false,false,22.2,0.0,89.168982,77.495990,7.032036,4.640956,synthetic
+2025-08-22,Dinner,Rice-based,577,535,false,false,false,22.2,0.0,252.686509,214.323739,26.596305,11.766465,synthetic
+2025-08-23,Breakfast,Indian,377,354,false,false,false,21.6,0.0,118.666049,104.962450,10.449778,3.253821,synthetic
+2025-08-23,Lunch,South Indian,563,610,false,false,false,21.6,0.0,373.383739,322.912109,31.432577,19.039053,synthetic
+2025-08-23,Snacks,Beverage and snack,267,264,false,false,false,21.6,0.0,68.562408,62.798624,2.752367,3.011417,synthetic
+2025-08-23,Dinner,Mixed,487,464,false,false,false,21.6,0.0,240.522957,219.848059,12.059131,8.615767,synthetic
+2025-08-24,Breakfast,Continental,364,388,false,false,false,21.4,0.0,121.445457,111.053864,6.983309,3.408284,synthetic
+2025-08-24,Lunch,North Indian,557,572,false,false,false,21.4,0.0,354.527537,307.790929,30.351924,16.384684,synthetic
+2025-08-24,Snacks,Fried,269,240,false,false,false,21.4,0.0,70.004801,58.653455,6.751450,4.599896,synthetic
+2025-08-24,Dinner,Rice-based,509,511,false,false,false,21.4,0.0,265.726603,242.744536,13.838740,9.143327,synthetic
+2025-08-25,Breakfast,Indian,408,419,false,false,false,19.4,0.0,138.531417,125.454045,7.311181,5.766191,synthetic
+2025-08-25,Lunch,South Indian,651,635,false,false,false,19.4,0.0,397.678218,340.810506,31.653322,25.214390,synthetic
+2025-08-25,Snacks,Fried,293,277,false,false,false,19.4,0.0,74.626539,69.052263,3.246889,2.327387,synthetic
+2025-08-25,Dinner,Mixed,570,531,false,false,false,19.4,0.0,305.020663,268.797664,21.671599,14.551400,synthetic
+2025-08-26,Breakfast,Continental,427,395,false,false,false,27.2,8.9,136.000414,115.466127,14.149673,6.384614,synthetic
+2025-08-26,Lunch,Rice-based,656,629,false,false,false,27.2,8.9,315.115951,276.370834,18.018459,20.726658,synthetic
+2025-08-26,Snacks,Fried,301,276,false,false,false,27.2,8.9,74.045525,64.752872,5.220567,4.072086,synthetic
+2025-08-26,Dinner,Rice-based,587,554,false,false,false,27.2,8.9,273.919547,234.968541,24.146085,14.804921,synthetic
+2025-08-27,Breakfast,Continental,408,397,false,false,false,34.0,0.0,156.189037,139.650155,9.357786,7.181096,synthetic
+2025-08-27,Lunch,Rice-based,666,628,false,false,false,34.0,0.0,361.796935,305.110607,40.071522,16.614806,synthetic
+2025-08-27,Snacks,Fried,300,293,false,false,false,34.0,0.0,79.688837,69.089392,5.428806,5.170639,synthetic
+2025-08-27,Dinner,North Indian,576,546,false,false,false,34.0,0.0,279.984004,246.813178,25.350519,7.820307,synthetic
+2025-08-28,Breakfast,Indian,423,414,false,false,false,35.7,6.9,156.124884,134.601460,13.218952,8.304472,synthetic
+2025-08-28,Lunch,Mixed,659,614,false,false,false,35.7,6.9,326.210755,292.497864,24.431286,9.281605,synthetic
+2025-08-28,Snacks,Savory,294,320,false,false,false,35.7,6.9,69.110099,64.111977,2.399877,2.598245,synthetic
+2025-08-28,Dinner,South Indian,562,557,false,false,false,35.7,6.9,257.171373,226.526585,20.547773,10.097015,synthetic
+2025-08-29,Breakfast,Light,424,405,false,false,false,18.5,0.0,141.526722,125.402164,12.149147,3.975411,synthetic
+2025-08-29,Lunch,South Indian,661,638,false,false,false,18.5,0.0,304.548438,287.023446,12.312423,5.212569,synthetic
+2025-08-29,Snacks,Savory,307,280,false,false,false,18.5,0.0,63.491172,55.078456,4.615845,3.796871,synthetic
+2025-08-29,Dinner,South Indian,585,601,false,false,false,18.5,0.0,259.304742,238.799404,15.683694,4.821644,synthetic
+2025-08-30,Breakfast,Indian,361,370,false,false,false,33.8,13.2,139.652318,130.126315,5.059822,4.466181,synthetic
+2025-08-30,Lunch,Rice-based,567,529,false,false,false,33.8,13.2,275.472115,258.799909,12.476622,4.195584,synthetic
+2025-08-30,Snacks,Savory,271,247,false,false,false,33.8,13.2,66.823588,59.554486,5.304196,1.964906,synthetic
+2025-08-30,Dinner,Mixed,487,500,false,false,false,33.8,13.2,277.026522,245.820008,23.712813,7.493701,synthetic
+2025-08-31,Breakfast,Indian,366,348,false,false,false,28.0,23.9,138.722208,118.846948,13.954111,5.921149,synthetic
+2025-08-31,Lunch,Mixed,557,533,false,false,false,28.0,23.9,285.388601,256.276811,20.836316,8.275474,synthetic
+2025-08-31,Snacks,Beverage and snack,265,257,false,false,false,28.0,23.9,57.785221,51.003605,3.741982,3.039634,synthetic
+2025-08-31,Dinner,Rice-based,496,517,false,false,false,28.0,23.9,258.404438,238.506848,9.942379,9.955211,synthetic
+2025-09-01,Breakfast,Light,415,407,false,false,false,17.1,0.0,161.095994,142.786532,12.546244,5.763218,synthetic
+2025-09-01,Lunch,Rice-based,644,636,false,false,false,17.1,0.0,305.098074,271.123040,21.715409,12.259625,synthetic
+2025-09-01,Snacks,Fried,299,282,false,false,false,17.1,0.0,81.024613,69.856108,8.086372,3.082133,synthetic
+2025-09-01,Dinner,North Indian,556,574,false,false,false,17.1,0.0,281.946415,236.352650,21.548569,24.045196,synthetic
+2025-09-02,Breakfast,Continental,431,387,false,false,false,18.7,16.4,150.383998,126.498659,12.777969,11.107370,synthetic
+2025-09-02,Lunch,North Indian,636,618,false,false,false,18.7,16.4,326.213384,280.332600,26.058255,19.822529,synthetic
+2025-09-02,Snacks,Fried,298,322,false,false,false,18.7,16.4,79.996965,69.187531,5.631254,5.178180,synthetic
+2025-09-02,Dinner,South Indian,581,574,false,false,false,18.7,16.4,253.407407,228.372186,16.886733,8.148488,synthetic
+2025-09-03,Breakfast,Indian,415,416,false,false,false,17.4,0.0,148.750703,134.535206,8.011079,6.204418,synthetic
+2025-09-03,Lunch,North Indian,643,638,false,false,false,17.4,0.0,362.683566,317.682448,34.163145,10.837973,synthetic
+2025-09-03,Snacks,Fried,293,281,false,false,false,17.4,0.0,80.315895,71.489836,5.411099,3.414960,synthetic
+2025-09-03,Dinner,Rice-based,568,557,false,false,false,17.4,0.0,292.472580,254.973702,23.015642,14.483236,synthetic
+2025-09-04,Breakfast,Indian,91,86,false,true,false,28.1,10.4,32.083371,28.766408,2.218110,1.098853,synthetic
+2025-09-04,Lunch,Mixed,141,133,false,true,false,28.1,10.4,67.680683,58.550543,5.293102,3.837038,synthetic
+2025-09-04,Snacks,Savory,67,65,false,true,false,28.1,10.4,15.366160,12.822314,1.270884,1.272962,synthetic
+2025-09-04,Dinner,Rice-based,123,132,false,true,false,28.1,10.4,63.324085,53.949176,5.412601,3.962308,synthetic
+2025-09-05,Breakfast,Indian,427,413,false,false,false,18.8,4.2,158.946161,135.884272,17.575816,5.486073,synthetic
+2025-09-05,Lunch,Mixed,665,688,false,false,false,18.8,4.2,392.235008,344.323944,30.540187,17.370877,synthetic
+2025-09-05,Snacks,Fried,308,293,false,false,false,18.8,4.2,84.480257,71.286382,9.344198,3.849677,synthetic
+2025-09-05,Dinner,North Indian,565,602,false,false,false,18.8,4.2,322.844788,281.393838,24.342982,17.107968,synthetic
+2025-09-06,Breakfast,Light,379,350,false,false,false,27.8,0.0,117.860339,110.473648,5.288800,2.097891,synthetic
+2025-09-06,Lunch,North Indian,561,533,false,false,false,27.8,0.0,256.472662,238.505805,10.466202,7.500655,synthetic
+2025-09-06,Snacks,Savory,267,249,false,false,false,27.8,0.0,62.121424,53.498295,6.006732,2.616397,synthetic
+2025-09-06,Dinner,South Indian,514,513,false,false,false,27.8,0.0,272.494644,251.778059,11.749400,8.967185,synthetic
+2025-09-07,Breakfast,Indian,83,78,false,true,false,21.1,6.6,30.951627,26.815568,2.512723,1.623336,synthetic
+2025-09-07,Lunch,North Indian,125,125,false,true,false,21.1,6.6,68.782428,63.674064,3.697874,1.410490,synthetic
+2025-09-07,Snacks,Beverage and snack,60,53,false,true,false,21.1,6.6,12.573812,10.812399,0.802037,0.959376,synthetic
+2025-09-07,Dinner,Rice-based,111,115,false,true,false,21.1,6.6,54.257240,50.609958,2.227925,1.419357,synthetic
+2025-09-08,Breakfast,Continental,412,405,false,false,false,22.9,0.0,148.976871,137.227254,6.386161,5.363456,synthetic
+2025-09-08,Lunch,Mixed,660,648,false,false,false,22.9,0.0,341.060524,310.736562,17.725301,12.598661,synthetic
+2025-09-08,Snacks,Savory,293,278,false,false,false,22.9,0.0,66.817178,59.572752,3.920974,3.323452,synthetic
+2025-09-08,Dinner,South Indian,571,604,false,false,false,22.9,0.0,311.383459,277.549446,24.979641,8.854372,synthetic
+2025-09-09,Breakfast,Light,424,435,false,false,false,31.1,0.0,148.248629,126.240902,10.742890,11.264837,synthetic
+2025-09-09,Lunch,Mixed,632,605,false,false,false,31.1,0.0,354.467142,322.958812,14.480040,17.028290,synthetic
+2025-09-09,Snacks,Fried,301,290,false,false,false,31.1,0.0,84.496788,73.930524,8.036136,2.530128,synthetic
+2025-09-09,Dinner,Rice-based,565,559,false,false,false,31.1,0.0,286.965045,253.542517,15.996774,17.425754,synthetic
+2025-09-10,Breakfast,Continental,431,435,false,false,false,24.9,0.0,178.843142,154.626151,17.563434,6.653557,synthetic
+2025-09-10,Lunch,North Indian,647,621,false,false,false,24.9,0.0,382.952878,328.438287,42.001480,12.513111,synthetic
+2025-09-10,Snacks,Fried,292,285,false,false,false,24.9,0.0,66.841275,58.951549,3.587381,4.302345,synthetic
+2025-09-10,Dinner,South Indian,577,573,false,false,false,24.9,0.0,313.438452,261.494881,31.434357,20.509214,synthetic
+2025-09-11,Breakfast,Continental,422,396,false,false,false,22.5,22.7,149.763248,136.118765,9.722837,3.921646,synthetic
+2025-09-11,Lunch,South Indian,632,637,false,false,false,22.5,22.7,323.707198,293.088040,16.911319,13.707839,synthetic
+2025-09-11,Snacks,Savory,308,279,false,false,false,22.5,22.7,59.248846,54.831682,2.446155,1.971009,synthetic
+2025-09-11,Dinner,Rice-based,586,538,false,false,false,22.5,22.7,259.782462,241.597528,11.961714,6.223220,synthetic
+2025-09-12,Breakfast,Continental,415,396,false,false,false,28.4,0.0,161.709772,136.436529,15.212679,10.060564,synthetic
+2025-09-12,Lunch,South Indian,646,643,false,false,false,28.4,0.0,310.188305,290.881980,10.646820,8.659505,synthetic
+2025-09-12,Snacks,Savory,306,322,false,false,false,28.4,0.0,87.228718,75.650297,8.527344,3.051077,synthetic
+2025-09-12,Dinner,Rice-based,573,569,false,false,false,28.4,0.0,328.005582,275.027139,33.543642,19.434801,synthetic
+2025-09-13,Breakfast,Continental,371,379,false,false,false,34.8,4.8,145.682012,122.928645,15.321108,7.432259,synthetic
+2025-09-13,Lunch,South Indian,579,575,false,false,false,34.8,4.8,259.100045,244.282124,8.944759,5.873162,synthetic
+2025-09-13,Snacks,Savory,262,241,false,false,false,34.8,4.8,66.671602,57.034569,4.643825,4.993208,synthetic
+2025-09-13,Dinner,Rice-based,516,542,false,false,false,34.8,4.8,254.810886,215.964877,18.818242,20.027767,synthetic
+2025-09-14,Breakfast,Indian,365,394,false,false,false,32.4,19.7,143.961439,126.606116,10.500319,6.855004,synthetic
+2025-09-14,Lunch,South Indian,574,597,false,false,false,32.4,19.7,315.490563,265.389598,28.648898,21.452067,synthetic
+2025-09-14,Snacks,Fried,266,276,false,false,false,32.4,19.7,72.132097,61.444788,8.311133,2.376176,synthetic
+2025-09-14,Dinner,South Indian,506,514,false,false,false,32.4,19.7,264.097031,225.913054,22.034966,16.149011,synthetic
+2025-09-15,Breakfast,Continental,418,400,false,false,false,29.3,0.0,145.620963,135.775643,4.936455,4.908865,synthetic
+2025-09-15,Lunch,South Indian,642,672,false,false,false,29.3,0.0,360.316193,314.986236,27.473571,17.856386,synthetic
+2025-09-15,Snacks,Savory,295,282,false,false,false,29.3,0.0,77.374241,64.709967,8.312013,4.352261,synthetic
+2025-09-15,Dinner,South Indian,568,528,false,false,false,29.3,0.0,245.394380,216.840266,14.837866,13.716248,synthetic
+2025-09-16,Breakfast,Continental,427,422,false,false,false,33.2,0.0,170.393261,143.379071,12.647917,14.366273,synthetic
+2025-09-16,Lunch,South Indian,637,627,false,false,false,33.2,0.0,331.596784,303.479201,18.724631,9.392952,synthetic
+2025-09-16,Snacks,Savory,295,293,false,false,false,33.2,0.0,81.642039,70.139234,8.575757,2.927048,synthetic
+2025-09-16,Dinner,South Indian,576,608,false,false,false,33.2,0.0,276.504451,236.583353,27.219965,12.701133,synthetic
+2025-09-17,Breakfast,Indian,430,391,false,false,false,33.0,0.0,157.477463,137.093912,15.877437,4.506114,synthetic
+2025-09-17,Lunch,South Indian,666,628,false,false,false,33.0,0.0,357.290063,323.726358,24.885678,8.678027,synthetic
+2025-09-17,Snacks,Beverage and snack,305,284,false,false,false,33.0,0.0,62.894824,56.929319,3.242754,2.722751,synthetic
+2025-09-17,Dinner,Mixed,563,534,false,false,false,33.0,0.0,236.773278,217.836687,12.024018,6.912573,synthetic
+2025-09-18,Breakfast,Light,432,420,false,false,false,28.8,21.6,163.445451,141.681239,16.048582,5.715630,synthetic
+2025-09-18,Lunch,South Indian,639,657,false,false,false,28.8,21.6,327.128408,293.065074,24.286482,9.776852,synthetic
+2025-09-18,Snacks,Savory,297,283,false,false,false,28.8,21.6,73.645756,66.491242,5.390857,1.763657,synthetic
+2025-09-18,Dinner,Mixed,578,531,false,false,false,28.8,21.6,258.593046,224.604541,15.851175,18.137330,synthetic
+2025-09-19,Breakfast,Indian,409,401,false,false,false,34.5,0.0,143.391463,120.218637,15.135558,8.037268,synthetic
+2025-09-19,Lunch,Mixed,635,629,false,false,false,34.5,0.0,374.647655,350.347158,17.044883,7.255614,synthetic
+2025-09-19,Snacks,Fried,302,277,false,false,false,34.5,0.0,66.672835,57.203989,4.796234,4.672612,synthetic
+2025-09-19,Dinner,North Indian,569,559,false,false,false,34.5,0.0,288.496895,247.886145,26.384930,14.225820,synthetic
+2025-09-20,Breakfast,Light,376,389,false,false,false,27.9,16.5,158.259383,137.434433,9.397880,11.427070,synthetic
+2025-09-20,Lunch,Mixed,588,608,false,false,false,27.9,16.5,313.528106,282.840671,13.878611,16.808824,synthetic
+2025-09-20,Snacks,Beverage and snack,266,259,false,false,false,27.9,16.5,59.476522,52.656969,3.899333,2.920220,synthetic
+2025-09-20,Dinner,Rice-based,499,523,false,false,false,27.9,16.5,283.126976,248.549494,23.007335,11.570147,synthetic
+2025-09-21,Breakfast,Indian,370,390,false,false,false,32.9,0.0,151.664953,129.250590,15.612036,6.802327,synthetic
+2025-09-21,Lunch,Rice-based,585,609,false,false,false,32.9,0.0,324.252854,294.739886,14.564555,14.948413,synthetic
+2025-09-21,Snacks,Fried,267,268,false,false,false,32.9,0.0,74.898974,68.568796,2.968725,3.361453,synthetic
+2025-09-21,Dinner,North Indian,505,535,false,false,false,32.9,0.0,275.347877,252.126452,15.099606,8.121819,synthetic
+2025-09-22,Breakfast,Continental,430,389,false,false,false,25.3,15.8,151.630380,131.388617,12.798055,7.443708,synthetic
+2025-09-22,Lunch,Rice-based,657,598,false,false,false,25.3,15.8,317.783102,299.053741,14.548859,4.180502,synthetic
+2025-09-22,Snacks,Savory,305,294,false,false,false,25.3,15.8,84.725392,71.140020,6.948181,6.637191,synthetic
+2025-09-22,Dinner,Mixed,563,584,false,false,false,25.3,15.8,301.768034,282.119508,14.283267,5.365259,synthetic
+2025-09-23,Breakfast,Indian,426,393,false,false,false,20.0,0.0,123.904262,116.669257,3.366404,3.868601,synthetic
+2025-09-23,Lunch,Mixed,634,653,false,false,false,20.0,0.0,344.947802,311.545746,22.338576,11.063480,synthetic
+2025-09-23,Snacks,Fried,296,274,false,false,false,20.0,0.0,68.361465,61.567284,5.005394,1.788787,synthetic
+2025-09-23,Dinner,Mixed,563,597,false,false,false,20.0,0.0,304.290943,274.530126,22.763278,6.997539,synthetic
+2025-09-24,Breakfast,Indian,426,452,false,false,false,30.7,0.0,167.666225,143.417783,18.117268,6.131174,synthetic
+2025-09-24,Lunch,Mixed,661,683,false,false,false,30.7,0.0,367.930414,335.735045,20.104532,12.090837,synthetic
+2025-09-24,Snacks,Beverage and snack,302,291,false,false,false,30.7,0.0,84.539895,70.920275,9.060984,4.558636,synthetic
+2025-09-24,Dinner,South Indian,559,583,false,false,false,30.7,0.0,268.350918,239.764772,21.985923,6.600223,synthetic
+2025-09-25,Breakfast,Light,364,374,true,false,false,24.2,16.3,138.233088,124.057701,7.052738,7.122649,synthetic
+2025-09-25,Lunch,South Indian,581,605,true,false,false,24.2,16.3,286.678766,265.237727,10.611344,10.829695,synthetic
+2025-09-25,Snacks,Beverage and snack,265,270,true,false,false,24.2,16.3,63.466709,55.645446,4.757735,3.063528,synthetic
+2025-09-25,Dinner,Rice-based,497,478,true,false,false,24.2,16.3,255.692049,229.527719,19.959696,6.204634,synthetic
+2025-09-26,Breakfast,Continental,410,384,false,false,false,33.3,19.6,126.598004,110.306610,9.280090,7.011304,synthetic
+2025-09-26,Lunch,North Indian,668,663,false,false,false,33.3,19.6,360.511049,335.924266,12.873539,11.713244,synthetic
+2025-09-26,Snacks,Fried,305,322,false,false,false,33.3,19.6,86.803867,79.352660,4.761156,2.690051,synthetic
+2025-09-26,Dinner,North Indian,575,593,false,false,false,33.3,19.6,331.933759,296.378104,26.678345,8.877310,synthetic
+2025-09-27,Breakfast,Continental,369,338,false,false,false,28.1,0.0,118.539907,107.038372,8.842071,2.659464,synthetic
+2025-09-27,Lunch,South Indian,577,585,false,false,false,28.1,0.0,355.200837,311.897169,24.176529,19.127139,synthetic
+2025-09-27,Snacks,Fried,269,262,false,false,false,28.1,0.0,76.411875,66.237018,6.597762,3.577095,synthetic
+2025-09-27,Dinner,Mixed,492,498,false,false,false,28.1,0.0,256.233244,239.646430,11.216202,5.370612,synthetic
+2025-09-28,Breakfast,Indian,374,398,false,false,false,29.0,0.0,129.600532,118.320507,5.353177,5.926848,synthetic
+2025-09-28,Lunch,Mixed,576,565,false,false,false,29.0,0.0,310.173116,272.158902,21.877295,16.136919,synthetic
+2025-09-28,Snacks,Fried,265,272,false,false,false,29.0,0.0,74.005334,63.232664,7.678887,3.093783,synthetic
+2025-09-28,Dinner,South Indian,510,534,false,false,false,29.0,0.0,286.813551,252.293340,17.330838,17.189373,synthetic
+2025-09-29,Breakfast,Light,419,442,false,false,false,19.1,0.0,149.833168,126.697691,17.758879,5.376598,synthetic
+2025-09-29,Lunch,South Indian,650,660,false,false,false,19.1,0.0,346.282432,311.643474,19.961088,14.677870,synthetic
+2025-09-29,Snacks,Fried,292,303,false,false,false,19.1,0.0,74.708951,65.441191,5.804942,3.462818,synthetic
+2025-09-29,Dinner,Rice-based,586,615,false,false,false,19.1,0.0,303.184018,264.691192,26.010931,12.481895,synthetic
+2025-09-30,Breakfast,Indian,426,402,false,false,false,24.1,0.0,149.278441,134.576138,7.958977,6.743326,synthetic
+2025-09-30,Lunch,Mixed,650,647,false,false,false,24.1,0.0,380.774343,335.715637,25.873379,19.185327,synthetic
+2025-09-30,Snacks,Fried,305,299,false,false,false,24.1,0.0,87.951852,74.839284,6.395856,6.716712,synthetic
+2025-09-30,Dinner,Mixed,570,541,false,false,false,24.1,0.0,281.883053,247.721132,21.407701,12.754220,synthetic
+2025-10-01,Breakfast,Indian,411,423,false,false,false,23.4,7.8,163.331380,147.484744,7.865897,7.980739,synthetic
+2025-10-01,Lunch,North Indian,666,667,false,false,false,23.4,7.8,372.228414,317.232593,38.693119,16.302702,synthetic
+2025-10-01,Snacks,Beverage and snack,305,318,false,false,false,23.4,7.8,74.722328,64.716400,5.842632,4.163296,synthetic
+2025-10-01,Dinner,Rice-based,562,531,false,false,false,23.4,7.8,284.038759,250.765046,17.025546,16.248167,synthetic
+2025-10-02,Breakfast,Light,409,431,false,false,false,28.0,0.0,174.985878,150.494330,11.599273,12.892275,synthetic
+2025-10-02,Lunch,Rice-based,632,599,false,false,false,28.0,0.0,342.787235,320.726749,11.493528,10.566958,synthetic
+2025-10-02,Snacks,Beverage and snack,291,285,false,false,false,28.0,0.0,68.389740,63.141026,2.705209,2.543505,synthetic
+2025-10-02,Dinner,Rice-based,573,584,false,false,false,28.0,0.0,295.297069,255.369685,27.770490,12.156894,synthetic
+2025-10-03,Breakfast,Continental,430,444,false,false,false,18.1,0.0,149.050156,137.267295,8.054789,3.728072,synthetic
+2025-10-03,Lunch,Mixed,640,652,false,false,false,18.1,0.0,349.909208,293.048895,28.815825,28.044488,synthetic
+2025-10-03,Snacks,Savory,297,280,false,false,false,18.1,0.0,74.453593,67.422317,3.403800,3.627476,synthetic
+2025-10-03,Dinner,Rice-based,561,558,false,false,false,18.1,0.0,276.125715,259.532059,9.827345,6.766311,synthetic
+2025-10-04,Breakfast,Continental,365,380,false,false,false,24.8,0.0,138.037538,124.472758,8.155715,5.409065,synthetic
+2025-10-04,Lunch,Rice-based,568,547,false,false,false,24.8,0.0,258.103797,234.235048,17.258573,6.610176,synthetic
+2025-10-04,Snacks,Beverage and snack,271,273,false,false,false,24.8,0.0,64.835924,58.562355,4.762816,1.510753,synthetic
+2025-10-04,Dinner,South Indian,509,500,false,false,false,24.8,0.0,282.583304,238.055721,33.718051,10.809532,synthetic
+2025-10-05,Breakfast,Continental,79,78,false,true,false,32.8,0.0,26.240952,21.995526,2.186696,2.058730,synthetic
+2025-10-05,Lunch,South Indian,129,123,false,true,false,32.8,0.0,61.944963,54.158216,4.789972,2.996775,synthetic
+2025-10-05,Snacks,Beverage and snack,57,59,false,true,false,32.8,0.0,15.146392,13.465485,0.854023,0.826884,synthetic
+2025-10-05,Dinner,North Indian,111,102,false,true,false,32.8,0.0,53.429654,46.264581,5.429635,1.735438,synthetic
+2025-10-06,Breakfast,Light,416,406,false,false,false,31.5,0.0,133.063278,116.242625,9.254993,7.565660,synthetic
+2025-10-06,Lunch,North Indian,663,609,false,false,false,31.5,0.0,338.389490,295.343537,23.214159,19.831794,synthetic
+2025-10-06,Snacks,Savory,306,307,false,false,false,31.5,0.0,69.408237,60.371629,4.374522,4.662086,synthetic
+2025-10-06,Dinner,North Indian,563,564,false,false,false,31.5,0.0,272.009461,252.804268,9.086748,10.118445,synthetic
+2025-10-07,Breakfast,Light,419,421,false,false,false,31.4,0.0,144.599845,132.633270,7.452636,4.513939,synthetic
+2025-10-07,Lunch,South Indian,664,684,false,false,false,31.4,0.0,388.934368,350.884286,26.086314,11.963768,synthetic
+2025-10-07,Snacks,Fried,295,310,false,false,false,31.4,0.0,73.613480,64.759936,6.390989,2.462555,synthetic
+2025-10-07,Dinner,Mixed,573,601,false,false,false,31.4,0.0,338.823739,289.782017,34.733371,14.308351,synthetic
+2025-10-08,Breakfast,Light,431,430,false,false,false,33.5,0.0,143.598357,129.779635,10.740974,3.077748,synthetic
+2025-10-08,Lunch,Rice-based,643,596,false,false,false,33.5,0.0,329.449932,290.787561,20.432433,18.229938,synthetic
+2025-10-08,Snacks,Savory,294,294,false,false,false,33.5,0.0,68.254726,64.298176,1.988292,1.968258,synthetic
+2025-10-08,Dinner,South Indian,556,606,false,false,false,33.5,0.0,254.085516,237.246109,10.741354,6.098053,synthetic
+2025-10-09,Breakfast,Continental,421,399,false,false,false,27.9,0.0,154.847858,138.848626,8.111990,7.887242,synthetic
+2025-10-09,Lunch,Mixed,642,636,false,false,false,27.9,0.0,342.966589,307.065816,27.568529,8.332244,synthetic
+2025-10-09,Snacks,Beverage and snack,307,304,false,false,false,27.9,0.0,74.950504,69.206445,3.167866,2.576193,synthetic
+2025-10-09,Dinner,Mixed,577,538,false,false,false,27.9,0.0,257.895659,219.525218,18.999900,19.370541,synthetic
+2025-10-10,Breakfast,Continental,417,421,false,false,false,17.5,0.0,148.677313,135.732931,8.342628,4.601754,synthetic
+2025-10-10,Lunch,Rice-based,645,638,false,false,false,17.5,0.0,385.036461,334.782215,30.153751,20.100495,synthetic
+2025-10-10,Snacks,Beverage and snack,302,296,false,false,false,17.5,0.0,67.493800,57.731178,6.024160,3.738462,synthetic
+2025-10-10,Dinner,South Indian,579,561,false,false,false,17.5,0.0,320.374077,269.651595,23.879514,26.842968,synthetic
+2025-10-11,Breakfast,Indian,364,378,false,false,false,32.6,0.0,144.962946,121.261136,14.016004,9.685806,synthetic
+2025-10-11,Lunch,Rice-based,566,613,false,false,false,32.6,0.0,337.403816,312.818248,13.583157,11.002411,synthetic
+2025-10-11,Snacks,Fried,260,264,false,false,false,32.6,0.0,63.699710,55.442946,4.931742,3.325022,synthetic
+2025-10-11,Dinner,South Indian,499,507,false,false,false,32.6,0.0,216.167526,199.881312,12.090710,4.195504,synthetic
+2025-10-12,Breakfast,Light,84,82,false,true,false,30.3,0.0,28.131146,23.855643,1.924822,2.350681,synthetic
+2025-10-12,Lunch,North Indian,128,125,false,true,false,30.3,0.0,67.688520,61.669591,4.093621,1.925308,synthetic
+2025-10-12,Snacks,Beverage and snack,60,53,false,true,false,30.3,0.0,13.047119,11.066870,1.196175,0.784074,synthetic
+2025-10-12,Dinner,South Indian,108,111,false,true,false,30.3,0.0,49.670727,46.358870,1.528187,1.783670,synthetic
+2025-10-13,Breakfast,Continental,423,405,false,false,false,29.1,0.0,144.917341,135.313585,6.059498,3.544258,synthetic
+2025-10-13,Lunch,Mixed,658,641,false,false,false,29.1,0.0,422.116652,355.735648,35.474524,30.906480,synthetic
+2025-10-13,Snacks,Beverage and snack,307,296,false,false,false,29.1,0.0,64.204799,58.241399,4.291716,1.671684,synthetic
+2025-10-13,Dinner,Rice-based,559,607,false,false,false,29.1,0.0,345.327720,298.214421,23.575386,23.537913,synthetic
+2025-10-14,Breakfast,Continental,418,404,false,false,false,23.0,0.0,172.807323,144.289650,14.505980,14.011693,synthetic
+2025-10-14,Lunch,North Indian,640,605,false,false,false,23.0,0.0,305.791258,277.652844,17.238908,10.899506,synthetic
+2025-10-14,Snacks,Savory,307,318,false,false,false,23.0,0.0,77.667725,66.378050,8.047071,3.242604,synthetic
+2025-10-14,Dinner,South Indian,554,592,false,false,false,23.0,0.0,305.964080,280.544643,12.333544,13.085893,synthetic
+2025-10-15,Breakfast,Indian,94,88,false,true,false,22.4,0.0,34.000296,31.124729,1.941823,0.933744,synthetic
+2025-10-15,Lunch,Rice-based,144,139,false,true,false,22.4,0.0,84.453937,71.170140,8.380255,4.903542,synthetic
+2025-10-15,Snacks,Beverage and snack,68,61,false,true,false,22.4,0.0,16.392970,14.092398,1.072418,1.228154,synthetic
+2025-10-15,Dinner,Rice-based,127,117,false,true,false,22.4,0.0,55.579668,48.143231,5.212597,2.223840,synthetic
+2025-10-16,Breakfast,Indian,422,404,false,false,false,24.7,0.0,148.811464,124.220784,16.972273,7.618407,synthetic
+2025-10-16,Lunch,Mixed,642,609,false,false,false,24.7,0.0,330.024826,304.620274,16.542117,8.862435,synthetic
+2025-10-16,Snacks,Beverage and snack,291,305,false,false,false,24.7,0.0,81.991944,73.152170,4.124039,4.715735,synthetic
+2025-10-16,Dinner,Rice-based,556,535,false,false,false,24.7,0.0,259.523035,220.783103,18.331694,20.408238,synthetic
+2025-10-17,Breakfast,Indian,412,391,false,false,false,35.4,0.0,130.540666,116.358802,9.630903,4.550961,synthetic
+2025-10-17,Lunch,South Indian,658,629,false,false,false,35.4,0.0,368.013225,316.237340,40.194575,11.581310,synthetic
+2025-10-17,Snacks,Beverage and snack,303,304,false,false,false,35.4,0.0,63.192610,59.116046,2.171709,1.904855,synthetic
+2025-10-17,Dinner,Rice-based,560,599,false,false,false,35.4,0.0,299.388676,271.850862,12.873466,14.664348,synthetic
+2025-10-18,Breakfast,Light,377,339,false,false,false,35.8,0.0,109.756463,96.699994,9.830556,3.225913,synthetic
+2025-10-18,Lunch,South Indian,560,531,false,false,false,35.8,0.0,302.894767,278.661703,17.632329,6.600735,synthetic
+2025-10-18,Snacks,Beverage and snack,265,241,false,false,false,35.8,0.0,58.204867,50.152327,4.306056,3.746484,synthetic
+2025-10-18,Dinner,Rice-based,489,525,false,false,false,35.8,0.0,281.953641,256.164337,15.790117,9.999187,synthetic
+2025-10-19,Breakfast,Indian,368,369,false,false,false,35.2,0.0,133.000919,124.781986,6.174737,2.044196,synthetic
+2025-10-19,Lunch,South Indian,582,527,false,false,false,35.2,0.0,334.132862,281.941706,39.480988,12.710168,synthetic
+2025-10-19,Snacks,Savory,258,262,false,false,false,35.2,0.0,66.204887,59.203742,4.667234,2.333911,synthetic
+2025-10-19,Dinner,Rice-based,515,499,false,false,false,35.2,0.0,248.654311,220.495996,12.746348,15.411967,synthetic
+2025-10-20,Breakfast,Continental,369,358,true,false,false,21.9,12.4,113.237334,106.530896,4.920627,1.785811,synthetic
+2025-10-20,Lunch,North Indian,567,557,true,false,false,21.9,12.4,282.773296,261.980875,12.266550,8.525871,synthetic
+2025-10-20,Snacks,Beverage and snack,268,239,true,false,false,21.9,12.4,50.207054,46.968014,2.192082,1.046958,synthetic
+2025-10-20,Dinner,Rice-based,504,484,true,false,false,21.9,12.4,261.355134,222.946633,25.906250,12.502251,synthetic
+2025-10-21,Breakfast,Continental,415,446,false,false,false,31.4,0.0,158.630843,148.147793,7.928026,2.555024,synthetic
+2025-10-21,Lunch,Mixed,637,629,false,false,false,31.4,0.0,326.864680,294.541904,20.282340,12.040436,synthetic
+2025-10-21,Snacks,Savory,303,313,false,false,false,31.4,0.0,85.581289,76.351338,6.752170,2.477781,synthetic
+2025-10-21,Dinner,Mixed,561,570,false,false,false,31.4,0.0,319.510425,270.767250,23.303269,25.439906,synthetic
+2025-10-22,Breakfast,Light,414,438,false,false,false,30.7,0.0,136.075414,124.445670,8.398135,3.231609,synthetic
+2025-10-22,Lunch,Rice-based,668,631,false,false,false,30.7,0.0,378.309727,332.516593,26.612107,19.181027,synthetic
+2025-10-22,Snacks,Beverage and snack,308,320,false,false,false,30.7,0.0,75.131817,64.159201,7.926277,3.046339,synthetic
+2025-10-22,Dinner,South Indian,571,534,false,false,false,30.7,0.0,287.251463,251.099775,24.598995,11.552693,synthetic
+2025-10-23,Breakfast,Indian,429,441,false,false,false,28.7,13.0,166.663180,155.489290,6.948230,4.225660,synthetic
+2025-10-23,Lunch,South Indian,634,598,false,false,false,28.7,13.0,293.421919,270.330629,13.223591,9.867699,synthetic
+2025-10-23,Snacks,Savory,309,315,false,false,false,28.7,13.0,76.497542,71.357364,2.435927,2.704251,synthetic
+2025-10-23,Dinner,Mixed,577,545,false,false,false,28.7,13.0,283.866726,245.280112,20.135275,18.451339,synthetic
+2025-10-24,Breakfast,Continental,417,395,false,false,false,30.2,1.0,157.443602,133.511291,13.161930,10.770381,synthetic
+2025-10-24,Lunch,North Indian,632,680,false,false,false,30.2,1.0,378.592865,316.395302,29.949685,32.247878,synthetic
+2025-10-24,Snacks,Savory,305,305,false,false,false,30.2,1.0,68.220955,60.639058,4.889185,2.692712,synthetic
+2025-10-24,Dinner,North Indian,573,574,false,false,false,30.2,1.0,303.441118,277.018958,18.191865,8.230295,synthetic
+2025-10-25,Breakfast,Continental,380,377,false,false,false,24.0,0.0,147.832823,123.697393,18.361308,5.774122,synthetic
+2025-10-25,Lunch,North Indian,556,610,false,false,false,24.0,0.0,375.863066,319.991413,31.945178,23.926475,synthetic
+2025-10-25,Snacks,Fried,271,252,false,false,false,24.0,0.0,68.497885,59.777876,5.897245,2.822764,synthetic
+2025-10-25,Dinner,South Indian,491,485,false,false,false,24.0,0.0,252.579496,229.880003,12.396148,10.303345,synthetic
+2025-10-26,Breakfast,Indian,377,361,false,false,false,28.8,0.0,112.310790,105.230568,3.573808,3.506414,synthetic
+2025-10-26,Lunch,South Indian,557,588,false,false,false,28.8,0.0,301.963195,257.124779,31.377329,13.461087,synthetic
+2025-10-26,Snacks,Fried,269,241,false,false,false,28.8,0.0,68.975066,60.098249,6.244570,2.632247,synthetic
+2025-10-26,Dinner,South Indian,493,507,false,false,false,28.8,0.0,256.667631,227.956579,20.606289,8.104763,synthetic
+2025-10-27,Breakfast,Light,431,416,false,false,false,27.5,0.0,130.433877,117.393472,8.196790,4.843615,synthetic
+2025-10-27,Lunch,Mixed,655,662,false,false,false,27.5,0.0,368.867329,341.741518,17.500652,9.625159,synthetic
+2025-10-27,Snacks,Fried,309,287,false,false,false,27.5,0.0,66.803823,60.552690,2.923887,3.327246,synthetic
+2025-10-27,Dinner,South Indian,578,603,false,false,false,27.5,0.0,292.993649,264.335082,16.513140,12.145427,synthetic
+2025-10-28,Breakfast,Indian,411,406,false,false,false,28.6,1.3,141.746728,127.486022,8.963703,5.297003,synthetic
+2025-10-28,Lunch,South Indian,660,642,false,false,false,28.6,1.3,385.901153,333.175675,38.970760,13.754718,synthetic
+2025-10-28,Snacks,Beverage and snack,300,281,false,false,false,28.6,1.3,64.806322,58.728930,4.237431,1.839961,synthetic
+2025-10-28,Dinner,North Indian,554,531,false,false,false,28.6,1.3,265.713275,222.933154,32.299284,10.480837,synthetic
+2025-10-29,Breakfast,Light,428,409,false,false,false,29.3,0.0,132.542390,120.492877,6.693770,5.355743,synthetic
+2025-10-29,Lunch,North Indian,653,593,false,false,false,29.3,0.0,353.803662,308.088328,26.973562,18.741772,synthetic
+2025-10-29,Snacks,Savory,295,316,false,false,false,29.3,0.0,77.771986,70.680041,5.051255,2.040690,synthetic
+2025-10-29,Dinner,Mixed,563,594,false,false,false,29.3,0.0,273.055286,244.007215,13.195541,15.852530,synthetic
+2025-10-30,Breakfast,Continental,427,421,false,false,false,17.4,0.0,134.126279,125.719977,5.594874,2.811428,synthetic
+2025-10-30,Lunch,North Indian,664,696,false,false,false,17.4,0.0,347.212193,326.817373,12.508372,7.886448,synthetic
+2025-10-30,Snacks,Beverage and snack,306,322,false,false,false,17.4,0.0,85.394754,78.064460,5.025566,2.304728,synthetic
+2025-10-30,Dinner,Mixed,555,587,false,false,false,17.4,0.0,344.918307,298.736381,29.740495,16.441431,synthetic
+2025-10-31,Breakfast,Indian,418,446,false,false,false,19.3,0.0,148.154765,130.924019,11.958533,5.272213,synthetic
+2025-10-31,Lunch,Rice-based,662,654,false,false,false,19.3,0.0,375.605163,333.824645,26.339651,15.440867,synthetic
+2025-10-31,Snacks,Savory,292,296,false,false,false,19.3,0.0,77.614029,67.224038,7.814267,2.575724,synthetic
+2025-10-31,Dinner,Rice-based,578,583,false,false,false,19.3,0.0,258.992412,226.878018,17.408608,14.705786,synthetic
+2025-11-01,Breakfast,Light,371,361,false,false,false,27.2,0.0,120.119615,111.653922,4.599754,3.865939,synthetic
+2025-11-01,Lunch,Rice-based,575,575,false,false,false,27.2,0.0,307.122365,257.323974,31.924312,17.874079,synthetic
+2025-11-01,Snacks,Beverage and snack,257,274,false,false,false,27.2,0.0,73.185887,64.631874,5.176950,3.377063,synthetic
+2025-11-01,Dinner,Rice-based,498,541,false,false,false,27.2,0.0,263.578595,220.275027,26.576399,16.727169,synthetic
+2025-11-02,Breakfast,Indian,366,358,false,false,false,19.4,0.0,136.899238,120.097687,9.058274,7.743277,synthetic
+2025-11-02,Lunch,Mixed,587,547,false,false,false,19.4,0.0,311.423374,289.318127,16.245023,5.860224,synthetic
+2025-11-02,Snacks,Beverage and snack,258,279,false,false,false,19.4,0.0,60.266744,54.279390,4.110315,1.877039,synthetic
+2025-11-02,Dinner,Rice-based,506,512,false,false,false,19.4,0.0,253.139162,233.799807,9.985253,9.354102,synthetic
+2025-11-03,Breakfast,Continental,418,404,false,false,false,35.6,0.0,127.454557,116.548795,7.158126,3.747636,synthetic
+2025-11-03,Lunch,South Indian,652,627,false,false,false,35.6,0.0,317.341534,273.566208,33.805168,9.970158,synthetic
+2025-11-03,Snacks,Fried,306,315,false,false,false,35.6,0.0,94.411187,80.494906,7.080929,6.835352,synthetic
+2025-11-03,Dinner,Rice-based,574,532,false,false,false,35.6,0.0,284.271890,251.631913,15.367439,17.272538,synthetic
+2025-11-04,Breakfast,Indian,416,428,false,false,false,27.9,0.0,170.242665,141.927621,14.650559,13.664485,synthetic
+2025-11-04,Lunch,Rice-based,636,677,false,false,false,27.9,0.0,401.876236,351.044239,28.772829,22.059168,synthetic
+2025-11-04,Snacks,Fried,295,309,false,false,false,27.9,0.0,75.878730,63.442008,8.179242,4.257480,synthetic
+2025-11-04,Dinner,North Indian,562,588,false,false,false,27.9,0.0,290.447520,246.764589,34.069556,9.613375,synthetic
+2025-11-05,Breakfast,Indian,420,434,false,false,false,27.4,0.0,177.956026,154.243516,15.397556,8.314954,synthetic
+2025-11-05,Lunch,Mixed,661,602,false,false,false,27.4,0.0,376.237075,328.465040,32.540301,15.231734,synthetic
+2025-11-05,Snacks,Beverage and snack,300,316,false,false,false,27.4,0.0,78.497930,70.719834,4.479930,3.298166,synthetic
+2025-11-05,Dinner,North Indian,575,571,false,false,false,27.4,0.0,313.347756,275.137747,17.928522,20.281487,synthetic
+2025-11-06,Breakfast,Continental,426,411,false,false,false,34.1,0.0,168.934333,143.295631,12.583712,13.054990,synthetic
+2025-11-06,Lunch,Mixed,659,631,false,false,false,34.1,0.0,381.132980,325.121377,38.099763,17.911840,synthetic
+2025-11-06,Snacks,Fried,294,285,false,false,false,34.1,0.0,81.530789,71.301909,7.644000,2.584880,synthetic
+2025-11-06,Dinner,Rice-based,582,585,false,false,false,34.1,0.0,263.486045,240.542657,15.707309,7.236079,synthetic
+2025-11-07,Breakfast,Indian,95,90,false,true,false,18.0,0.0,31.807734,29.720881,1.582174,0.504679,synthetic
+2025-11-07,Lunch,South Indian,144,144,false,true,false,18.0,0.0,74.465675,62.349230,7.702324,4.414121,synthetic
+2025-11-07,Snacks,Savory,66,60,false,true,false,18.0,0.0,16.444456,14.047027,1.759461,0.637968,synthetic
+2025-11-07,Dinner,Rice-based,122,125,false,true,false,18.0,0.0,65.333974,56.156270,5.765648,3.412056,synthetic
+2025-11-08,Breakfast,Light,378,339,false,false,false,20.8,0.0,124.662671,108.941887,10.164674,5.556110,synthetic
+2025-11-08,Lunch,South Indian,587,570,false,false,false,20.8,0.0,294.562913,262.236475,19.259259,13.067179,synthetic
+2025-11-08,Snacks,Fried,272,284,false,false,false,20.8,0.0,75.062956,68.106172,3.740009,3.216775,synthetic
+2025-11-08,Dinner,North Indian,507,523,false,false,false,20.8,0.0,279.740849,233.649972,29.367310,16.723567,synthetic
+2025-11-09,Breakfast,Indian,378,340,false,false,false,30.4,0.0,114.722035,105.934272,4.094743,4.693020,synthetic
+2025-11-09,Lunch,North Indian,559,548,false,false,false,30.4,0.0,285.608932,244.643320,29.996436,10.969176,synthetic
+2025-11-09,Snacks,Beverage and snack,268,256,false,false,false,30.4,0.0,55.455922,50.589153,3.462438,1.404331,synthetic
+2025-11-09,Dinner,Rice-based,514,478,false,false,false,30.4,0.0,260.024521,217.726361,31.853288,10.444872,synthetic
+2025-11-10,Breakfast,Light,415,386,false,false,false,20.7,0.0,154.188005,134.528999,11.971831,7.687175,synthetic
+2025-11-10,Lunch,Mixed,643,687,false,false,false,20.7,0.0,343.285208,318.551084,13.227469,11.506655,synthetic
+2025-11-10,Snacks,Beverage and snack,299,297,false,false,false,20.7,0.0,72.076391,60.675426,6.292644,5.108321,synthetic
+2025-11-10,Dinner,Mixed,556,554,false,false,false,20.7,0.0,288.992418,263.880112,12.620189,12.492117,synthetic
+2025-11-11,Breakfast,Light,420,444,false,false,false,19.0,0.0,150.962451,140.895129,4.724483,5.342839,synthetic
+2025-11-11,Lunch,South Indian,650,646,false,false,false,19.0,0.0,342.526329,296.583668,23.217442,22.725219,synthetic
+2025-11-11,Snacks,Savory,307,274,false,false,false,19.0,0.0,65.339002,58.759063,3.209206,3.370733,synthetic
+2025-11-11,Dinner,Mixed,569,547,false,false,false,19.0,0.0,286.684567,243.736542,20.880123,22.067902,synthetic
+2025-11-12,Breakfast,Light,423,437,false,false,false,23.4,0.0,156.834911,134.489894,16.319412,6.025605,synthetic
+2025-11-12,Lunch,South Indian,647,595,false,false,false,23.4,0.0,346.435275,313.237179,24.231644,8.966452,synthetic
+2025-11-12,Snacks,Fried,294,309,false,false,false,23.4,0.0,89.447474,79.072220,6.022818,4.352436,synthetic
+2025-11-12,Dinner,North Indian,577,611,false,false,false,23.4,0.0,300.169588,271.020203,13.136376,16.013009,synthetic
+2025-11-13,Breakfast,Indian,94,96,false,true,false,34.3,0.0,33.668071,30.595636,2.084297,0.988138,synthetic
+2025-11-13,Lunch,Rice-based,147,151,false,true,false,34.3,0.0,89.375663,78.565813,5.859555,4.950295,synthetic
+2025-11-13,Snacks,Fried,64,65,false,true,false,34.3,0.0,15.311695,13.357980,1.333342,0.620373,synthetic
+2025-11-13,Dinner,North Indian,125,127,false,true,false,34.3,0.0,71.821601,63.618232,3.867266,4.336103,synthetic
+2025-11-14,Breakfast,Indian,419,417,false,false,false,29.1,0.0,166.272025,148.861159,10.868504,6.542362,synthetic
+2025-11-14,Lunch,Mixed,658,647,false,false,false,29.1,0.0,365.682711,338.490651,18.528437,8.663623,synthetic
+2025-11-14,Snacks,Fried,298,284,false,false,false,29.1,0.0,74.230572,62.013041,5.749881,6.467650,synthetic
+2025-11-14,Dinner,North Indian,574,561,false,false,false,29.1,0.0,289.416320,270.203018,12.569135,6.644167,synthetic
+2025-11-15,Breakfast,Light,366,385,false,false,false,27.0,0.0,136.635967,123.470313,9.004397,4.161257,synthetic
+2025-11-15,Lunch,South Indian,565,582,false,false,false,27.0,0.0,297.846167,257.588568,31.249888,9.007711,synthetic
+2025-11-15,Snacks,Savory,261,277,false,false,false,27.0,0.0,76.752465,64.668270,6.660169,5.424026,synthetic
+2025-11-15,Dinner,Mixed,498,526,false,false,false,27.0,0.0,287.183756,257.477064,14.318140,15.388552,synthetic
+2025-11-16,Breakfast,Light,379,380,false,false,false,34.3,0.0,153.427614,129.655783,12.926354,10.845477,synthetic
+2025-11-16,Lunch,Rice-based,584,565,false,false,false,34.3,0.0,360.283969,301.483227,40.820702,17.980040,synthetic
+2025-11-16,Snacks,Savory,268,275,false,false,false,34.3,0.0,69.426164,65.324758,2.738756,1.362650,synthetic
+2025-11-16,Dinner,Mixed,502,541,false,false,false,34.3,0.0,274.151475,246.992947,16.814771,10.343757,synthetic
+2025-11-17,Breakfast,Continental,373,347,true,false,false,21.9,0.0,119.123305,105.622143,10.219412,3.281750,synthetic
+2025-11-17,Lunch,South Indian,561,543,true,false,false,21.9,0.0,285.173196,264.755373,11.340116,9.077707,synthetic
+2025-11-17,Snacks,Savory,261,263,true,false,false,21.9,0.0,66.852254,58.012738,5.760914,3.078602,synthetic
+2025-11-17,Dinner,Rice-based,493,509,true,false,false,21.9,0.0,218.565588,201.686962,10.902726,5.975900,synthetic
+2025-11-18,Breakfast,Continental,410,400,false,false,false,29.5,0.0,153.060495,142.958396,6.746115,3.355984,synthetic
+2025-11-18,Lunch,Rice-based,634,610,false,false,false,29.5,0.0,325.608016,289.551151,23.442558,12.614307,synthetic
+2025-11-18,Snacks,Beverage and snack,295,304,false,false,false,29.5,0.0,83.973743,73.951807,6.768328,3.253608,synthetic
+2025-11-18,Dinner,North Indian,563,591,false,false,false,29.5,0.0,279.903444,264.045125,9.833590,6.024729,synthetic
+2025-11-19,Breakfast,Light,427,435,false,false,false,22.7,13.8,141.301493,125.559186,10.406454,5.335853,synthetic
+2025-11-19,Lunch,North Indian,632,603,false,false,false,22.7,13.8,324.755885,301.223776,14.364570,9.167539,synthetic
+2025-11-19,Snacks,Savory,309,306,false,false,false,22.7,13.8,69.918016,65.642016,1.970993,2.305007,synthetic
+2025-11-19,Dinner,North Indian,557,581,false,false,false,22.7,13.8,340.880610,295.796225,25.205157,19.879228,synthetic
+2025-11-20,Breakfast,Light,415,414,false,false,false,32.9,4.3,157.248958,143.950502,6.312020,6.986436,synthetic
+2025-11-20,Lunch,North Indian,649,647,false,false,false,32.9,4.3,376.850188,317.004817,38.914755,20.930616,synthetic
+2025-11-20,Snacks,Savory,298,310,false,false,false,32.9,4.3,76.739717,72.231399,3.491458,1.016860,synthetic
+2025-11-20,Dinner,North Indian,556,557,false,false,false,32.9,4.3,274.668433,255.369676,12.910674,6.388083,synthetic
+2025-11-21,Breakfast,Continental,428,436,false,false,false,35.1,2.9,136.200675,125.506129,7.855820,2.838726,synthetic
+2025-11-21,Lunch,South Indian,635,633,false,false,false,35.1,2.9,358.298563,328.439437,21.907508,7.951618,synthetic
+2025-11-21,Snacks,Fried,300,318,false,false,false,35.1,2.9,93.917632,80.405152,9.010859,4.501621,synthetic
+2025-11-21,Dinner,Rice-based,561,525,false,false,false,35.1,2.9,230.322359,208.842466,14.981961,6.497932,synthetic
+2025-11-22,Breakfast,Indian,361,351,false,false,false,22.8,16.8,114.505898,106.363316,6.228066,1.914516,synthetic
+2025-11-22,Lunch,Rice-based,564,574,false,false,false,22.8,16.8,330.637543,302.191681,13.536761,14.909101,synthetic
+2025-11-22,Snacks,Savory,260,281,false,false,false,22.8,16.8,71.915096,61.631381,5.343443,4.940272,synthetic
+2025-11-22,Dinner,South Indian,488,512,false,false,false,22.8,16.8,264.992675,248.828079,9.848795,6.315801,synthetic
+2025-11-23,Breakfast,Light,367,340,false,false,false,28.1,0.0,124.213609,116.550322,5.456376,2.206911,synthetic
+2025-11-23,Lunch,Mixed,584,551,false,false,false,28.1,0.0,326.572701,307.139052,12.192863,7.240786,synthetic
+2025-11-23,Snacks,Fried,268,262,false,false,false,28.1,0.0,69.447935,62.184676,3.665317,3.597942,synthetic
+2025-11-23,Dinner,South Indian,513,510,false,false,false,28.1,0.0,218.888428,205.213305,6.594349,7.080774,synthetic
+2025-11-24,Breakfast,Light,429,406,false,false,false,27.2,0.0,143.770142,125.931595,10.301458,7.537089,synthetic
+2025-11-24,Lunch,Mixed,648,605,false,false,false,27.2,0.0,299.898731,271.892656,18.772508,9.233567,synthetic
+2025-11-24,Snacks,Savory,296,279,false,false,false,27.2,0.0,72.967386,60.811757,6.215054,5.940575,synthetic
+2025-11-24,Dinner,Rice-based,585,554,false,false,false,27.2,0.0,277.927857,259.245320,12.722371,5.960166,synthetic
+2025-11-25,Breakfast,Indian,419,445,false,false,false,35.6,0.0,156.750016,131.157253,17.976563,7.616200,synthetic
+2025-11-25,Lunch,Mixed,662,608,false,false,false,35.6,0.0,344.254747,290.654463,37.398657,16.201627,synthetic
+2025-11-25,Snacks,Savory,300,299,false,false,false,35.6,0.0,74.133226,68.052307,3.699922,2.380997,synthetic
+2025-11-25,Dinner,North Indian,556,614,false,false,false,35.6,0.0,315.758861,285.754412,15.709996,14.294453,synthetic
+2025-11-26,Breakfast,Light,91,92,false,true,false,34.2,0.0,35.532751,32.430584,2.129439,0.972728,synthetic
+2025-11-26,Lunch,Rice-based,147,137,false,true,false,34.2,0.0,81.328128,68.204795,7.514787,5.608546,synthetic
+2025-11-26,Snacks,Savory,64,70,false,true,false,34.2,0.0,18.029638,16.394872,0.940213,0.694553,synthetic
+2025-11-26,Dinner,Mixed,128,130,false,true,false,34.2,0.0,60.511613,56.963674,2.739043,0.808896,synthetic
+2025-11-27,Breakfast,Continental,421,433,false,false,false,29.0,0.0,133.342465,125.265935,4.404460,3.672070,synthetic
+2025-11-27,Lunch,North Indian,632,691,false,false,false,29.0,0.0,339.484160,304.499593,16.157589,18.826978,synthetic
+2025-11-27,Snacks,Beverage and snack,299,297,false,false,false,29.0,0.0,69.932970,63.627479,4.326809,1.978682,synthetic
+2025-11-27,Dinner,North Indian,582,530,false,false,false,29.0,0.0,281.598414,263.218072,12.633046,5.747296,synthetic
+2025-11-28,Breakfast,Light,413,414,false,false,false,28.6,0.0,144.091582,125.686707,10.990553,7.414322,synthetic
+2025-11-28,Lunch,Rice-based,645,679,false,false,false,28.6,0.0,345.309195,295.812396,37.287586,12.209213,synthetic
+2025-11-28,Snacks,Fried,306,282,false,false,false,28.6,0.0,62.228801,57.471870,2.594773,2.162158,synthetic
+2025-11-28,Dinner,South Indian,579,545,false,false,false,28.6,0.0,265.529487,222.010315,28.133791,15.385381,synthetic
+2025-11-29,Breakfast,Light,359,395,false,false,false,33.2,0.0,152.649414,139.366582,6.053186,7.229646,synthetic
+2025-11-29,Lunch,North Indian,574,549,false,false,false,33.2,0.0,354.035289,299.049964,29.364287,25.621038,synthetic
+2025-11-29,Snacks,Fried,266,246,false,false,false,33.2,0.0,68.245979,61.667299,3.982898,2.595782,synthetic
+2025-11-29,Dinner,Mixed,516,466,false,false,false,33.2,0.0,214.457180,191.212134,10.796742,12.448304,synthetic
+2025-11-30,Breakfast,Indian,380,343,false,false,false,32.6,0.0,135.916541,113.907268,13.013760,8.995513,synthetic
+2025-11-30,Lunch,Mixed,557,522,false,false,false,32.6,0.0,260.115477,240.036716,15.507946,4.570815,synthetic
+2025-11-30,Snacks,Savory,266,243,false,false,false,32.6,0.0,59.055859,53.896375,3.229518,1.929966,synthetic
+2025-11-30,Dinner,Mixed,490,502,false,false,false,32.6,0.0,235.650366,213.566707,16.246253,5.837406,synthetic
+2025-12-01,Breakfast,Light,424,409,false,false,false,24.1,0.0,131.055557,117.209154,8.692140,5.154263,synthetic
+2025-12-01,Lunch,Mixed,640,623,false,false,false,24.1,0.0,327.347735,295.550236,19.422662,12.374837,synthetic
+2025-12-01,Snacks,Beverage and snack,294,299,false,false,false,24.1,0.0,71.800895,61.755866,4.720937,5.324092,synthetic
+2025-12-01,Dinner,Mixed,570,563,false,false,false,24.1,0.0,256.613384,230.605441,17.661017,8.346926,synthetic
+2025-12-02,Breakfast,Indian,429,408,false,false,false,27.0,21.5,139.761265,125.916309,8.950355,4.894601,synthetic
+2025-12-02,Lunch,Mixed,632,600,false,false,false,27.0,21.5,338.245467,310.308552,18.197733,9.739182,synthetic
+2025-12-02,Snacks,Fried,304,294,false,false,false,27.0,21.5,73.289680,61.401264,8.277992,3.610424,synthetic
+2025-12-02,Dinner,North Indian,570,610,false,false,false,27.0,21.5,309.644130,269.080246,30.017853,10.546031,synthetic
+2025-12-03,Breakfast,Indian,375,347,true,false,false,23.8,0.0,137.206776,118.460477,14.511509,4.234790,synthetic
+2025-12-03,Lunch,North Indian,564,609,true,false,false,23.8,0.0,363.706883,307.287790,29.344092,27.075001,synthetic
+2025-12-03,Snacks,Savory,266,280,true,false,false,23.8,0.0,61.167984,54.211496,3.775487,3.181001,synthetic
+2025-12-03,Dinner,Mixed,499,536,true,false,false,23.8,0.0,256.439843,224.767288,20.613136,11.059419,synthetic
+2025-12-04,Breakfast,Continental,423,450,false,false,false,35.1,0.0,161.467797,137.226201,14.393697,9.847899,synthetic
+2025-12-04,Lunch,Mixed,657,617,false,false,false,35.1,0.0,336.738466,303.417407,20.464204,12.856855,synthetic
+2025-12-04,Snacks,Beverage and snack,303,312,false,false,false,35.1,0.0,79.097611,68.090230,6.323344,4.684037,synthetic
+2025-12-04,Dinner,South Indian,553,533,false,false,false,35.1,0.0,248.190714,213.034380,26.236016,8.920318,synthetic
+2025-12-05,Breakfast,Indian,360,377,true,false,false,29.6,0.0,137.667124,123.462034,8.208859,5.996231,synthetic
+2025-12-05,Lunch,North Indian,550,517,true,false,false,29.6,0.0,248.855875,228.649294,13.016345,7.190236,synthetic
+2025-12-05,Snacks,Fried,266,240,true,false,false,29.6,0.0,58.147491,51.642682,3.112008,3.392801,synthetic
+2025-12-05,Dinner,North Indian,502,506,true,false,false,29.6,0.0,243.839902,219.698746,11.226807,12.914349,synthetic
+2025-12-06,Breakfast,Light,361,352,false,false,false,19.5,0.0,116.418564,102.229005,7.998543,6.191016,synthetic
+2025-12-06,Lunch,Rice-based,577,540,false,false,false,19.5,0.0,264.480625,236.620786,16.839874,11.019965,synthetic
+2025-12-06,Snacks,Savory,259,256,false,false,false,19.5,0.0,67.533588,58.255374,6.866781,2.411433,synthetic
+2025-12-06,Dinner,Rice-based,490,489,false,false,false,19.5,0.0,209.918658,191.066632,12.878949,5.973077,synthetic
+2025-12-07,Breakfast,Indian,321,305,true,false,false,22.5,0.0,123.344113,103.955552,10.392283,8.996278,synthetic
+2025-12-07,Lunch,Mixed,500,466,true,false,false,22.5,0.0,254.623917,229.064816,19.260965,6.298136,synthetic
+2025-12-07,Snacks,Fried,223,244,true,false,false,22.5,0.0,68.705442,61.433351,5.257586,2.014505,synthetic
+2025-12-07,Dinner,Mixed,428,441,true,false,false,22.5,0.0,233.540422,197.509583,18.587011,17.443828,synthetic
+2025-12-08,Breakfast,Continental,365,384,true,false,false,29.4,0.0,130.268522,114.016291,9.374587,6.877644,synthetic
+2025-12-08,Lunch,Mixed,552,524,true,false,false,29.4,0.0,303.634614,272.304700,21.302156,10.027758,synthetic
+2025-12-08,Snacks,Savory,263,272,true,false,false,29.4,0.0,63.790631,54.208991,5.702836,3.878804,synthetic
+2025-12-08,Dinner,Rice-based,484,506,true,false,false,29.4,0.0,234.547877,201.308708,23.661474,9.577695,synthetic
+2025-12-09,Breakfast,Indian,413,436,false,false,false,21.4,0.0,167.529335,150.388010,12.950984,4.190341,synthetic
+2025-12-09,Lunch,Mixed,648,663,false,false,false,21.4,0.0,382.931776,326.926046,27.920880,28.084850,synthetic
+2025-12-09,Snacks,Savory,292,290,false,false,false,21.4,0.0,67.618806,56.881941,6.290878,4.445987,synthetic
+2025-12-09,Dinner,Mixed,582,568,false,false,false,21.4,0.0,260.791336,238.293551,13.793047,8.704738,synthetic
+2025-12-10,Breakfast,Indian,427,412,false,false,false,22.6,13.6,160.523619,143.281798,11.137504,6.104317,synthetic
+2025-12-10,Lunch,Rice-based,666,669,false,false,false,22.6,13.6,327.751274,297.594982,18.169358,11.986934,synthetic
+2025-12-10,Snacks,Fried,297,290,false,false,false,22.6,13.6,83.753940,72.860238,6.409624,4.484078,synthetic
+2025-12-10,Dinner,South Indian,584,581,false,false,false,22.6,13.6,325.693057,274.683754,35.454388,15.554915,synthetic
+2025-12-11,Breakfast,Light,420,410,false,false,false,33.8,0.0,146.299182,126.635774,12.141872,7.521536,synthetic
+2025-12-11,Lunch,North Indian,635,685,false,false,false,33.8,0.0,381.734164,342.979896,28.638104,10.116164,synthetic
+2025-12-11,Snacks,Fried,308,324,false,false,false,33.8,0.0,92.867958,80.307908,5.972049,6.588001,synthetic
+2025-12-11,Dinner,North Indian,571,569,false,false,false,33.8,0.0,301.245988,270.613532,21.846440,8.786016,synthetic
+2025-12-12,Breakfast,Indian,424,382,false,false,false,20.8,0.0,128.228992,113.820802,7.742253,6.665937,synthetic
+2025-12-12,Lunch,South Indian,666,644,false,false,false,20.8,0.0,362.548835,317.938390,25.653272,18.957173,synthetic
+2025-12-12,Snacks,Fried,296,277,false,false,false,20.8,0.0,78.809436,67.127261,6.106855,5.575320,synthetic
+2025-12-12,Dinner,North Indian,568,549,false,false,false,20.8,0.0,261.627997,245.073728,10.622401,5.931868,synthetic
+2025-12-13,Breakfast,Light,362,346,false,false,false,33.7,0.0,143.949237,123.075525,13.630672,7.243040,synthetic
+2025-12-13,Lunch,Mixed,582,528,false,false,false,33.7,0.0,287.666583,257.057607,21.482189,9.126787,synthetic
+2025-12-13,Snacks,Fried,267,272,false,false,false,33.7,0.0,70.258424,64.076639,2.833967,3.347818,synthetic
+2025-12-13,Dinner,Mixed,507,498,false,false,false,33.7,0.0,277.268224,242.350253,26.151790,8.766181,synthetic
+2025-12-14,Breakfast,Continental,369,363,false,false,false,26.2,0.0,134.156325,118.377657,8.998266,6.780402,synthetic
+2025-12-14,Lunch,North Indian,586,547,false,false,false,26.2,0.0,328.278355,293.224764,21.482728,13.570863,synthetic
+2025-12-14,Snacks,Savory,270,262,false,false,false,26.2,0.0,73.342579,61.704986,7.417370,4.220223,synthetic
+2025-12-14,Dinner,Rice-based,505,470,false,false,false,26.2,0.0,240.655186,215.100322,19.484449,6.070415,synthetic
+2025-12-15,Breakfast,Indian,428,449,false,false,false,31.9,15.1,150.226951,132.673828,12.850568,4.702555,synthetic
+2025-12-15,Lunch,North Indian,643,658,false,false,false,31.9,15.1,368.233320,319.095886,36.275218,12.862216,synthetic
+2025-12-15,Snacks,Beverage and snack,302,303,false,false,false,31.9,15.1,77.608672,67.909067,6.019033,3.680572,synthetic
+2025-12-15,Dinner,Rice-based,554,544,false,false,false,31.9,15.1,262.489137,247.215112,8.555886,6.718139,synthetic
+2025-12-16,Breakfast,Indian,412,421,false,false,false,28.6,4.3,172.877882,145.676146,17.852319,9.349417,synthetic
+2025-12-16,Lunch,Rice-based,650,630,false,false,false,28.6,4.3,392.625339,329.376100,49.164728,14.084511,synthetic
+2025-12-16,Snacks,Fried,308,321,false,false,false,28.6,4.3,89.723289,79.100279,6.494805,4.128205,synthetic
+2025-12-16,Dinner,Rice-based,583,584,false,false,false,28.6,4.3,260.810320,243.083461,11.580003,6.146856,synthetic
+2025-12-17,Breakfast,Continental,357,340,true,false,false,26.7,0.0,118.803029,103.567895,9.229466,6.005668,synthetic
+2025-12-17,Lunch,Mixed,563,589,true,false,false,26.7,0.0,276.960741,260.186924,12.659839,4.113978,synthetic
+2025-12-17,Snacks,Savory,258,254,true,false,false,26.7,0.0,63.843285,55.003171,5.430383,3.409731,synthetic
+2025-12-17,Dinner,South Indian,511,481,true,false,false,26.7,0.0,246.434758,219.582949,19.108250,7.743559,synthetic
+2025-12-18,Breakfast,Indian,423,445,false,false,false,34.2,0.0,166.238738,146.863783,14.809532,4.565423,synthetic
+2025-12-18,Lunch,South Indian,633,679,false,false,false,34.2,0.0,408.967413,364.009116,23.150903,21.807394,synthetic
+2025-12-18,Snacks,Fried,297,280,false,false,false,34.2,0.0,74.083598,68.062455,3.947283,2.073860,synthetic
+2025-12-18,Dinner,Mixed,577,573,false,false,false,34.2,0.0,302.737041,257.663161,34.871779,10.202101,synthetic
+2025-12-19,Breakfast,Continental,429,411,false,false,false,30.6,0.0,159.530317,134.073866,18.188757,7.267694,synthetic
+2025-12-19,Lunch,Rice-based,655,660,false,false,false,30.6,0.0,400.892806,354.338198,33.278949,13.275659,synthetic
+2025-12-19,Snacks,Beverage and snack,295,280,false,false,false,30.6,0.0,76.010023,64.039975,5.456495,6.513553,synthetic
+2025-12-19,Dinner,Rice-based,586,535,false,false,false,30.6,0.0,253.889510,215.464906,22.913874,15.510730,synthetic
+2025-12-20,Breakfast,Continental,315,306,true,false,false,32.1,7.0,109.714485,101.563804,4.897437,3.253244,synthetic
+2025-12-20,Lunch,Rice-based,497,480,true,false,false,32.1,7.0,284.124848,237.571357,35.729350,10.824141,synthetic
+2025-12-20,Snacks,Savory,225,230,true,false,false,32.1,7.0,60.341723,50.470971,7.386719,2.484033,synthetic
+2025-12-20,Dinner,South Indian,426,426,true,false,false,32.1,7.0,209.753576,192.112018,9.102379,8.539179,synthetic
+2025-12-21,Breakfast,Indian,376,337,false,false,false,33.5,20.6,104.499339,98.216761,3.561680,2.720898,synthetic
+2025-12-21,Lunch,South Indian,571,596,false,false,false,33.5,20.6,325.203728,301.890310,13.366039,9.947379,synthetic
+2025-12-21,Snacks,Savory,265,259,false,false,false,33.5,20.6,58.664223,52.242743,4.412963,2.008517,synthetic
+2025-12-21,Dinner,Rice-based,492,533,false,false,false,33.5,20.6,257.640864,238.581366,14.600068,4.459430,synthetic
+2025-12-22,Breakfast,Indian,415,440,false,false,false,18.6,12.5,161.517036,141.327789,9.825403,10.363844,synthetic
+2025-12-22,Lunch,Rice-based,641,643,false,false,false,18.6,12.5,324.174844,285.736653,19.794097,18.644094,synthetic
+2025-12-22,Snacks,Savory,304,279,false,false,false,18.6,12.5,59.681067,54.988713,2.970097,1.722257,synthetic
+2025-12-22,Dinner,South Indian,581,596,false,false,false,18.6,12.5,284.994326,243.039416,30.471398,11.483512,synthetic
+2025-12-23,Breakfast,Light,356,358,true,false,false,26.5,0.0,115.955888,103.960741,5.497792,6.497355,synthetic
+2025-12-23,Lunch,Mixed,568,604,true,false,false,26.5,0.0,347.500045,291.126482,29.267255,27.106308,synthetic
+2025-12-23,Snacks,Beverage and snack,260,242,true,false,false,26.5,0.0,57.898055,53.459165,2.900361,1.538529,synthetic
+2025-12-23,Dinner,Mixed,490,496,true,false,false,26.5,0.0,229.215049,206.325935,15.002202,7.886912,synthetic
+2025-12-24,Breakfast,Indian,429,383,false,false,false,24.5,0.0,142.096836,132.051455,5.072825,4.972556,synthetic
+2025-12-24,Lunch,Mixed,660,663,false,false,false,24.5,0.0,325.917672,300.833461,13.396925,11.687286,synthetic
+2025-12-24,Snacks,Fried,303,324,false,false,false,24.5,0.0,86.426854,77.972487,6.372036,2.082331,synthetic
+2025-12-24,Dinner,Rice-based,553,591,false,false,false,24.5,0.0,264.835238,234.565048,20.434355,9.835835,synthetic
+2025-12-25,Breakfast,Light,431,431,false,false,false,29.8,0.0,141.256636,132.547778,5.858643,2.850215,synthetic
+2025-12-25,Lunch,Mixed,638,654,false,false,false,29.8,0.0,358.675685,320.725462,23.265905,14.684318,synthetic
+2025-12-25,Snacks,Fried,299,316,false,false,false,29.8,0.0,79.688369,72.728631,5.303163,1.656575,synthetic
+2025-12-25,Dinner,North Indian,566,606,false,false,false,29.8,0.0,332.918276,284.248852,31.140231,17.529193,synthetic
+2025-12-26,Breakfast,Indian,425,403,false,false,false,20.0,13.3,136.760358,126.159061,6.408614,4.192683,synthetic
+2025-12-26,Lunch,Mixed,655,596,false,false,false,20.0,13.3,352.715508,305.607197,27.762693,19.345618,synthetic
+2025-12-26,Snacks,Fried,298,281,false,false,false,20.0,13.3,65.931380,57.561429,5.036808,3.333143,synthetic
+2025-12-26,Dinner,Mixed,554,594,false,false,false,20.0,13.3,343.581543,291.049526,34.710340,17.821677,synthetic
+2025-12-27,Breakfast,Light,80,77,false,true,false,30.6,21.0,25.109421,21.711456,1.897484,1.500481,synthetic
+2025-12-27,Lunch,North Indian,123,132,false,true,false,30.6,21.0,78.021074,69.723766,4.755453,3.541855,synthetic
+2025-12-27,Snacks,Savory,60,56,false,true,false,30.6,21.0,12.475186,10.909282,1.200289,0.365615,synthetic
+2025-12-27,Dinner,North Indian,108,102,false,true,false,30.6,21.0,52.195798,47.369536,2.794465,2.031797,synthetic
+2025-12-28,Breakfast,Indian,360,339,false,false,false,31.3,18.4,128.999300,113.927134,6.868321,8.203845,synthetic
+2025-12-28,Lunch,Rice-based,588,541,false,false,false,31.3,18.4,305.779894,261.579173,19.985667,24.215054,synthetic
+2025-12-28,Snacks,Beverage and snack,259,244,false,false,false,31.3,18.4,59.926530,53.546720,4.764898,1.614912,synthetic
+2025-12-28,Dinner,South Indian,488,485,false,false,false,31.3,18.4,225.049723,195.773316,16.177891,13.098516,synthetic
+2025-12-29,Breakfast,Indian,429,384,false,false,false,20.5,0.0,129.373551,121.071023,5.588398,2.714130,synthetic
+2025-12-29,Lunch,South Indian,659,701,false,false,false,20.5,0.0,381.586399,339.801888,27.524864,14.259647,synthetic
+2025-12-29,Snacks,Savory,296,299,false,false,false,20.5,0.0,83.196601,70.286687,9.764454,3.145460,synthetic
+2025-12-29,Dinner,Mixed,567,538,false,false,false,20.5,0.0,313.899433,269.304176,28.318274,16.276983,synthetic
+2025-12-30,Breakfast,Indian,417,426,false,false,false,23.1,0.0,154.178872,134.859510,9.135558,10.183804,synthetic
+2025-12-30,Lunch,North Indian,647,677,false,false,false,23.1,0.0,417.870251,363.301024,25.895381,28.673846,synthetic
+2025-12-30,Snacks,Fried,303,285,false,false,false,23.1,0.0,74.361832,69.886843,2.136492,2.338497,synthetic
+2025-12-30,Dinner,Rice-based,561,527,false,false,false,23.1,0.0,260.591967,219.331956,26.293417,14.966594,synthetic
+2025-12-31,Breakfast,Indian,358,378,true,false,false,33.1,13.8,146.563083,126.237661,9.785037,10.540385,synthetic
+2025-12-31,Lunch,North Indian,580,517,true,false,false,33.1,13.8,248.796497,229.540585,11.530969,7.724943,synthetic
+2025-12-31,Snacks,Savory,258,254,true,false,false,33.1,13.8,73.229865,61.971215,8.212187,3.046463,synthetic
+2025-12-31,Dinner,Rice-based,501,487,true,false,false,33.1,13.8,223.836560,201.942327,16.994140,4.900093,synthetic
