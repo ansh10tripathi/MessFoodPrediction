@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import warnings
 from datetime import date
 from pathlib import Path
@@ -31,6 +32,17 @@ from src.dashboard_utils import (
     validate_uploaded_csv,
 )
 from src.predict import expected_students_support_warning, predict_with_pipeline
+from src.menu import (
+    MEAL_TYPES,
+    ROTATION_LABELS,
+    MenuData,
+    export_month_csv,
+    meal_timing,
+    menu_for_date,
+    month_items,
+    university_today,
+    weekly_rotation_items,
+)
 
 SYNTHETIC_MODEL_WARNING = (
     "Experimental model trained and evaluated on synthetic data. These results do not establish "
@@ -50,6 +62,21 @@ def _source_badge(data: pd.DataFrame) -> None:
     st.badge(status, color=color)
 
 
+def _open_menu_page() -> None:
+    st.session_state["dashboard_page"] = "Mess Menu"
+
+
+def _shift_menu_month(offset: int) -> None:
+    import calendar
+    today = university_today()
+    month = int(st.session_state.get("menu_month", today.month))
+    year = int(st.session_state.get("menu_year", today.year))
+    shifted = (year * 12 + month - 1 + offset)
+    shifted_year, month_zero = divmod(shifted, 12)
+    st.session_state["menu_month"] = month_zero + 1
+    st.session_state["menu_year"] = shifted_year
+
+
 def _chart_layout(figure: go.Figure, height: int = 350) -> go.Figure:
     figure.update_layout(
         template="plotly_white",
@@ -64,9 +91,121 @@ def _chart_layout(figure: go.Figure, height: int = 350) -> go.Figure:
     return figure
 
 
-def render_overview(data: pd.DataFrame | None, source_name: str) -> None:
+def _menu_dish_names(rows: list[dict[str, str]]) -> list[str]:
+    """Return unique dish names in source order, without exposing row metadata."""
+    return list(dict.fromkeys(row["food_item"].strip() for row in rows if row.get("food_item", "").strip()))
+
+
+def _render_dish_bullets(rows: list[dict[str, str]], *, empty_message: str = "No dishes listed.") -> None:
+    names = _menu_dish_names(rows)
+    if names:
+        st.markdown("\n".join(f"- {html.escape(name)}" for name in names))
+    else:
+        st.caption(empty_message)
+
+
+def _render_menu_day(rows: list[dict[str, str]], heading: str) -> None:
+    """Render one date or rotation day as four dish-only meal sections."""
+    with st.container(border=True):
+        st.markdown(f"### {html.escape(heading)}")
+        for meal in MEAL_TYPES:
+            st.markdown(f"**{meal}**")
+            _render_dish_bullets([row for row in rows if row["meal_type"] == meal])
+
+
+def _rotation_heading(rotation_label: str) -> str:
+    """Render a concise human heading without exposing the CSV field label."""
+    day, cycle = rotation_label.rsplit(" ", 1)
+    return day if cycle == "1" else f"{day} · alternate menu"
+
+
+def _render_today_menu(menu: MenuData | None, menu_error: str | None) -> None:
+    st.subheader("Today's Mess Menu")
+    today = university_today()
+    selected = st.date_input("Preview menu date", value=today, key="menu_preview_date")
+    is_holiday = st.checkbox("Use Sunday/holiday meal timings", value=selected.weekday() == 6, key="menu_preview_holiday")
+    st.caption(f"Menu preview for {selected.strftime('%A, %d %B %Y')} · Serving may vary.")
+    if menu_error:
+        st.error(f"Menu data is unavailable: {menu_error}")
+        return
+    if menu is None:
+        st.info("Menu transcription is pending verification. No dish names are shown until they can be read reliably from the supplied source.")
+        return
+    selected_items = menu_for_date(menu, selected)
+    cols = st.columns(4)
+    for column, meal in zip(cols, MEAL_TYPES):
+        detail = selected_items[meal]
+        with column.container(border=True):
+            st.markdown(f"**{meal}**")
+            st.caption(meal_timing(selected, meal, is_holiday=is_holiday))
+            _render_dish_bullets(detail["items"], empty_message="No dishes listed for this day.")
+    st.button("Open complete Mess Menu", type="primary", key="open_menu_page", on_click=_open_menu_page)
+    st.caption("Menu entries follow the printed pattern; actual service may change.")
+
+
+def render_mess_menu(menu: MenuData | None, menu_error: str | None) -> None:
+    import calendar
+    st.title("Mess Menu")
+    st.caption("Printed menu pattern for the selected month. Actual servings may change.")
+    if menu_error:
+        st.error(f"Menu data could not be loaded: {menu_error}")
+        return
+    if menu is None:
+        st.info("Menu transcription is pending verification.")
+        return
+    today = university_today()
+    previous, next_month = st.columns(2)
+    previous.button("← Previous month", on_click=_shift_menu_month, args=(-1,), key="menu_previous_month")
+    next_month.button("Next month →", on_click=_shift_menu_month, args=(1,), key="menu_next_month")
+    col1, col2 = st.columns(2)
+    with col1:
+        if "menu_month" not in st.session_state:
+            st.session_state["menu_month"] = today.month
+        month = st.selectbox("Month", range(1, 13), format_func=lambda value: calendar.month_name[value], key="menu_month")
+    with col2:
+        if "menu_year" not in st.session_state:
+            st.session_state["menu_year"] = today.year
+        selected_year = int(st.session_state["menu_year"])
+        years = range(min(today.year - 2, selected_year - 1), max(today.year + 6, selected_year + 2))
+        year = st.selectbox("Year", years, key="menu_year")
+    st.subheader(f"{calendar.month_name[month]} {year} menu")
+    dated = month_items(menu, year, month)
+    st.subheader("Date-specific menus")
+    if dated:
+        dates = sorted({row["menu_date"] for row in dated})
+        for menu_date in dates:
+            current = [row for row in dated if row["menu_date"] == menu_date]
+            label = date.fromisoformat(menu_date).strftime("%A, %d %B")
+            _render_menu_day(current, label)
+    else:
+        st.info("No date-specific menus are recorded for this month.")
+
+    rotation = weekly_rotation_items(menu)
+    st.subheader("Weekly rotation")
+    if rotation:
+        for label in ROTATION_LABELS:
+            current = [row for row in rotation if row["rotation_label"] == label]
+            if current:
+                _render_menu_day(current, _rotation_heading(label))
+    else:
+        st.info("No weekly rotation entries are available.")
+
+    if menu.seasonal_items:
+        with st.expander("Seasonal vegetables"):
+            for season in ("Aug-Oct", "Nov-Feb", "Mar-May"):
+                season_names = list(dict.fromkeys(
+                    row["food_item"] for row in menu.seasonal_items if row["season"] == season
+                ))
+                if season_names:
+                    st.markdown(f"**{season}**")
+                    _render_dish_bullets([{"food_item": name} for name in season_names])
+    st.download_button("Download menu CSV", data=export_month_csv(menu, year, month), file_name=f"mess_menu_{year}-{month:02d}.csv", mime="text/csv")
+
+
+def render_overview(data: pd.DataFrame | None, source_name: str, menu: MenuData | None = None, menu_error: str | None = None) -> None:
     st.title("Mess Food Demand & Waste")
     st.write("Monitor recorded meal quantities and explore an experimental pre-meal consumption estimate.")
+    _render_today_menu(menu, menu_error)
     if data is None:
         st.error("No valid dataset is active. Check the data source or load a valid CSV in Data Management.")
         return

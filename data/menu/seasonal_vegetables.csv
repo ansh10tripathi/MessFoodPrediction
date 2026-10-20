@@ -1,0 +1,40 @@
+season,cuisine,meal_type,day_label,food_item,verification_status,source_reference,notes
+Aug-Oct,North Cuisine,Lunch,Monday 1,Bhindi Masala,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,North Cuisine,Lunch,Monday 1,Tindkand Matar,needs_verification,Hostel Mess Menu Poster.png,Printed spelling appears as Tindkand; verify the dish name.
+Mar-May,North Cuisine,Lunch,Monday 1,Aloo Jeera,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,North Cuisine,Lunch,Wednesday 1,Lauki / Tori Lahsodar,needs_verification,Hostel Mess Menu Poster.png,Printed word after Tori is unclear; verify spelling.
+Nov-Feb,North Cuisine,Lunch,Wednesday 1,Shalgam Matar,verified,Hostel Mess Menu Poster.png,
+Mar-May,North Cuisine,Lunch,Wednesday 1,Ghia Kofta Curry,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,North Cuisine,Lunch,Saturday 1,Arbi Ajwaini Masala,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,North Cuisine,Lunch,Saturday 1,Baingan Bhartua Gobhi Gajar Matar,needs_verification,Hostel Mess Menu Poster.png,Printed wording appears as Baingan Bhartua Gobhi Gajar Matar; verify grouping/spelling.
+Mar-May,North Cuisine,Lunch,Saturday 1,Aloo Gobhi Adzaki,needs_verification,Hostel Mess Menu Poster.png,Printed spelling appears as Adzaki; verify.
+Aug-Oct,North Cuisine,Lunch,Monday 2,Bhindi Do Pyaza,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,North Cuisine,Lunch,Monday 2,Aloo Gobhi Matar,verified,Hostel Mess Menu Poster.png,
+Mar-May,North Cuisine,Lunch,Monday 2,Aloo Hara Pyaz,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,North Cuisine,Lunch,Wednesday 2,Nuni Keema Matar,needs_verification,Hostel Mess Menu Poster.png,Printed first word appears as Nuni; verify spelling.
+Nov-Feb,North Cuisine,Lunch,Wednesday 2,Aloo Methi,verified,Hostel Mess Menu Poster.png,
+Mar-May,North Cuisine,Lunch,Wednesday 2,Aloo Shimla Mirch,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,North Cuisine,Dinner,Monday 2,Aloo Parwal / Shimla Mirch,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,North Cuisine,Dinner,Monday 2,Saoa Saag + Makaitori / Poori,needs_verification,Hostel Mess Menu Poster.png,Printed wording appears as Saoa Saag + Makaitori; verify spelling.
+Mar-May,North Cuisine,Dinner,Monday 2,Karela Aloo Fry,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,North Cuisine,Dinner,Friday 2,Bhindi Masala,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,North Cuisine,Dinner,Friday 2,Palak Corn / Chana,verified,Hostel Mess Menu Poster.png,
+Mar-May,North Cuisine,Dinner,Friday 2,Ghia Kofta Curry,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,South Cuisine,Lunch,Thursday 1,Mix Veg Poriyal,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,South Cuisine,Lunch,Thursday 1,Beans Poriyal,verified,Hostel Mess Menu Poster.png,
+Mar-May,South Cuisine,Lunch,Thursday 1,Drumstick Tomato,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,South Cuisine,Lunch,Thursday 2,Beans Tomato Aaloo Curry,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,South Cuisine,Lunch,Thursday 2,Palak Corn + Makaitori / Poori,verified,Hostel Mess Menu Poster.png,
+Mar-May,South Cuisine,Lunch,Thursday 2,Drumstick Baigan Matar,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,South Cuisine,Dinner,Sunday 1,Zimikand Pulusu,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,South Cuisine,Dinner,Sunday 1,Cauliflower Poriyal,verified,Hostel Mess Menu Poster.png,
+Mar-May,South Cuisine,Dinner,Sunday 1,Kundru Masala,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,South Cuisine,Dinner,Friday 1,Bhindi Pulusu,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,South Cuisine,Dinner,Friday 1,Chikkudukaaya Curry,verified,Hostel Mess Menu Poster.png,
+Mar-May,South Cuisine,Dinner,Friday 1,Zimikand Pulusu,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,South Cuisine,Dinner,Sunday 2,Beans Poriyal,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,South Cuisine,Dinner,Sunday 2,Cabbage Dum Fry with Chana Dal,verified,Hostel Mess Menu Poster.png,
+Mar-May,South Cuisine,Dinner,Sunday 2,Kundru 65,verified,Hostel Mess Menu Poster.png,
+Aug-Oct,South Cuisine,Dinner,Saturday 2,Arbi Pulusu,verified,Hostel Mess Menu Poster.png,
+Nov-Feb,South Cuisine,Dinner,Saturday 2,Turnip Peas Curry,verified,Hostel Mess Menu Poster.png,
+Mar-May,South Cuisine,Dinner,Saturday 2,Beans Dum Fry,verified,Hostel Mess Menu Poster.png,

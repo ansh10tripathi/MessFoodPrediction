@@ -16,6 +16,7 @@ from src.dashboard_pages import (
     render_reports,
     render_waste_analytics,
 )
+from src.menu import MenuDataError, load_menu_data
 from src.dashboard_utils import (
     MODEL_METADATA_PATH,
     MODEL_PATH,
@@ -95,6 +96,22 @@ def _resolve_model() -> tuple[tuple[Any, dict[str, Any]] | None, str | None]:
         return None, f"Saved model could not be loaded or did not match its metadata: {error}"
 
 
+@st.cache_data(show_spinner=False)
+def _load_menu_data(menu_mtime: float, seasonal_mtime: float):
+    del menu_mtime, seasonal_mtime
+    return load_menu_data()
+
+
+def _resolve_menu_data():
+    from src.menu import MENU_ITEMS_PATH, SEASONAL_ITEMS_PATH
+    try:
+        if not MENU_ITEMS_PATH.is_file() or not SEASONAL_ITEMS_PATH.is_file():
+            raise MenuDataError("Menu source CSV files are missing.")
+        return _load_menu_data(MENU_ITEMS_PATH.stat().st_mtime, SEASONAL_ITEMS_PATH.stat().st_mtime), None
+    except (OSError, MenuDataError) as error:
+        return None, str(error)
+
+
 def main() -> None:
     st.sidebar.markdown("## Mess Food Analytics")
     st.sidebar.caption("Demand estimation · Waste tracking · Academic project")
@@ -102,14 +119,15 @@ def main() -> None:
     data, source_name = _resolve_dataset()
     page = st.sidebar.radio(
         "Workspace",
-        ["Overview", "Demand Prediction", "Waste Analytics", "Data Management", "Model Performance", "Reports"],
+        ["Overview", "Demand Prediction", "Waste Analytics", "Data Management", "Model Performance", "Reports", "Mess Menu"],
         key="dashboard_page",
     )
     if st.session_state.get("dashboard_upload_status") == "invalid" and page != "Data Management":
         st.warning("The latest CSV upload failed validation and was not activated. The previously active source is unchanged. Open Data Management to review the errors.")
 
     if page == "Overview":
-        render_overview(data, source_name)
+        menu, menu_error = _resolve_menu_data()
+        render_overview(data, source_name, menu, menu_error)
     elif page == "Demand Prediction":
         render_prediction(*_resolve_model())
     elif page == "Waste Analytics":
@@ -118,8 +136,12 @@ def main() -> None:
         render_data_management(data, source_name)
     elif page == "Model Performance":
         render_model_performance(*_resolve_model())
-    else:
+    elif page == "Reports":
         render_reports(data, source_name)
+    else:
+        menu, menu_error = _resolve_menu_data()
+        from src.dashboard_pages import render_mess_menu
+        render_mess_menu(menu, menu_error)
 
 
 if __name__ == "__main__":

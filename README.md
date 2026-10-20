@@ -4,7 +4,7 @@ An academic project for exploring meal demand, food preparation, edible leftover
 
 ## Current phase
 
-The project includes a reproducible synthetic-data generator, validation and EDA, a leakage-safe regression workflow, and a local Streamlit dashboard. Uploaded CSVs are held and analyzed in the current app session; the dashboard does not save them to disk.
+The project includes a reproducible synthetic-data generator, validation and EDA, a leakage-safe regression workflow, and a local Streamlit dashboard. The dashboard also provides a separate Mess Menu area sourced from the supplied printed menu photographs. Uploaded CSVs are held and analyzed in the current app session; the dashboard does not save them to disk.
 
 ## Setup (Windows PowerShell)
 
@@ -32,7 +32,19 @@ From the project directory in PowerShell:
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
 
-Streamlit prints a local address to open in your browser. The sidebar contains Overview, Demand Prediction, Waste Analytics, Data Management, Model Performance, and Reports. Select the active dataset explicitly in the sidebar. The prediction and model-performance sections identify the current selected model as trained on synthetic data.
+Streamlit prints a local address to open in your browser. The sidebar contains Overview, Demand Prediction, Waste Analytics, Data Management, Model Performance, Reports, and Mess Menu. Select the active dataset explicitly in the sidebar. The prediction and model-performance sections identify the current selected model as trained on synthetic data.
+
+## Mess Menu
+
+The menu is managed separately from all demand and waste records:
+
+- `data/menu/menu_items.csv` stores date-specific or printed-rotation entries using `schedule_type, menu_date, day_of_week, rotation_label, meal_type, food_item, cuisine, category, verification_status, source_reference, notes`.
+- `data/menu/seasonal_vegetables.csv` stores `season, cuisine, meal_type, day_label, food_item, verification_status, source_reference, notes` for North Cuisine and South Cuisine seasonal tables.
+- Allowed seasons are Aug-Oct, Nov-Feb, and Mar-May. `verified` and `unverified` transcription states are explicit. Weekly rotation rows have no calendar date and are never silently assigned to dates.
+- The high-resolution `Hostel Mess Menu Poster.png` was transcribed. The source-reference field records that filename. Printed `Sunday 1`/`Sunday 2` cycles are retained as `rotation_label`; they are not mapped to calendar weeks. The lunch and snacks tables have no visible weekday headers, so their cells are retained as `Column 1`… entries and marked `needs_verification` instead of being assigned guessed weekdays. Blank or `pending_transcription` placeholders are ignored and never shown as dishes. See [transcription details](docs/menu_transcription_status.md). Add or correct entries by editing these CSVs; there is no public menu editor.
+- The overview uses India Standard Time for today's default date. A date selector previews another day. Sunday timing is automatic; an explicit checkbox can apply Sunday/holiday timing to other dates because the source does not provide a holiday calendar.
+- Menu text remains informational and is not passed to the synthetic-trained consumption model. It is not measured consumption, preparation, or waste data.
+- See [menu transcription status](docs/menu_transcription_status.md) for the sections requiring sharper photographs.
 
 CSV uploads are checked against the project's documented analytics columns and the four-meal-per-date structure. Choose `real` or `synthetic` explicitly before validation; there is no implicit real-data default. If `dataset_type` exists, it must agree with that choice. An unlabelled file receives the declared source only in its in-memory analysis copy, with a warning that the classification is user-declared and unverified. Valid uploads stay in the browser session and the original bytes are not changed or written into `data/real/`. A failed upload is not activated, does not replace a prior active upload, and shows the first ten validation errors with an option to inspect the rest. The dashboard's light theme is configured in `.streamlit/config.toml` using Streamlit's supported theme settings.
 
